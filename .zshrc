@@ -102,6 +102,7 @@ alias ytdf="youtube-dl -f"
 alias gc="git clone"
 alias q="exit"
 alias updb="updatedb"
+alias mail="mutt"
 
 bindkey -v
 
