@@ -103,6 +103,9 @@ alias gc="git clone"
 alias q="exit"
 alias updb="updatedb"
 alias mail="mutt"
+alias mp="cp mp .muttrc"
+alias ib="cp ib .muttrc"
+alias rr="cp rr .muttrc"
 
 bindkey -v
 
