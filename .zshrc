@@ -51,6 +51,7 @@ source $ZSH/oh-my-zsh.sh
 alias up="apt update && apt upgrade -y"
 alias inp="apt install"
 alias rmv="apt remove"
+alias pacs="apt search"
 
 
 #youtube-dl
@@ -75,11 +76,11 @@ alias ib="cp ib .muttrc"
 alias rr="cp rr .muttrc"
 
 #GIT
-alias gc='git clone'
-alias gu='git push -u origin master'
-alias gca='git commit -a'
-alias ga='git add'
-alias gs='git status'
+alias gitc='git clone'
+alias gitu='git push -u origin master'
+alias gitca='git commit -a'
+alias gita='git add'
+alias gits='git status'
 
 #Transmission
 tsm-clearcompleted() {
@@ -108,13 +109,14 @@ tsm-info() { transmission-remote -t"$1" --info ;}
 tsm-speed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
 
 #MIS
+alias wget="wget -c"
 alias ip='ip addr show'
 alias weather='curl wttr.in/khagrachari'
 alias updb="updatedb"
 alias q="exit"
 alias math="mathomatic"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
-bindkey -v
+#bindkey -v
 
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir)
