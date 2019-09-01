@@ -28,7 +28,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions)
+plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
