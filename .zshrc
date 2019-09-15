@@ -82,6 +82,11 @@ alias gitca='git commit -a'
 alias gita='git add'
 alias gits='git status'
 
+#SSH
+alias fst='sshd'
+alias fsts='pkill sshd'
+alias ip='ifconfig'
+
 #Transmission
 tsm-clearcompleted() {
         transmission-remote -l | grep 100% | grep Done | \
