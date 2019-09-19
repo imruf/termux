@@ -121,6 +121,7 @@ alias updb="updatedb"
 alias q="exit"
 alias math="mathomatic"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
+alias nnn='nnn -d'
 #bindkey -v
 
 
