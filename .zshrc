@@ -85,33 +85,33 @@ alias gits='git status'
 #SSH
 alias fst='sshd'
 alias fsts='pkill sshd'
-alias ip='ifconfig'
+alias myip='ifconfig'
 
 #Transmission
-tsm-clearcompleted() {
+tsmcc() {
         transmission-remote -l | grep 100% | grep Done | \
         awk '{print $1}' | xargs -n 1 -I % transmission-remote -t % -r ;}
 tsm() { transmission-remote --list ;}
 	# numbers of ip being blocked by the blocklist
 	# credit: smw from irc #transmission
-tsm-count() { echo "Blocklist rules:" $(curl -s --data \
+tsmcnt() { echo "Blocklist rules:" $(curl -s --data \
 	'{"method": "session-get"}' localhost:9091/transmission/rpc -H \
 	"$(curl -s -D - localhost:9091/transmission/rpc | grep X-Transmission-Session-Id)" \
 	| cut -d: -f 11 | cut -d, -f1) ;}
 # demo video: http://www.youtube.com/watch?v=TyDX50_dC0M
-tsm-blocklist() { $PATH_SCRIPTS/blocklist.sh ;}		# update blocklist
-tsm-daemon() { transmission-daemon ;}
-tsm-quit() { killall transmission-daemon ;}
-tsm-altspeedenable() { transmission-remote --alt-speed ;}	# limit bandwidth
-tsm-altspeeddisable() {	transmission-remote --no-alt-speed ;}	# dont limit bandwidth
-tsm-add() { transmission-remote --add "$1" ;}
-tsm-askmorepeers() { transmission-remote -t"$1" --reannounce ;}
-tsm-pause() { transmission-remote -t"$1" --stop ;}		# <id> or all
-tsm-start() { transmission-remote -t"$1" --start ;}		# <id> or all
-tsm-purge() { transmission-remote -t"$1" --remove-and-delete ;} # delete data also
-tsm-remove() { transmission-remote -t"$1" --remove ;}		# leaves data alone
-tsm-info() { transmission-remote -t"$1" --info ;}
-tsm-speed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
+tsmbl() { $PATH_SCRIPTS/blocklist.sh ;}		# update blocklist
+tsmdmn() { transmission-daemon ;}
+tsmq() { killall transmission-daemon ;}
+tsmase() { transmission-remote --alt-speed ;}	# limit bandwidth
+tsmasd() {	transmission-remote --no-alt-speed ;}	# dont limit bandwidth
+tsmadd() { transmission-remote --add "$1" ;}
+tsmaskp() { transmission-remote -t"$1" --reannounce ;}
+tsmstop() { transmission-remote -t"$1" --stop ;}		# <id> or all
+tsmstart() { transmission-remote -t"$1" --start ;}		# <id> or all
+tsmpurge() { transmission-remote -t"$1" --remove-and-delete ;} # delete data also
+tsmdel() { transmission-remote -t"$1" --remove ;}		# leaves data alone
+tsminfo() { transmission-remote -t"$1" --info ;}
+tsmspeed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
 
 #MIS
 alias wget="wget -c"
