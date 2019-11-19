@@ -1,58 +1,32 @@
+#EXPORT
 export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
-
-#ZSH_THEME="robbyrussell"
-ZSH_THEME="powerlevel9k/powerlevel9k"
-
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
-# CASE_SENSITIVE="true"
-
-# HYPHEN_INSENSITIVE="true"
-
-# DISABLE_AUTO_UPDATE="true"
-
-# export UPDATE_ZSH_DAYS=13
-
-# DISABLE_LS_COLORS="true"
-
-# DISABLE_AUTO_TITLE="true"
-
-# ENABLE_CORRECTION="true"
-
-# COMPLETION_WAITING_DOTS="true"
-
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
-
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
-
-source $ZSH/oh-my-zsh.sh
-
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # export LANG=en_US.UTF-8
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+#Plugins
+plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+
+#Theme
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="random"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+#SOURCE
+source $ZSH/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+
+#termux-cd
+alias cdusr="cd $PREFIX"
+alias cdetc="cd $PREFIX/etc/"
+alias cdbin="cd $PREFIX/bin/"
+alias cdshare="cd $PREFIX/share/"
 
 #APT
 alias up="apt update && apt upgrade -y"
 alias inp="apt install"
 alias rmv="apt remove"
 alias pacs="apt search"
-
 
 #youtube-dl
 alias ytd-aac="youtube-dl --extract-audio --audio-format aac "
@@ -125,11 +99,12 @@ alias nnn='nnn -d'
 #bindkey -v
 
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir)
+#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir)
 
 
-OS_ICON='\uF17C'
+#OS_ICON='\uF17C'
 
 #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 
-
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
