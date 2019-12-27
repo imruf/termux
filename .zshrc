@@ -76,8 +76,8 @@ tsmcnt() { echo "Blocklist rules:" $(curl -s --data \
 tsmbl() { $PATH_SCRIPTS/blocklist.sh ;}		# update blocklist
 tsmdmn() { transmission-daemon ;}
 tsmq() { killall transmission-daemon ;}
-tsmase() { transmission-remote --alt-speed ;}	# limit bandwidth
-tsmasd() {	transmission-remote --no-alt-speed ;}	# dont limit bandwidth
+tsmaspd() { transmission-remote --alt-speed ;}	# limit bandwidth
+tsmaspdn() {	transmission-remote --no-alt-speed ;}	# dont limit bandwidth
 tsmadd() { transmission-remote --add "$1" ;}
 tsmaskp() { transmission-remote -t"$1" --reannounce ;}
 tsmstop() { transmission-remote -t"$1" --stop ;}		# <id> or all
