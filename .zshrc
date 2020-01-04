@@ -64,27 +64,27 @@ alias myip='ifconfig'
 #Transmission
 tsmcc() {
         transmission-remote -l | grep 100% | grep Done | \
-        awk '{print $1}' | xargs -n 1 -I % transmission-remote -t % -r ;}
+        awk '{print $1}' | xargs -n 1 -I % transmission-remote -t % -r ;} #clear completed
 tsm() { transmission-remote --list ;}
 	# numbers of ip being blocked by the blocklist
-	# credit: smw from irc #transmission
+	# credit: smw from irc #transmission-status
 tsmcnt() { echo "Blocklist rules:" $(curl -s --data \
 	'{"method": "session-get"}' localhost:9091/transmission/rpc -H \
 	"$(curl -s -D - localhost:9091/transmission/rpc | grep X-Transmission-Session-Id)" \
-	| cut -d: -f 11 | cut -d, -f1) ;}
+	| cut -d: -f 11 | cut -d, -f1) ;} #tsm-count
 # demo video: http://www.youtube.com/watch?v=TyDX50_dC0M
 tsmbl() { $PATH_SCRIPTS/blocklist.sh ;}		# update blocklist
-tsmdmn() { transmission-daemon ;}
-tsmq() { killall transmission-daemon ;}
+tsmdmn() { transmission-daemon ;} #tsm-daemon
+tsmquit() { killall transmission-daemon ;} #killall
 tsmaspd() { transmission-remote --alt-speed ;}	# limit bandwidth
-tsmaspdn() {	transmission-remote --no-alt-speed ;}	# dont limit bandwidth
-tsmadd() { transmission-remote --add "$1" ;}
-tsmaskp() { transmission-remote -t"$1" --reannounce ;}
+tsmanspd() {	transmission-remote --no-alt-speed ;}	# dont limit bandwidth
+tsmadd() { transmission-remote --add "$1" ;} #add torrent
+tsmaskp() { transmission-remote -t"$1" --reannounce ;} #ask peers
 tsmstop() { transmission-remote -t"$1" --stop ;}		# <id> or all
 tsmstart() { transmission-remote -t"$1" --start ;}		# <id> or all
 tsmpurge() { transmission-remote -t"$1" --remove-and-delete ;} # delete data also
 tsmdel() { transmission-remote -t"$1" --remove ;}		# leaves data alone
-tsminfo() { transmission-remote -t"$1" --info ;}
+tsminfo() { transmission-remote -t"$1" --info ;} #info
 tsmspeed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
 
 #MIS
