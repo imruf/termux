@@ -44,11 +44,11 @@ alias ytdf='youtube-dl -f'
 alias ytv='youtube-viewer -C'
 
 #MUTT
-alias mail="mutt"
-alias mp="cp mp .muttrc && mail"
-alias ib="cp ib .muttrc && mail"
-alias rr="cp rr .muttrc && mail"
-alias lic="cp lic .muttrc && mail"
+alias ibx="mutt"
+alias mp="cp mp .muttrc && ibx"
+alias ib="cp ib .muttrc && ibx"
+alias rr="cp rr .muttrc && ibx"
+alias lic="cp lic .muttrc && ibx"
 
 #GIT
 alias gitc='git clone'
