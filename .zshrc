@@ -22,6 +22,11 @@ alias cdetc="cd $PREFIX/etc/"
 alias cdbin="cd $PREFIX/bin/"
 alias cdshare="cd $PREFIX/share/"
 
+#files
+alias ls="ls --color=auto --group-directories-first"
+alias lah="ls -lah --color=auto --group-directories-first"
+alias mkd="mkdir"
+
 #APT
 alias up="apt update && apt upgrade -y"
 alias inp="apt install"
@@ -61,6 +66,8 @@ alias gits='git status'
 alias fst='sshd'
 alias fsts='pkill sshd'
 alias myip='ifconfig'
+alias isp='curl ifconfig.co'
+alias ip='ip addr show'
 
 #Transmission
 tsmcc() {
@@ -90,7 +97,6 @@ tsmspeed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sle
 
 #MIS
 alias wget="wget -c"
-alias ip='ip addr show'
 alias weather='curl wttr.in/khagrachari'
 alias updb="updatedb"
 alias q="exit"

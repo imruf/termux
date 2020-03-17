@@ -8,15 +8,6 @@ call vundle#begin()		" required, all plugins must appear after this line.
 Plugin 'gmarik/Vundle.vim'							" Vundle
 Plugin 'vim-airline/vim-airline'					" Airline
 Plugin 'vim-airline/vim-airline-themes'				" Airline Themes
-Plugin 'scrooloose/nerdtree'						" added nerdtree
-Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plugin 'ryanoasis/vim-devicons'
-Plugin 'vim-python/python-syntax'
-Plugin 'jreybert/vimagit'
-Plugin 'severin-lemaignan/vim-minimap'
-Plugin 'vimwiki/vimwiki'                            " Vim wiki
-Plugin 'ap/vim-css-color'                           " Color previews for CSS
-Plugin 'tpope/vim-surround'                         " Change surrounding marks
 
 call vundle#end()		" required, all plugins must appear before this line.
 
@@ -67,7 +58,7 @@ let g:Powerline_theme='long'
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline_theme='bubblegum'
+let g:airline_theme='solarized_flood'
 
 set noshowmode
 
@@ -79,18 +70,6 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-map <C-n> :NERDTreeToggle<CR>
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
-let NERDTreeShowLineNumbers=1
-let NERDTreeShowHidden=1
-let NERDTreeMinimalUI = 1
-
-let g:minimap_show='<leader>mm'
-let g:minimap_update='<leader>mu'
-let g:minimap_close='<leader>mc'
-let g:minimap_toggle='<leader>mt'
-
 hi LineNr ctermfg=242
 hi CursorLineNr ctermfg=15
 hi VertSplit ctermfg=8 ctermbg=0
@@ -98,16 +77,9 @@ hi Statement ctermfg=3
 
 set splitbelow splitright
 
-set path+=**					" Searches current directory recursively.
 set wildmenu					" Display all matches when tab complete.
 set incsearch
 set nobackup
 set noswapfile
 
-map <C-p> :LLPStartPreview<CR>
-let g:livepreview_previewer = 'zathura'
-let g:minimap_highlight='Visual'
-
-let g:python_highlight_all = 1
 syntax on
-
