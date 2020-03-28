@@ -103,7 +103,18 @@ alias q="exit"
 alias math="mathomatic"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
 alias nnn='nnn -d'
-alias covid=='curl https://corona-stats.online/bd'
+alias covid='curl https://corona-stats.online?source=2'
+
+#radio
+alias bbc-bangla='mpv http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-benga_backup'
+alias bbc-world='mpv http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws_backup'
+alias betar='mpv http://as3.digitalsynapsebd.com:8263/;stream.mp3'
+alias bhoomi='mpv http://149.56.195.94:8545/stream'
+alias bongo='mpv http://radio.bongonet.net:8000/stream2'
+alias jago='mpv http://128.199.184.111:12496/stream'
+alias wadio='mpv http://162.254.150.34:8201/stream1'
+alias dhoni='mpv http://182.160.110.180:1020/'
+
 #bindkey -v
 
 
