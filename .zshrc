@@ -103,15 +103,11 @@ alias q="exit"
 alias math="mathomatic"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
 alias nnn='nnn -d'
+alias covid=='curl https://corona-stats.online/bd'
 #bindkey -v
 
 
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir)
 
-
-#OS_ICON='\uF17C'
-
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
