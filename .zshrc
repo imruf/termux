@@ -65,9 +65,14 @@ alias gits='git status'
 #SSH
 alias fst='sshd'
 alias fsts='pkill sshd'
+
+#ip/ping
+alias pnet='ping -c 3 google.com'
 alias myip='ifconfig'
 alias isp='curl ifconfig.co'
 alias ip='ip addr show'
+alias ns='speedtest'
+alias nss='speedtest --simple --single'
 
 #Transmission
 tsmcc() {
