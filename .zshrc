@@ -31,6 +31,7 @@ alias mkd="mkdir"
 alias up="apt update && apt upgrade -y"
 alias inp="apt install"
 alias rmv="apt remove"
+alias armv="apt autoremove"
 alias pacs="apt search"
 
 #youtube-dl
