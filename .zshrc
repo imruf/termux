@@ -24,7 +24,7 @@ alias cdshare="cd $PREFIX/share/"
 
 #files
 alias ls="ls --color=auto --group-directories-first"
-alias lah="ls -lah --color=auto --group-directories-first"
+alias lah="exa -la --color=auto --group-directories-first"
 alias mkd="mkdir"
 
 #APT
