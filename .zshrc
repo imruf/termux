@@ -21,6 +21,7 @@ alias cdusr="cd $PREFIX"
 alias cdetc="cd $PREFIX/etc/"
 alias cdbin="cd $PREFIX/bin/"
 alias cdshare="cd $PREFIX/share/"
+alias cdd="cd ~/storage/downloads/"
 
 #files
 alias ls="ls --color=auto --group-directories-first"
