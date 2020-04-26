@@ -27,7 +27,6 @@ alias ..='cd ..'
 alias cp="cp -v"
 alias mv="mv -iv"
 alias rm="rm -iv"
-alias rmt="rm -f rtv.mp4"
 alias mkd="mkdir -pv"
 
 #termux-cd
