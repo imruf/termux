@@ -16,6 +16,20 @@ plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions
 source $ZSH/oh-my-zsh.sh
 source /data/data/com.termux/files/home/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
+#files
+alias ls="ls --color=auto --group-directories-first"
+alias lah="exa -la --color=auto --group-directories-first"
+alias mkd="mkdir"
+
+#Navigation
+#setopt autocd
+alias ..='cd ..'
+alias cp="cp -v"
+alias mv="mv -iv"
+alias rm="rm -iv"
+alias rmt="rm rtv.mp4"
+alias mkd="mkdir -pv"
+
 #termux-cd
 alias cdusr="cd $PREFIX"
 alias cdetc="cd $PREFIX/etc/"
@@ -23,10 +37,8 @@ alias cdbin="cd $PREFIX/bin/"
 alias cdshare="cd $PREFIX/share/"
 alias cdd="cd ~/storage/downloads/"
 
-#files
-alias ls="ls --color=auto --group-directories-first"
-alias lah="exa -la --color=auto --group-directories-first"
-alias mkd="mkdir"
+#termux-api
+alias br="termux-brightness"
 
 #APT
 alias up="apt update && apt upgrade -y"
@@ -108,6 +120,7 @@ alias weather='curl wttr.in/khagrachari'
 alias updb="updatedb"
 alias q="exit"
 alias math="mathomatic"
+alias rit="rtv"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
 alias nnn='nnn -d'
 alias covid='curl https://corona-stats.online?source=2'
