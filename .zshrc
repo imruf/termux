@@ -5,7 +5,6 @@ export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
 #Plugins
 plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
 
-
 #Theme
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="random"
@@ -16,13 +15,11 @@ plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions
 source $ZSH/oh-my-zsh.sh
 source /data/data/com.termux/files/home/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
+#Navigation
+
 #files
 alias ls="ls --color=auto --group-directories-first"
 alias lah="exa -la --color=auto --group-directories-first"
-alias mkd="mkdir"
-
-#Navigation
-#setopt autocd
 alias ..='cd ..'
 alias cp="cp -v"
 alias mv="mv -iv"
@@ -38,6 +35,9 @@ alias cdd="cd ~/storage/downloads/"
 
 #termux-api
 alias br="termux-brightness"
+alias bra="termux-brightness auto"
+alias brl="termux-brightness 25"
+alias brh="termux-brightness 100"
 
 #APT
 alias up="apt update && apt upgrade -y"
@@ -135,9 +135,6 @@ alias wadio='mpv http://162.254.150.34:8201/stream1'
 alias dhoni='mpv http://182.160.110.180:1020/'
 
 #bindkey -v
-
-
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
