@@ -22,8 +22,8 @@ alias ls="ls --color=auto --group-directories-first"
 alias lah="exa -la --color=auto --group-directories-first"
 alias ..='cd ..'
 alias cp="cp -v"
-alias mv="mv -iv"
-alias rm="rm -iv"
+alias mv="mv -v"
+alias rm="rm -v"
 alias mkd="mkdir -pv"
 
 #termux-cd
@@ -34,10 +34,12 @@ alias cdshare="cd $PREFIX/share/"
 alias cdd="cd ~/storage/downloads/"
 
 #termux-api
-alias br="termux-brightness"
-alias bra="termux-brightness auto"
-alias brl="termux-brightness 25"
-alias brh="termux-brightness 100"
+alias tb="termux-brightness"
+alias tba="termux-brightness auto"
+alias tbl="termux-brightness 25"
+alias tbh="termux-brightness 100"
+alias to="termux-open"
+alias ts="termux-style"
 
 #APT
 alias up="apt update && apt upgrade -y"
