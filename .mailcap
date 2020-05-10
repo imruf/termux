@@ -1,3 +1,6 @@
-image/*; curl -s '%s' | convert - jpg:/data/data/com.termux/files/home/rtv.jpg && termux-open /data/data/com.termux/files/home/rtv.jpg; needsterminal;
+image/jpg; curl -o rtv.jpg '%s' && termux-open rtv.jpg; needsterminal;
+image/jpeg; curl -o rtv.jpeg '%s' && termux-open rtv.jpeg; needsterminal;
+image/png; curl -o rtv.png '%s' && termux-open rtv.png; needsterminal;
+image/gif; curl -o rtv.gif '%s' && termux-open rtv.gif; needsterminal;
 video/mp4; termux-open --chooser '%s'; needsterminal;
-video/*; rm -rf rtv.mp4 && youtube-dl '%s' && termux-open /data/data/com.termux/files/home/rtv.mp4; needsterminal; 
+video/*; rm -rf rtv.mp4 && youtube-dl '%s' && termux-open rtv.mp4; needsterminal; 
