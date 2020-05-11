@@ -24,6 +24,7 @@ alias ..='cd ..'
 alias cp="cp -v"
 alias mv="mv -v"
 alias rm="rm -v"
+alias rm1="rm -v 1*"
 alias mkd="mkdir -pv"
 
 #termux-cd
@@ -38,8 +39,11 @@ alias tb="termux-brightness"
 alias tba="termux-brightness auto"
 alias tbl="termux-brightness 25"
 alias tbh="termux-brightness 100"
-alias to="termux-open"
 alias ts="termux-style"
+alias to="termux-open"
+alias tp="termux-open 1.jpg"
+alias tg="termux-open 1.gif"
+alias tv="termux-open 1.mp4"
 
 #APT
 alias up="apt update && apt upgrade -y"
