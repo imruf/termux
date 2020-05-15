@@ -1,6 +1,6 @@
-image/jpg; curl -o rtv.jpg '%s' && termux-open rtv.jpg; needsterminal;
-image/jpeg; curl -o rtv.jpeg '%s' && termux-open rtv.jpeg; needsterminal;
-image/png; curl -o rtv.png '%s' && termux-open rtv.png; needsterminal;
-image/gif; curl -o rtv.gif '%s' && termux-open rtv.gif; needsterminal;
-video/mp4; termux-open --chooser '%s'; needsterminal;
-video/*; rm -rf rtv.mp4 && youtube-dl '%s' && termux-open rtv.mp4; needsterminal; 
+image/jpg; curl -o 1.jpg '%s' && xdg-open 1.jpg; needsterminal;
+image/jpeg; curl -o 1.jpeg '%s' && xdg-open 1.jpeg; needsterminal;
+image/png; curl -o 1.png '%s' && xdg-open 1.png; needsterminal;
+image/gif; curl -o 1.gif '%s' && xdg-open 1.gif; needsterminal;
+video/mp4; xdg-open '%s'; needsterminal;
+video/*; rm -rf 1.mp4 && youtube-dl '%s' && xdg-open 1.mp4; needsterminal; 

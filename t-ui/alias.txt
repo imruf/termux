@@ -1,0 +1,39 @@
+#tui
+r=restart
+rf=refresh
+c=clear
+nc=su -c "service call notification 1"
+pn=ping -c 3 google.com
+
+#Call
+a=call aaa
+
+#network
+don=su -c "svc data enable"
+doff=su -c "svc data disable"
+won=su -c "svc wifi enable"
+woff=su -c "svc wifi disable"
+bon=su -c "service call bluetooth_manager 6"
+boff=su -c "service call bluetooth_manager 8"
+aon=su -c "settings put global airplane_mode_on 1 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
+aoff=su -c "settings put global airplane_mode_on 0 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
+
+#device
+ron=su -c "settings put system accelerometer_rotation 1"
+roff=su -c "settings put system accelerometer_rotation 0"
+bson=su -c "settings put global low_power 1"
+bsoff=su -c "settings put global low_power 0"
+poff=su -c "svc power shutdown"
+rsys=su -c "svc power reboot"
+rrec=su -c "svc power reboot recovery"
+
+#Status
+#sb=su -c "service call statusbar 1"
+#im=su -c settings put global policy_control immersive.status=*
+#imo=su -c settings put global policy_control null*
+
+#media
+mn=su -c "input keyevent KEYCODE_MEDIA_NEXT"
+mb=su -c "input keyevent KEYCODE_MEDIA_PREVIOUS"
+mp=su -c "input keyevent KEYCODE_MEDIA_PAUSE"
+ms=su -c "input keyevent KEYCODE_MEDIA_STOP"
