@@ -1,16 +1,12 @@
 
 
-java.lang.IllegalArgumentException: Comparison method violates its general contract!
-	at java.util.TimSort.mergeLo(TimSort.java:777)
-	at java.util.TimSort.mergeAt(TimSort.java:514)
-	at java.util.TimSort.mergeCollapse(TimSort.java:441)
-	at java.util.TimSort.sort(TimSort.java:245)
-	at java.util.Arrays.sort(Arrays.java:1432)
-	at it.andreuzzi.comparestring2.CompareObjects.a(Unknown Source:63)
-	at it.andreuzzi.comparestring2.CompareObjects.a(Unknown Source:6)
-	at ohi.andre.consolelauncher.managers.suggestions.d.b(Unknown Source:129)
-	at ohi.andre.consolelauncher.managers.suggestions.d.a(Unknown Source:34)
-	at ohi.andre.consolelauncher.managers.suggestions.d.a(Unknown Source:384)
-	at ohi.andre.consolelauncher.managers.suggestions.d$3.run(Unknown Source:68)
+android.app.RemoteServiceException: Bad notification for startForeground: java.lang.RuntimeException: invalid channel for service notification: Notification(channel=null pri=0 contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x42 color=0x00000000 actions=1 vis=PRIVATE)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1745)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6718)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:491)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:858)
 
 ----------------------------

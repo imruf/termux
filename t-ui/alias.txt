@@ -28,7 +28,7 @@ rsys=su -c "svc power reboot"
 rrec=su -c "svc power reboot recovery"
 
 #Status
-#sb=su -c "service call statusbar 1"
+sb=su -c "service call statusbar 1"
 #im=su -c settings put global policy_control immersive.status=*
 #imo=su -c settings put global policy_control null*
 

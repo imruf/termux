@@ -18,8 +18,8 @@
            <transparent value="true"/>
       <show_suggestions value="true"/>
 <transparent_suggestions value="false"/>
-<suggest_alias_default value="false"/>
-<suggest_appgp_default value="false"/>
+<suggest_alias_default value="true"/>
+<suggest_appgp_default value="true"/>
 <click_to_launch value="true"/>
 <suggestions_size value="12"/>
 <double_space_click_first_suggestion value="true"/>

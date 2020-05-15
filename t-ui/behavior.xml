@@ -3,8 +3,8 @@
 <double_tap_lock value="false"/>
 <double_tap_cmd value=""/>
 <random_play value="true"/>
-<songs_folder value="Music"/>
-<songs_from_mediastore value="true"/>
+<songs_folder value="/storage/emulated/0/Music"/>
+<songs_from_mediastore value="false"/>
 <tui_notification value="false"/>
 <auto_show_keyboard value="false"/>
 <auto_scroll value="true"/>
@@ -37,7 +37,7 @@
 <home_path value="/storage/emulated/0"/>
 <app_installed_format value="App installed: %p"/>
 <app_uninstalled_format value="App uninstalled: %p"/>
-<enable_music value="true"/>
+<enable_music value="false"/>
 <max_optional_depth value="2"/>
 <network_info_update_ms value="3500"/>
 <tui_notification_title value="T-UI"/>
