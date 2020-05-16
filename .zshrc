@@ -5,7 +5,6 @@ export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
 #Plugins
 plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
 
-
 #Theme
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="random"
@@ -16,21 +15,41 @@ plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions
 source $ZSH/oh-my-zsh.sh
 source /data/data/com.termux/files/home/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
+#Navigation
+
+#files
+alias ls="ls --color=auto --group-directories-first"
+alias lah="exa -la --color=auto --group-directories-first"
+alias ..='cd ..'
+alias cp="cp -v"
+alias mv="mv -v"
+alias rm="rm -v"
+alias rm1="rm -v 1*"
+alias mkd="mkdir -pv"
+
 #termux-cd
 alias cdusr="cd $PREFIX"
 alias cdetc="cd $PREFIX/etc/"
 alias cdbin="cd $PREFIX/bin/"
 alias cdshare="cd $PREFIX/share/"
+alias cdd="cd ~/storage/downloads/"
 
-#files
-alias ls="ls --color=auto --group-directories-first"
-alias lah="ls -lah --color=auto --group-directories-first"
-alias mkd="mkdir"
+#termux-api
+alias tb="termux-brightness"
+alias tba="termux-brightness auto"
+alias tbl="termux-brightness 25"
+alias tbh="termux-brightness 100"
+alias ts="termux-style"
+alias to="termux-open"
+alias tp="termux-open 1.jpg"
+alias tg="termux-open 1.gif"
+alias tv="termux-open 1.mp4"
 
 #APT
 alias up="apt update && apt upgrade -y"
 alias inp="apt install"
 alias rmv="apt remove"
+alias armv="apt autoremove"
 alias pacs="apt search"
 
 #youtube-dl
@@ -106,6 +125,7 @@ alias weather='curl wttr.in/khagrachari'
 alias updb="updatedb"
 alias q="exit"
 alias math="mathomatic"
+alias rit="rtv"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
 alias nnn='nnn -d'
 alias covid='curl https://corona-stats.online?source=2'
@@ -121,9 +141,6 @@ alias wadio='mpv http://162.254.150.34:8201/stream1'
 alias dhoni='mpv http://182.160.110.180:1020/'
 
 #bindkey -v
-
-
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
