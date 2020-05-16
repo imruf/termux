@@ -1,0 +1,118 @@
+sudo adb start-server
+sudo adb kill-server
+
+//check connected device
+adb devices
+
+//boot to bootloader
+adb reboot bootloader
+
+//boot to recovery
+adb reboot recovery
+
+//check connected device in bootloader
+fastboot devices
+
+//boot to rom
+fastboot reboot
+
+//boot to recovery
+fastboot reboot recovery
+
+//adb sideload
+adb sideload file.zip
+
+//check bootloader status
+fastboot oem device-info
+
+//unlock bootloader if false
+fastboot oem unlock
+
+//unlock flashing bootloader partition
+fastboot flashing unlock
+
+//unlock flashing all related bootloader partition
+fastboot flashing unlock_critical 
+
+//format data partition
+fastboot format:ext4 userdata 
+
+//boot into recovery image without flashing
+fastboot boot recovery.img
+
+//flash recovery
+fastboot flash recovery recovery.img
+fastboot reboot recovery
+
+//flash kernel/boot
+fastboot flash boot boot.img
+fastboot reboot
+
+//wipe device
+fastboot -w
+
+//flash rom
+fastboot update </path/to/your/Rom.zip>
+
+//rooting
+fastboot boot recovery.img 
+adb push supersu.zip /tmp
+adb shell /sbin/recovery --update_package=/tmp/supersu.zip
+
+//backup and restore
+adb backup -apk -shared -all -system -f backup.ab
+adb restore backup.ab
+
+//list available partition
+adb shell
+su
+cat /proc/partitions
+
+//list partition
+Or go to "/dev/block/platform/" folder on device. Search for the folder having folder "sdxxx/msblkxx"
+ls -al /dev/block/platform/*/sdxxx
+
+//confirm partition name
+readlink /dev/block/bootdevice/by-name/userdata
+
+//copy partition image
+dd if=/dev/block/mmcblk0p25 of=/sdcard/data.img
+dd if=/dev/block/mmcblk0p21 of=/sdcard/bootlos.img
+or
+cat /dev/block/mmcblk0p25 > /sdcard/data.img
+or
+dd if=/dev/block/bootdevice/by-name/userdata of=/sdcard/data.img
+
+//restore partition image
+dd if=/sdcard/data.img of=/dev/block/mmcblk0p25
+
+
+//flashing persist.img
+boot to twrp-->advanced-->terminal
+simg2img /sdcard/persist.img /sdcard/persist_EXT4.img
+dd if=/sdcard/persist_EXT4.img of=/dev/block/bootdevice/by-name/persist
+
+//enable, hide, unhide apps
+pm enable --user 0 pkg
+pm disable --user 0 pkg
+pm hide --user 0 pkg
+pm unhide --user 0 pkg
+
+//remove system bloat
+adb shell
+pm list packages | grep '<OEM/Carrier/App Name'
+pm uninstall -k --user 0 <name of package>
+
+
+//some los bloat
+com.android.email
+com.android.calendar
+com.android.exchange
+com.android.inputmethod.latin
+com.android.calculator2
+com.android.documentsui
+org.lineageos.eleven
+
+
+//install system bloat
+adb shell cmd package install-existing <name of package>
