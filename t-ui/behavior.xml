@@ -62,7 +62,7 @@
 <tui_notification_input_color value="#ff00ff00"/>
 <weather_key value="1f798f99228596c20ccfda51b9771a86"/>
 <weather_temperature_measure value="metric"/>
-<weather_location value="1185252"/>
+<weather_location value=""/>
 <weather_format value="🌞 %main, Temp: %temp"/>
 <clear_on_lock value="true"/>
 <unlock_counter_format value=""/>
