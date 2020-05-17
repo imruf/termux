@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 17 May 2020 14:50:04 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Coronavirus: Obama criticises Trump administration's virus response]]></title>
+            <description><![CDATA[The former US president says top officials "aren't even pretending to be in charge" amid the crisis.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52694872</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52694872</guid>
+            <pubDate>Sun, 17 May 2020 06:32:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[One every eight minutes: India's missing children]]></title>
+            <description><![CDATA[Many of those who vanish are trafficked and exploited, but there's little public outrage.]]></description>
+            <link>https://www.bbc.co.uk/news/world-south-asia-52685559</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-south-asia-52685559</guid>
+            <pubDate>Sat, 16 May 2020 23:14:01 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[#LastNormalPhoto: Thousands share last images before lockdown]]></title>
+            <description><![CDATA[We asked you to post your last "normal" photo before coronavirus. A lot of you replied.]]></description>
+            <link>https://www.bbc.co.uk/news/world-52693002</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-52693002</guid>
+            <pubDate>Sat, 16 May 2020 22:48:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Du Wei: Chinese ambassador to Israel found dead at home]]></title>
+            <description><![CDATA[Initial findings suggest there was no foul play in the death of Du Wei at his home near Tel Aviv.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-52696833</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-52696833</guid>
+            <pubDate>Sun, 17 May 2020 11:25:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How coronavirus is driving a revolution in travel]]></title>
+            <description><![CDATA[Manchester is spearheading a new effort to create space for walking and cycling.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-52689372</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-52689372</guid>
+            <pubDate>Sat, 16 May 2020 16:00:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pakistan girls shot dead over mobile video]]></title>
+            <description><![CDATA[The teenage Pakistani girls were reportedly killed by a relative after video showed them with a man.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-52696032</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52696032</guid>
+            <pubDate>Sun, 17 May 2020 07:11:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Israel swears in unity government after long political crisis]]></title>
+            <description><![CDATA[Prime Minister Benjamin Netanyahu and his rival Benny Gantz agree to share power amid virus crisis.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-52699156</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-52699156</guid>
+            <pubDate>Sun, 17 May 2020 14:10:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Hash oil factory blast injures 11 firefighters in Los Angeles]]></title>
+            <description><![CDATA[Crews tackling a blaze are hit by a fireball and have to run through a wall of flame to safety.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52696269</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52696269</guid>
+            <pubDate>Sun, 17 May 2020 07:54:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Steve Linick: Democrats probe Trump's firing of inspector general]]></title>
+            <description><![CDATA[The president's firing of the state department's inspector general will be investigated by Congress.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52694497</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52694497</guid>
+            <pubDate>Sun, 17 May 2020 00:34:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Félicien Kabuga: Rwanda genocide survivors happy with arrest]]></title>
+            <description><![CDATA[A widows' group says "everyone has been waiting" for his apprehension, 26 years after the slaughter.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-52696815</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52696815</guid>
+            <pubDate>Sun, 17 May 2020 09:26:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jorge Armenta: Mexican journalist killed in 'armed attack']]></title>
+            <description><![CDATA[Jorge Armenta, director of Medios Obson, had received threats and was under government protection.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-52698127</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-52698127</guid>
+            <pubDate>Sun, 17 May 2020 11:25:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[German Bundesliga returns: What did football's new reality look like?]]></title>
+            <description><![CDATA[The German Bundesliga restarts and gives a glimpse into what the Premier League and other top leagues may look like.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52691666</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52691666</guid>
+            <pubDate>Sat, 16 May 2020 19:04:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[India extends coronavirus lockdown by two weeks]]></title>
+            <description><![CDATA[The country's major cities will remain under strict restrictions, with some relaxation elsewhere.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-52698828</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-52698828</guid>
+            <pubDate>Sun, 17 May 2020 14:48:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Barack Obama and LeBron James congratulate US graduates]]></title>
+            <description><![CDATA[Many schools have had to cancel ceremonies, so famous faces have sent the students messages.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52698978</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52698978</guid>
+            <pubDate>Sun, 17 May 2020 12:39:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: How face masks are becoming fashionable]]></title>
+            <description><![CDATA[With governments recommending face masks, the fashion world is ensuring they remain on trend.]]></description>
+            <link>https://www.bbc.co.uk/news/world-52691164</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-52691164</guid>
+            <pubDate>Sat, 16 May 2020 18:52:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meet the baby orangutans learning to climb trees]]></title>
+            <description><![CDATA[Baby orangutans are learning new skills from their human surrogate parents.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-52565566</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-52565566</guid>
+            <pubDate>Sun, 17 May 2020 08:07:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Eurovision 2020: Highlights from celebration show, Europe Shine A Light]]></title>
+            <description><![CDATA[Eurovision stars come together on the night that this year's cancelled contest would have taken place.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-52694297</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-52694297</guid>
+            <pubDate>Sat, 16 May 2020 22:57:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Capturing isolation on New Zealand's Stewart Island]]></title>
+            <description><![CDATA[As the country emerges from lockdown, a photographer has documented life on rugged Stewart Island.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-52673773</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52673773</guid>
+            <pubDate>Sat, 16 May 2020 23:05:25 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Can gaming help stop lockdown loneliness?]]></title>
+            <description><![CDATA[Gamers like Millicent say their online adventures are helping them stay connected to friends in lockdown.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-52685451</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-52685451</guid>
+            <pubDate>Sat, 16 May 2020 23:52:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Your pictures of working at home]]></title>
+            <description><![CDATA[Our readers reveal the new normal of life during a pandemic.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-52675825</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-52675825</guid>
+            <pubDate>Fri, 15 May 2020 12:28:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Actor Leslie Jordan on his lockdown Instagram fame]]></title>
+            <description><![CDATA[The Emmy Award-winning star's videos have helped him to hit more than four million followers.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-52623657</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-52623657</guid>
+            <pubDate>Sat, 16 May 2020 23:15:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Are Italians losing faith in the EU?]]></title>
+            <description><![CDATA[As Italy slowly emerges from coronavirus lockdown many citizens feel let down by the EU.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-52666870</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52666870</guid>
+            <pubDate>Sat, 16 May 2020 23:38:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Why Taiwan won't have a seat at the virus talks]]></title>
+            <description><![CDATA[As the world meets to tackle the coronavirus crisis, one of the most successful countries is not invited.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-52661181</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52661181</guid>
+            <pubDate>Sat, 16 May 2020 23:54:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Letter from Africa: Spare a thought for stranded migrants]]></title>
+            <description><![CDATA[Ismail Einashe writes that migrants are facing a tougher time since the outbreak of coronavirus.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-52645702</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52645702</guid>
+            <pubDate>Sun, 17 May 2020 00:01:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Plinofficial: Russian rapper who loved dollars arrested by FBI]]></title>
+            <description><![CDATA[How a young rapper from Siberia became the subject of an FBI probe into global cybercriminals.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52671381</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52671381</guid>
+            <pubDate>Sat, 16 May 2020 23:42:18 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How Covid-19 is threatening Central America's economic lifeline]]></title>
+            <description><![CDATA[Many communities rely heavily on remittances but these are drying up due to coronavirus lockdowns.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-52550389</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-52550389</guid>
+            <pubDate>Sat, 16 May 2020 23:47:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gedhun Choekyi Niyima: Tibetan Buddhism's 'reincarnated' leader who disappeared aged six]]></title>
+            <description><![CDATA[Twenty-five years after the Panchen Lama disappeared, Tibetans abroad urge China to reveal his fate.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-52660198</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-52660198</guid>
+            <pubDate>Sat, 16 May 2020 23:58:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Two Americas in the nation's capital]]></title>
+            <description><![CDATA[Social and racial divides play out in Washington DC as the city, and nation, grapple with Covid-19.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52679654</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52679654</guid>
+            <pubDate>Fri, 15 May 2020 22:39:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bundesliga: 'Bizarre, sterile and eerie' - what it was really like inside one of Germany's 'Ghost Games']]></title>
+            <description><![CDATA[The Bundesliga returned to action this weekend and German football writer Constantin Eckner tells BBC Sport his experience inside one of football's 'Ghost Games'.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52696930</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52696930</guid>
+            <pubDate>Sun, 17 May 2020 11:05:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Uefa has 'concrete plan' to finish European football season 'in August']]></title>
+            <description><![CDATA[Uefa president Aleksander Cerefin says it has a "concrete plan" for finishing the season this summer.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52698017</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52698017</guid>
+            <pubDate>Sun, 17 May 2020 11:55:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NFL's Deandre Baker and Quinton Dunbar surrender after robbery charge]]></title>
+            <description><![CDATA[The two players turned themselves in to police in Florida following charges for armed robbery and aggravated assault.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52692098</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52692098</guid>
+            <pubDate>Sat, 16 May 2020 19:51:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus could cost top-flight European clubs £3.5bn]]></title>
+            <description><![CDATA[Top-flight European clubs stand to lose more than £3.5bn because of Covid-19 even if all the major domestic leagues and competitions reach their conclusion.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52680124</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52680124</guid>
+            <pubDate>Sun, 17 May 2020 07:27:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[UFC in Jacksonville: Looking back at landmark week as MMA bounces back]]></title>
+            <description><![CDATA[As the UFC concludes its triple header of events in Jacksonville, we look at what was different and how future fights might be staged.]]></description>
+            <link>https://www.bbc.co.uk/sport/mixed-martial-arts/52696630</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/mixed-martial-arts/52696630</guid>
+            <pubDate>Sun, 17 May 2020 10:15:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Haaland scores in Dortmund win as Bundesliga returns]]></title>
+            <description><![CDATA[Erling Braut Haaland scores for Borussia Dortmund as they mark the return of the Bundesliga during the coronavirus outbreak with a convincing derby win over Schalke.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52681127</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52681127</guid>
+            <pubDate>Sat, 16 May 2020 16:28:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sebastian Vettel: How much do you know about his time at Ferrari?]]></title>
+            <description><![CDATA[Sebastian Vettel and Ferrari's love affair has come to an end - but how much of the four-time world champion's time at the Scuderia can you remember?]]></description>
+            <link>https://www.bbc.co.uk/sport/formula1/52639671</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/52639671</guid>
+            <pubDate>Sun, 17 May 2020 10:26:23 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: South Africa's alcohol and cigarette lockdown]]></title>
+            <description><![CDATA[In South Africa, illegal sellers are defying the prohibition on buying alcohol and cigarettes.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-52684781</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52684781</guid>
+            <pubDate>Sat, 16 May 2020 23:07:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tracking the outbreak in maps and charts]]></title>
+            <description><![CDATA[Key maps and charts explaining how the respiratory virus has spread around the world and how it is being dealt with.]]></description>
+            <link>https://www.bbc.co.uk/news/world-51235105</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-51235105</guid>
+            <pubDate>Sun, 17 May 2020 11:44:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Can China test all of Wuhan in only 10 days?]]></title>
+            <description><![CDATA[Officials vowed to test all 11 million Wuhan residents in 10 days, but it appears they need longer.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-52651651</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-52651651</guid>
+            <pubDate>Fri, 15 May 2020 09:27:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Aarogya Setu: Why India's Covid-19 contact tracing app is controversial]]></title>
+            <description><![CDATA[Aarogya Setu, India's contact tracing app, has crossed 100 million downloads, but has raised concerns.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-52659520</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-52659520</guid>
+            <pubDate>Thu, 14 May 2020 23:56:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: Why 'shark attacks' won’t go down as Covid deaths]]></title>
+            <description><![CDATA[Infowars claims about testing, the viral body bag video in Brazil and other claims fact-checked.]]></description>
+            <link>https://www.bbc.co.uk/news/52665099</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/52665099</guid>
+            <pubDate>Fri, 15 May 2020 23:39:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: 'We're in the experimental phase']]></title>
+            <description><![CDATA[As lockdown is eased, we all become participants in a vast, very cautious observational experiment, experts say.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-52666309</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-52666309</guid>
+            <pubDate>Fri, 15 May 2020 00:16:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: How exposed is your job?]]></title>
+            <description><![CDATA[See how your job compares to others in terms of exposure to disease and closeness to other people.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-52637008</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-52637008</guid>
+            <pubDate>Thu, 14 May 2020 15:02:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Joshna Maharaj - The chef who lost her sense of smell]]></title>
+            <description><![CDATA[Chef Joshna Maharaj couldn't smell for years. Now she's working to regain some of what she lost.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52043639</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52043639</guid>
+            <pubDate>Mon, 11 May 2020 17:14:27 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Eurovision tribute by Fizz members and BBC correspondent]]></title>
+            <description><![CDATA[May 12 would have been the Eurovision semi-finals but the competition was cancelled due to coronavirus.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-52623525</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-52623525</guid>
+            <pubDate>Tue, 12 May 2020 05:04:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The faded beauty of abandoned cars across Europe and the US]]></title>
+            <description><![CDATA[Photographer Dieter Klein searched Europe and the US to discover cars lost to time.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-52632396</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-52632396</guid>
+            <pubDate>Tue, 12 May 2020 23:19:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus and Antarctica: 'Isolated within isolation']]></title>
+            <description><![CDATA[Why the people on the only continent without a recorded case of coronavirus are in lockdown.]]></description>
+            <link>https://www.bbc.co.uk/news/world-52624208</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-52624208</guid>
+            <pubDate>Wed, 13 May 2020 23:24:49 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SUGGESTIONS>
            <alias_bg_color value="#000000"/>
-           <alias_text_color value="#ff5722"/>
+           <alias_text_color value="#bbbbbb"/>
            <apps_bg_color value="#000000"/>
-           <apps_text_color value="#ce7828"/>
+           <apps_text_color value="#bf616a"/>
            <cmd_bg_color value="#000000"/>
-           <cmd_text_color value="#698857"/>
+           <cmd_text_color value="#bbbbbb"/>
            <contact_bg_color value="#000000"/>
-           <contact_text_color value="#6796bd"/>
-           <default_bg_color value="#fce8c3"/>
-           <default_text_color value="#2d2c29"/>
+           <contact_text_color value="#bbbbbb"/>
+           <default_bg_color value="#000000"/>
+           <default_text_color value="#bf616a"/>
            <enabled value="true"/>
            <file_bg_color value="#000000"/>
-           <file_text_color value="#9975ab"/>
+           <file_text_color value="#bbbbbb"/>
            <song_bg_color value="#000000"/>
-           <song_text_color value="#eeff41"/>
-           <transparent value="true"/>
+           <song_text_color value="#bbbbbb"/>
+           <transparent value="false"/>
       <show_suggestions value="true"/>
-<transparent_suggestions value="false"/>
+<transparent_suggestions value="true"/>
 <suggest_alias_default value="true"/>
-<suggest_appgp_default value="true"/>
+<suggest_appgp_default value="false"/>
 <click_to_launch value="true"/>
 <suggestions_size value="12"/>
 <double_space_click_first_suggestion value="true"/>
