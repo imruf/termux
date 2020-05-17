@@ -1,28 +1,44 @@
 #tui
-r=restart
-rf=refresh
-c=clear
+tr=restart
+trf=refresh
+cc=clear
 nc=su -c "service call notification 1"
 pn=ping -c 3 google.com
+myip=ifconfig
+
+#apps
+k=Keep Notes
+b=Browser NBPro
+e=Moon+ Reader
+eb=EBookDroid
+t=Termux
+x=X-plore
+y=YouTube Vanced
+m=Vanilla Music
+v=mpv
+s=Settings
+g=Gallery
+cam=Camera
+ps=Play Store
 
 #Call
-a=call aaa
+aaa=call aaa
 
 #network
-don=su -c "svc data enable"
-doff=su -c "svc data disable"
-won=su -c "svc wifi enable"
-woff=su -c "svc wifi disable"
-bon=su -c "service call bluetooth_manager 6"
-boff=su -c "service call bluetooth_manager 8"
-aon=su -c "settings put global airplane_mode_on 1 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
-aoff=su -c "settings put global airplane_mode_on 0 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
+dy=su -c "svc data enable"
+dn=su -c "svc data disable"
+wy=su -c "svc wifi enable"
+wn=su -c "svc wifi disable"
+by=su -c "service call bluetooth_manager 6"
+bn=su -c "service call bluetooth_manager 8"
+ay=su -c "settings put global airplane_mode_on 1 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
+an=su -c "settings put global airplane_mode_on 0 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
 
 #device
-ron=su -c "settings put system accelerometer_rotation 1"
-roff=su -c "settings put system accelerometer_rotation 0"
-bson=su -c "settings put global low_power 1"
-bsoff=su -c "settings put global low_power 0"
+ry=su -c "settings put system accelerometer_rotation 1"
+rn=su -c "settings put system accelerometer_rotation 0"
+bsy=su -c "settings put global low_power 1"
+bsn=su -c "settings put global low_power 0"
 poff=su -c "svc power shutdown"
 rsys=su -c "svc power reboot"
 rrec=su -c "svc power reboot recovery"

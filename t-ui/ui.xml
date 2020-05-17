@@ -37,10 +37,10 @@
 <display_margin_mm value="0,0,0,0"/>
 <ignore_bar_color value="false"/>
 <show_app_installed value="true"/>
-<show_app_uninstalled value="false"/>
+<show_app_uninstalled value="true"/>
 <show_session_info value="true"/>
-<notes_header value="%( ---  %c ---%n/)"/>
-<notes_footer value="%(%n --- ----- ---/)"/>
+<notes_header value="%(-- 📰 -- # %c%n/)"/>
+<notes_footer value="%(%n -- -- --/)"/>
 <notes_divider value="%n"/>
 <show_restart_message value="true"/>
 <notes_max_lines value="5"/>

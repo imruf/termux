@@ -2,12 +2,14 @@
 <NOTIFICATIONS>
 <show_notifications value="true"/>
 <app_notification_enabled_default value="true"/>
-<default_notification_color value="#00FF00"/>
-<notification_format value="%app: %[100][teal]title%n%text"/>
+<default_notification_color value="#ff9912"/>
+<notification_format value="%app: %[100][#cd950c]title%n%text"/>
 <click_notification value="true"/>
 <long_click_notification value="true"/>
 <notification_popup_exclude_app value="true"/>
 <notification_popup_exclude_notification value="true"/>
 <notification_popup_reply value="true"/>
 <android enabled="false"/>
+<filter id="-1" value="%app: Your Internet is private.%nTap to change 1.1.1.1 settings."/>
+<com.cloudflare.onedotonedotonedotone enabled="false"/>
 </NOTIFICATIONS>
