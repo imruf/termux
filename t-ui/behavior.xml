@@ -6,7 +6,7 @@
 <songs_folder value="/sdcard/Music"/>
 <songs_from_mediastore value="false"/>
 <tui_notification value="false"/>
-<auto_show_keyboard value="false"/>
+<auto_show_keyboard value="true"/>
 <auto_scroll value="true"/>
 <show_hints value="false"/>
 <show_alias_content value="false"/>
@@ -14,7 +14,7 @@
 <clear_after_cmds value="-1"/>
 <clear_after_seconds value="-1"/>
 <max_lines value="-1"/>
-<time_format value=" HH:mm:ss %n%n EEE,d MMM"/>
+<time_format value=" HH:mm  EEE,d MMM"/>
 <time_format_separator value="@"/>
 <battery_medium value="50"/>
 <battery_low value="15"/>
@@ -62,7 +62,7 @@
 <tui_notification_input_color value="#ff00ff00"/>
 <weather_key value="1f798f99228596c20ccfda51b9771a86"/>
 <weather_temperature_measure value="metric"/>
-<weather_location value=""/>
+<weather_location value="1185252"/>
 <weather_format value="🌞 %main, Temp: %temp"/>
 <clear_on_lock value="true"/>
 <unlock_counter_format value=""/>

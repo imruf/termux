@@ -1,10 +1,13 @@
 #tui
-tr=restart
-trf=refresh
 cc=clear
+2=restart
+5=refresh
 nc=su -c "service call notification 1"
 pn=ping -c 3 google.com
 myip=ifconfig
+rssu=rss -l %
+note=notes -add %
+notedl=notes -rm %
 
 #apps
 k=Keep Notes
@@ -14,12 +17,15 @@ eb=EBookDroid
 t=Termux
 x=X-plore
 y=YouTube Vanced
-m=Vanilla Music
+m=Vinyl
 v=mpv
 s=Settings
 g=Gallery
 cam=Camera
 ps=Play Store
+0=Calc+
+vt=VpnTether
+1=1.1.1.1
 
 #Call
 aaa=call aaa

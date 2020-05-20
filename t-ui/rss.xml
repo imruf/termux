@@ -9,10 +9,10 @@
 <rss_download_format value="RSS: %id --- Downloaded %sb bytes"/>
 <rss_download_message_color value="maroon"/>
 <click_rss value="true"/>
-<rss id="1" updateTimeSec="3600" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1589726893000" lastChecked="1589728630355"/>
-<rss id="2" updateTimeSec="3600" show="true" url="http://rss.cnn.com/rss/editon_world.rss" lastShownItem="1589632844000" lastChecked="1589728630427"/>
-<rss id="3" updateTimeSec="3600" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1589684911000" lastChecked="1589731276511"/>
-<rss id="4" updateTimeSec="3600" show="true" url="https://www.archlinux.org/feeds/news/" lastShownItem="1586881830000" lastChecked="1589731274652"/>
-<rss id="5" updateTimeSec="3600" show="true" url="https://www.reddit.com/r/unixporn.rss" lastChecked="1589729462740" entryTag="entry"/>
+<rss id="1" updateTimeSec="86400" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1589726893000" lastChecked="1589728630355"/>
+<rss id="2" updateTimeSec="86400" show="true" url="http://rss.cnn.com/rss/editon_world.rss" lastShownItem="1589632844000" lastChecked="1589728630427"/>
+<rss id="3" updateTimeSec="86400" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1589684911000" lastChecked="1589731276511"/>
+<rss id="4" updateTimeSec="86400" show="true" url="https://www.archlinux.org/feeds/news/" lastShownItem="1586881830000" lastChecked="1589731274652"/>
+<rss id="5" updateTimeSec="86400" show="true" url="https://www.reddit.com/r/books.rss" lastChecked="1589729462740" entryTag="entry"/>
 
 </RSS>

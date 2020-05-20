@@ -12,4 +12,5 @@
 <android enabled="false"/>
 <filter id="-1" value="%app: Your Internet is private.%nTap to change 1.1.1.1 settings."/>
 <com.cloudflare.onedotonedotonedotone enabled="false"/>
+<filter id="-1" value="%app: Termux%n0 sessions"/>
 </NOTIFICATIONS>
