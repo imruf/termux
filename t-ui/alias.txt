@@ -32,6 +32,7 @@ y=YouTube Vanced
 
 #Call
 aaa=call aaa
+c=Contacts
 
 #network
 an=su -c "settings put global airplane_mode_on 0 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
