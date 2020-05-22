@@ -1,13 +1,16 @@
 
 
-java.net.SocketTimeoutException: timeout
-	at okhttp3.internal.e.i$c.a(Unknown Source:4)
-	at okhttp3.internal.e.i$c.b(Unknown Source:8)
-	at okhttp3.internal.e.i.d(Unknown Source:26)
-	at okhttp3.internal.e.f.a(Unknown Source:2)
-	at okhttp3.internal.c.b.a(Unknown Source:183)
-	at okhttp3.internal.c.g.a(Unknown Source:157)
-	at okhttp3.internal.b.a.a(Unknown Source:33)
+java.net.SocketTimeoutException: SSL handshake timed out
+	at com.android.org.conscrypt.NativeCrypto.SSL_do_handshake(Native Method)
+	at com.android.org.conscrypt.NativeSsl.doHandshake(NativeSsl.java:375)
+	at com.android.org.conscrypt.ConscryptFileDescriptorSocket.startHandshake(ConscryptFileDescriptorSocket.java:224)
+	at okhttp3.internal.b.c.a(Unknown Source:65)
+	at okhttp3.internal.b.c.a(Unknown Source:24)
+	at okhttp3.internal.b.c.a(Unknown Source:160)
+	at okhttp3.internal.b.g.a(Unknown Source:222)
+	at okhttp3.internal.b.g.a(Unknown Source:0)
+	at okhttp3.internal.b.g.a(Unknown Source:22)
+	at okhttp3.internal.b.a.a(Unknown Source:25)
 	at okhttp3.internal.c.g.a(Unknown Source:157)
 	at okhttp3.internal.c.g.a(Unknown Source:6)
 	at okhttp3.internal.a.a.a(Unknown Source:132)

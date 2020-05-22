@@ -11,415 +11,282 @@
             <link>https://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 19 May 2020 22:46:25 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 22 May 2020 12:07:48 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[France's Macron loses majority as defectors form new party]]></title>
-            <description><![CDATA[The French president's party loses seven MPs amid further signs of dissatisfaction in parliament.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-52721153</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52721153</guid>
-            <pubDate>Tue, 19 May 2020 15:05:54 GMT</pubDate>
+            <title><![CDATA[Pakistan International Airlines passenger plane crashes in Karachi]]></title>
+            <description><![CDATA[A PIA jet crashes in a residential area on a flight from Lahore, with around 100 people on board.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-52766904</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52766904</guid>
+            <pubDate>Fri, 22 May 2020 11:50:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Climate change: Scientists fear car surge will see CO2 rebound]]></title>
-            <description><![CDATA[An analysis shows a huge daily CO2 drop, but a return to car travel may see emissions rebound.]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-52724821</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-52724821</guid>
-            <pubDate>Tue, 19 May 2020 21:08:43 GMT</pubDate>
+            <title><![CDATA[NPC: China moves to impose controversial Hong Kong security law]]></title>
+            <description><![CDATA[Pro-democracy activists fear Beijing pushing through a new law could be "the end of Hong Kong".]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-52762291</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-52762291</guid>
+            <pubDate>Fri, 22 May 2020 11:57:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Hungary outlaws changing birth gender on documents]]></title>
-            <description><![CDATA[The government says the law will eliminate legal uncertainty, but trans people fear discrimination.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-52727615</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52727615</guid>
-            <pubDate>Tue, 19 May 2020 21:03:02 GMT</pubDate>
+            <title><![CDATA[Trump removes mask before facing cameras at car factory]]></title>
+            <description><![CDATA[The president says he didn't want to "give the press the pleasure of seeing" him in a face covering.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52764899</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52764899</guid>
+            <pubDate>Fri, 22 May 2020 00:08:03 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Remote controlled mask invented to allow eating]]></title>
-            <description><![CDATA[Israeli investors have developed a coronavirus mask that has an automatic mouth hole.]]></description>
-            <link>https://www.bbc.co.uk/news/world-52728998</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-52728998</guid>
-            <pubDate>Tue, 19 May 2020 15:09:19 GMT</pubDate>
+            <title><![CDATA[Singapore quizzer finally wins $10k after Tony Hadley's message]]></title>
+            <description><![CDATA[Muhammad Shalehan was originally denied the prize as judges claimed he mispronounced "Tony Hadley".]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-52765493</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52765493</guid>
+            <pubDate>Fri, 22 May 2020 06:22:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[China abductions: Parents find son snatched in hotel 32 years ago]]></title>
-            <description><![CDATA[Li Jingzhi quit her job to search China for her son, Mao Yin, who went missing in 1988.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-china-52717670</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-52717670</guid>
-            <pubDate>Tue, 19 May 2020 08:59:21 GMT</pubDate>
+            <title><![CDATA[How bumble bees trick plants into flowering early]]></title>
+            <description><![CDATA[It's the first time scientists have observed this behaviour, which bees do when pollen is scarce.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-52759704</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-52759704</guid>
+            <pubDate>Thu, 21 May 2020 23:09:17 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Amphan: India and Bangladesh evacuate millions ahead of super cyclone]]></title>
-            <description><![CDATA[One of the biggest tropical storms in years is barrelling towards the coast of India and Bangladesh.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-india-52718826</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-52718826</guid>
-            <pubDate>Tue, 19 May 2020 20:32:07 GMT</pubDate>
+            <title><![CDATA[Wilson Jerman: Ex-White House butler dies with coronavirus]]></title>
+            <description><![CDATA[Wilson Roosevelt Jerman worked for 11 US presidents in over five decades at the White House.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52748424</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52748424</guid>
+            <pubDate>Thu, 21 May 2020 22:34:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: World Health Organization members agree response probe]]></title>
-            <description><![CDATA[The vote follows criticism of the organisation and China, particularly from the United States.]]></description>
-            <link>https://www.bbc.co.uk/news/world-52726017</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-52726017</guid>
-            <pubDate>Tue, 19 May 2020 14:46:53 GMT</pubDate>
+            <title><![CDATA[Jamal Khashoggi: Fiancée rejects family forgiveness offer to killers]]></title>
+            <description><![CDATA[The prominent Saudi journalist was murdered inside the Saudi consulate in Istanbul in October 2018.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-52764920</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-52764920</guid>
+            <pubDate>Fri, 22 May 2020 10:29:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[University of Cambridge lectures to be online-only]]></title>
-            <description><![CDATA[There will be no face-to-face lectures in the next academic year due to coronavirus, the university says.]]></description>
-            <link>https://www.bbc.co.uk/news/education-52732814</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/education-52732814</guid>
-            <pubDate>Tue, 19 May 2020 20:39:00 GMT</pubDate>
+            <title><![CDATA[Son 'kills father' during Zoom video chat in New York state]]></title>
+            <description><![CDATA[Several chat participants witness the stabbing of a Long Island man by his son, police say.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52767764</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52767764</guid>
+            <pubDate>Fri, 22 May 2020 09:24:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Anger grows for stranded crew on forgotten cruises]]></title>
-            <description><![CDATA[Months into the pandemic, thousands of cruise crew remain stuck at sea, desperate to get home.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-52722765</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52722765</guid>
-            <pubDate>Tue, 19 May 2020 14:51:11 GMT</pubDate>
+            <title><![CDATA[Ahmaud Arbery: Third man charged over death of black jogger]]></title>
+            <description><![CDATA[The motorist is accused of murder and attempted false imprisonment over the shooting in Georgia.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52764898</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52764898</guid>
+            <pubDate>Fri, 22 May 2020 06:41:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[EasyJet admits data of nine million hacked]]></title>
-            <description><![CDATA[The attack was "sophisticated" the airline said, adding that some credit card details had been accessed.]]></description>
-            <link>https://www.bbc.co.uk/news/technology-52722626</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-52722626</guid>
-            <pubDate>Tue, 19 May 2020 16:58:53 GMT</pubDate>
+            <title><![CDATA[Augustin Bizimana: Remains of top Rwanda genocide suspect found]]></title>
+            <description><![CDATA[Augustin Bizimana was defence minister when about 800,000 people were killed in 100 days.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-52770595</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52770595</guid>
+            <pubDate>Fri, 22 May 2020 12:02:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Pakistan: Man who kissed murdered girls in video arrested]]></title>
-            <description><![CDATA[Police in Pakistan also detained two others believed to be involved in the teenagers' killings.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-52721327</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52721327</guid>
-            <pubDate>Tue, 19 May 2020 12:01:32 GMT</pubDate>
+            <title><![CDATA[Cyclone Amphan: Survivors return to face destruction left by storm]]></title>
+            <description><![CDATA[A massive clean-up operation begins after the storm flattened homes and left cities without power.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-52765962</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-52765962</guid>
+            <pubDate>Fri, 22 May 2020 06:29:51 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['Tortured Zimbabwe abductees' may face prosecution]]></title>
-            <description><![CDATA[Opposition activists, including an MP, say they were beaten and forced to drink urine by state agents.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-52726220</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52726220</guid>
-            <pubDate>Tue, 19 May 2020 17:46:28 GMT</pubDate>
+            <title><![CDATA[French healthcare workers fined at Paris hospital protest]]></title>
+            <description><![CDATA[Police say the crowd of more than 400 people was breaching social distancing rules.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-52748510</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52748510</guid>
+            <pubDate>Thu, 21 May 2020 21:34:12 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Megaraptor: Fossils of 10m-long dinosaur found in Argentina]]></title>
-            <description><![CDATA[Palaeontologists say the remains date back 70 million years, close to the end of the dinosaurs.]]></description>
-            <link>https://www.bbc.co.uk/news/world-latin-america-52723049</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-52723049</guid>
-            <pubDate>Tue, 19 May 2020 12:41:02 GMT</pubDate>
+            <title><![CDATA[Lana Del Rey responds to accusations of racism]]></title>
+            <description><![CDATA[The singer named several women of colour while making a point about music industry double standards.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-52767934</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-52767934</guid>
+            <pubDate>Fri, 22 May 2020 08:56:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Trump says he is taking unproven drug hydroxychloroquine]]></title>
-            <description><![CDATA[The president claims hydroxychloroquine is harmless but regulators warn it may cause heart problems.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-52717161</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52717161</guid>
-            <pubDate>Tue, 19 May 2020 18:17:45 GMT</pubDate>
+            <title><![CDATA[Coronavirus: Could there be a second wave?]]></title>
+            <description><![CDATA[What factors determine a potential second wave of Covid-19 infections?]]></description>
+            <link>https://www.bbc.co.uk/news/52739484</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/52739484</guid>
+            <pubDate>Thu, 21 May 2020 23:24:09 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Polish hit song on grieving 'censored', sparking protests]]></title>
-            <description><![CDATA[Public radio is accused of censoring an anti-government song that topped the charts.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-52721152</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52721152</guid>
-            <pubDate>Tue, 19 May 2020 10:59:10 GMT</pubDate>
+            <title><![CDATA['Sharks everywhere': Angler films feeding frenzy in Australia]]></title>
+            <description><![CDATA[An Australian fisherman says he was stunned to come across dozens of sharks feeding in shallow waters.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-52751812</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-52751812</guid>
+            <pubDate>Thu, 21 May 2020 23:41:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Potato mountains and rotten cheese in Europe]]></title>
-            <description><![CDATA[Across Europe, much of the food and agriculture industry has been badly affected by the pandemic.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-52715288</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52715288</guid>
-            <pubDate>Mon, 18 May 2020 23:15:00 GMT</pubDate>
+            <title><![CDATA[Coronavirus in Africa: Ghana WW2 veteran in Covid-19 fundraiser]]></title>
+            <description><![CDATA[Private Joseph Hammond is fundraising for frontline workers and vulnerable veterans across Africa.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-52763031</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52763031</guid>
+            <pubDate>Fri, 22 May 2020 10:53:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Killer Kicks: the secret in your trainers]]></title>
-            <description><![CDATA[The trainer industry now accounts for almost half of global footwear sales.]]></description>
-            <link>https://www.bbc.co.uk/news/stories-52708487</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-52708487</guid>
-            <pubDate>Mon, 18 May 2020 23:39:59 GMT</pubDate>
+            <title><![CDATA[Quiz of the Week: How did the Queen fare on the rich list?]]></title>
+            <description><![CDATA[How closely have you been paying attention to what's been going on during the past seven days?]]></description>
+            <link>https://www.bbc.co.uk/news/world-52755166</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-52755166</guid>
+            <pubDate>Thu, 21 May 2020 23:55:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Australian man fined for rescuing whale from sea nets]]></title>
-            <description><![CDATA[After rescuers failed to arrive, the man launched his own rescue, driving his boat out to the whale.]]></description>
-            <link>https://www.bbc.co.uk/news/world-australia-52717573</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-52717573</guid>
-            <pubDate>Tue, 19 May 2020 07:40:15 GMT</pubDate>
+            <title><![CDATA[Keith Urban on his lockdown drive-in concert]]></title>
+            <description><![CDATA[The US country music star performed to healthcare workers in their cars in Tennessee.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-52763470</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-52763470</guid>
+            <pubDate>Thu, 21 May 2020 23:31:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: What's going wrong in Sweden's care homes?]]></title>
-            <description><![CDATA[Swedish healthcare is under scrutiny over the high rate of Covid-19 deaths in care homes.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-52704836</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52704836</guid>
-            <pubDate>Tue, 19 May 2020 12:16:19 GMT</pubDate>
+            <title><![CDATA[Africa's week in pictures: 15 - 21 May 2020]]></title>
+            <description><![CDATA[A selection of the week's best photos from across the continent.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-52754632</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52754632</guid>
+            <pubDate>Thu, 21 May 2020 23:58:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Teranga, a Naples nightclub helping migrants overcome trauma]]></title>
-            <description><![CDATA[Teranga provides a safe space for migrants to dance and overcome their journey to Europe.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-52711195</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52711195</guid>
-            <pubDate>Tue, 19 May 2020 14:52:27 GMT</pubDate>
+            <title><![CDATA[How will UK pay for the coronavirus damage?]]></title>
+            <description><![CDATA[Coronavirus has cost the UK government hundreds of billions of pounds. How will we pay for it?]]></description>
+            <link>https://www.bbc.co.uk/news/business-52761890</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-52761890</guid>
+            <pubDate>Thu, 21 May 2020 23:06:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus lockdown: The harmonica player giving cheer to neighbours]]></title>
-            <description><![CDATA[Frederic Yonnet is an urban jazz harmonica player who believes music can bridge social distancing.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-52686896</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52686896</guid>
-            <pubDate>Mon, 18 May 2020 20:12:49 GMT</pubDate>
+            <title><![CDATA[Tiger seized in Mexico after man tried to lasso it]]></title>
+            <description><![CDATA[Animal welfare officials intervened after a video emerged showing men chasing the tiger in the streets.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-52753163</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-52753163</guid>
+            <pubDate>Thu, 21 May 2020 10:30:23 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Mars: Mud flows on Red Planet behave like 'boiling toothpaste']]></title>
-            <description><![CDATA[Scientists make a surprising discovery about the Red Planet by playing with mud in the laboratory.]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-52713131</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-52713131</guid>
-            <pubDate>Mon, 18 May 2020 16:03:33 GMT</pubDate>
+            <title><![CDATA[Coronavirus: How world leaders adapted to the pandemic]]></title>
+            <description><![CDATA[From shaking hands to working from home, how has life changed for those at the top?]]></description>
+            <link>https://www.bbc.co.uk/news/world-52744485</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-52744485</guid>
+            <pubDate>Wed, 20 May 2020 16:40:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Just Sam: American Idol crowns first ever 'at home' winner]]></title>
-            <description><![CDATA[The talent show's finalists performed remotely instead of in the usual studio.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-52704579</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-52704579</guid>
-            <pubDate>Mon, 18 May 2020 10:16:45 GMT</pubDate>
+            <title><![CDATA[Miami riots 1980: My friend was killed by my colleagues]]></title>
+            <description><![CDATA[After four white policemen were acquitted of killing a black man, Miami descended into chaos in 1980.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-52736475</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-52736475</guid>
+            <pubDate>Wed, 20 May 2020 23:31:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Fasting for Ramadan on the front line]]></title>
-            <description><![CDATA[What's it like to fast for Ramadan as a healthcare worker during the coronavirus pandemic?]]></description>
-            <link>https://www.bbc.co.uk/news/health-52673433</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-52673433</guid>
-            <pubDate>Sun, 17 May 2020 23:07:10 GMT</pubDate>
+            <title><![CDATA[Harry Potter first edition found in skip sells for £33,000]]></title>
+            <description><![CDATA[An expert says the hardback Philosopher's Stone first edition is "the Holy Grail" for collectors.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-derbyshire-52757703</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-derbyshire-52757703</guid>
+            <pubDate>Thu, 21 May 2020 13:41:07 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Tears inside Milan’s quarantine hotel]]></title>
-            <description><![CDATA[Italy may be reopening shops, restaurants and hairdressers, but people here are still living in limbo.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-52589048</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52589048</guid>
-            <pubDate>Sun, 17 May 2020 23:04:54 GMT</pubDate>
+            <title><![CDATA[Lockdown: South African actors create a hit online soap opera]]></title>
+            <description><![CDATA[A group of South African actors in lockdown are making a hit online soap opera from their homes.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-52710052</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52710052</guid>
+            <pubDate>Wed, 20 May 2020 23:00:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Lockdown in a virus-hit migrant camp]]></title>
-            <description><![CDATA[An Afghan journalist and refugee locked down in one of Europe’s migrant camps looks at the conditions in Malakasa camp.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-52704340</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-52704340</guid>
-            <pubDate>Mon, 18 May 2020 12:23:04 GMT</pubDate>
+            <title><![CDATA[Coronavirus: The Bolivian orchestra stranded in a German castle]]></title>
+            <description><![CDATA[The young musicians have been in a moated castle in eastern Germany for 73 days after Bolivia closed its borders.]]></description>
+            <link>https://www.bbc.co.uk/news/the-reporters-52760380</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/the-reporters-52760380</guid>
+            <pubDate>Fri, 22 May 2020 00:02:11 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Michael Jordan: NBA legend's trainers sell for record $560,000]]></title>
-            <description><![CDATA[Basketball legend Michael Jordan's autographed trainers from 1985 sell for a record $560,000 (£463,000) in an online auction.]]></description>
-            <link>https://www.bbc.co.uk/sport/basketball/52701194</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/basketball/52701194</guid>
-            <pubDate>Sun, 17 May 2020 20:31:21 GMT</pubDate>
+            <title><![CDATA[Coronavirus: Is Latin America the next epicentre?]]></title>
+            <description><![CDATA[New cases have been rising sharply in Brazil and Mexico, along with other countries in the region.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-52711458</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-52711458</guid>
+            <pubDate>Fri, 22 May 2020 00:03:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Barack Obama and LeBron James congratulate US graduates]]></title>
-            <description><![CDATA[Many schools have had to cancel ceremonies, so famous faces have sent the students messages.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-52698978</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52698978</guid>
-            <pubDate>Sun, 17 May 2020 12:39:32 GMT</pubDate>
+            <title><![CDATA['We'd be taken more seriously if we were aggressive']]></title>
+            <description><![CDATA[They may be festival headliners, but LA sisters Haim say people underestimate them as a band.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-52736756</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-52736756</guid>
+            <pubDate>Fri, 22 May 2020 00:06:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: South Africans in massive queues for food parcels]]></title>
-            <description><![CDATA[Aerial footage shows thousands of people in snaking lines hoping to get supplies.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-52701571</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52701571</guid>
-            <pubDate>Sun, 17 May 2020 22:17:21 GMT</pubDate>
+            <title><![CDATA[Coronavirus sparks a sanitary pad crisis in India]]></title>
+            <description><![CDATA[Schools normally provide students with pads in a country where millions of women go without.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-52718434</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-52718434</guid>
+            <pubDate>Fri, 22 May 2020 00:21:45 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Burkina Faso unveils 'corrected' Thomas Sankara statue]]></title>
-            <description><![CDATA[A new monument to the African nationalist hero is unveiled after parts of the original "melted".]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-52704979</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52704979</guid>
-            <pubDate>Mon, 18 May 2020 12:02:12 GMT</pubDate>
+            <title><![CDATA[Get ready for the 'holy grail' of computer graphics]]></title>
+            <description><![CDATA[Ray tracing produces stunning lighting effects but has been too complex for computers, until now.]]></description>
+            <link>https://www.bbc.co.uk/news/business-52541218</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-52541218</guid>
+            <pubDate>Thu, 21 May 2020 23:13:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[One every eight minutes: India's missing children]]></title>
-            <description><![CDATA[Many of those who vanish are trafficked and exploited, but there's little public outrage.]]></description>
-            <link>https://www.bbc.co.uk/news/world-south-asia-52685559</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-south-asia-52685559</guid>
-            <pubDate>Sat, 16 May 2020 23:14:01 GMT</pubDate>
+            <title><![CDATA[Coronavirus: Sleepless nights for doctors in a war zone]]></title>
+            <description><![CDATA[People in Afghanistan dared to hope for peace, but they are now fighting both violence and the virus.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-52741433</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52741433</guid>
+            <pubDate>Wed, 20 May 2020 23:40:58 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Meet the baby orangutans learning to climb trees]]></title>
-            <description><![CDATA[Baby orangutans are learning new skills from their human surrogate parents.]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-52565566</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-52565566</guid>
-            <pubDate>Sun, 17 May 2020 08:07:42 GMT</pubDate>
+            <title><![CDATA[Coronavirus: What does it mean for natural disaster response?]]></title>
+            <description><![CDATA[How are emergency services preparing for natural disasters amid the coronavirus pandemic?]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-52539724</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52539724</guid>
+            <pubDate>Wed, 20 May 2020 20:00:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus splits couple from baby born through surrogacy 8,000 miles away]]></title>
-            <description><![CDATA[Flavia and José have not yet been able to meet their baby, born through surrogacy seven weeks ago.]]></description>
-            <link>https://www.bbc.co.uk/news/world-latin-america-52706228</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-52706228</guid>
-            <pubDate>Mon, 18 May 2020 23:24:48 GMT</pubDate>
+            <title><![CDATA[Doctor who raised concerns over PPE shortage admitted to mental hospital]]></title>
+            <description><![CDATA[The Andhra Pradesh medic was suspended after complaining about the lack of protective equipment.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-52719110</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-52719110</guid>
+            <pubDate>Thu, 21 May 2020 00:23:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Scott Morrison: How Australia's PM rebuilt his reputation]]></title>
-            <description><![CDATA[Scott Morrison - yelled at by the public during the bushfires - is enjoying a political resurrection]]></description>
-            <link>https://www.bbc.co.uk/news/world-australia-52703265</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-52703265</guid>
-            <pubDate>Tue, 19 May 2020 01:29:19 GMT</pubDate>
+            <title><![CDATA[Man Utd reveal £28m cost of coronavirus - and expect figure to rise]]></title>
+            <description><![CDATA[Manchester United say the coronavirus pandemic has cost them an initial £28m - and expect the final figure to be far higher.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52759246</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52759246</guid>
+            <pubDate>Thu, 21 May 2020 15:07:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Dark web scammers exploit Covid-19 fear and doubt]]></title>
-            <description><![CDATA[From miracle cures to co-ordinated hacking the dark web is a hive of coronavirus scamming.]]></description>
-            <link>https://www.bbc.co.uk/news/business-52577776</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-52577776</guid>
-            <pubDate>Mon, 18 May 2020 23:03:52 GMT</pubDate>
+            <title><![CDATA[Did Jordan go too far? Or was he a great leader? Amaechi and Syed debate]]></title>
+            <description><![CDATA[Former NBA player John Amaechi and journalist Matthew Syed debate on BBC Radio 5 Live whether Michael Jordan's leadership techniques in The Last Dance crossed the line.]]></description>
+            <link>https://www.bbc.co.uk/sport/basketball/52761540</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/basketball/52761540</guid>
+            <pubDate>Thu, 21 May 2020 18:03:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Burundi election: Nkurunziza set to become 'supreme guide']]></title>
-            <description><![CDATA[Burundi's president did everything to remain in power five years ago but is now stepping down - officially at least.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-52682171</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52682171</guid>
-            <pubDate>Mon, 18 May 2020 23:48:42 GMT</pubDate>
+            <title><![CDATA[Henry? Keane? Aguero? Drogba? Pick your combined title-winning XI]]></title>
+            <description><![CDATA[You have spent the last few days selecting your premier League-winning XIs from the clubs who have won it twice, now it's time to pick your ultimate combined XI.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52736459</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52736459</guid>
+            <pubDate>Fri, 22 May 2020 07:00:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Fang Fang: The Wuhan writer whose virus diary angered China]]></title>
-            <description><![CDATA[A controversial diary written during the early days of the pandemic has been translated into English.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-china-52712358</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-52712358</guid>
-            <pubDate>Mon, 18 May 2020 15:14:43 GMT</pubDate>
+            <title><![CDATA['Everyone is going to suffer' - how coronavirus has hit lower-league football]]></title>
+            <description><![CDATA[BBC Sport looks at the impact of coronavirus on lower league football clubs, players and fans, and how the game might recover.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52680375</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52680375</guid>
+            <pubDate>Fri, 22 May 2020 06:59:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: They grabbed my breasts and said, 'You're not a woman']]></title>
-            <description><![CDATA[Panama's lockdown allows men and women out on alternate days - but for trans people it's been tough.]]></description>
-            <link>https://www.bbc.co.uk/news/stories-52668174</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-52668174</guid>
-            <pubDate>Sun, 17 May 2020 23:19:37 GMT</pubDate>
+            <title><![CDATA[Virgil van Dijk: Vincent Kompany says Liverpool defender Premier League's best ever]]></title>
+            <description><![CDATA[Former Manchester City skipper Vincent Kompany tells Football Focus why he thinks Liverpool's Virgil van Dijk is the Premier League's best ever defender and a worthy title winner.]]></description>
+            <link>https://www.bbc.co.uk/sport/av/football/52764747</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/av/football/52764747</guid>
+            <pubDate>Fri, 22 May 2020 11:09:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Afghan maternity ward attack: The woman nursing the babies of murdered mothers]]></title>
-            <description><![CDATA[Firooza Omar volunteered to nurse newborns after a deadly attack on an Afghan maternity ward.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-52675705</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-52675705</guid>
-            <pubDate>Sun, 17 May 2020 23:45:33 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: Why Africans should take part in vaccine trials]]></title>
-            <description><![CDATA[Scientists in Africa explain that any trials would be properly regulated and so the scare stories should be ignored.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-52678741</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52678741</guid>
-            <pubDate>Sun, 17 May 2020 23:51:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: Health workers face violent attacks in Mexico]]></title>
-            <description><![CDATA[While in many countries doctors and nurses are being praised for their work on the coronavirus front line, in Mexico dozens have been attacked.]]></description>
-            <link>https://www.bbc.co.uk/news/world-latin-america-52676939</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-52676939</guid>
-            <pubDate>Sun, 17 May 2020 23:41:04 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Six positive coronavirus tests in Premier League]]></title>
-            <description><![CDATA[Three players and staff at Watford and Burnley's assistant manager Ian Woan are among six positive tests for coronavirus across three clubs.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/52726278</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52726278</guid>
-            <pubDate>Tue, 19 May 2020 22:45:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hudson-Odoi returns to Chelsea training after arrest]]></title>
-            <description><![CDATA[Chelsea winger Callum Hudson-Odoi returns to limited training on Tuesday following his arrest in the early hours of Sunday.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/52732763</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52732763</guid>
-            <pubDate>Tue, 19 May 2020 20:29:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[No British Grand Prix without quarantine exemptions]]></title>
-            <description><![CDATA[Formula 1 says it will be unable to hold a British Grand Prix if personnel are not given exemptions from plans to quarantine international travellers.]]></description>
-            <link>https://www.bbc.co.uk/sport/formula1/52723200</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/52723200</guid>
-            <pubDate>Tue, 19 May 2020 10:13:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Man City's appeal against Uefa ban set for June]]></title>
-            <description><![CDATA[Manchester City's appeal against a two-year ban from European club competition will begin on 8 June at the Court of Arbitration for Sport (Cas).]]></description>
-            <link>https://www.bbc.co.uk/sport/football/52685442</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52685442</guid>
-            <pubDate>Tue, 19 May 2020 14:43:20 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Burnley assistant Woan tests positive for Covid-19]]></title>
-            <description><![CDATA[Burnley confirm their assistant manager Ian Woan was among six positive tests for coronavirus across three Premier League clubs.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/52732281</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52732281</guid>
-            <pubDate>Tue, 19 May 2020 20:02:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Wednesday's gossip: Sane not interested in Liverpool move]]></title>
-            <description><![CDATA[Manchester City's Sane not interested in Liverpool move, Manchester United target Traore, Spurs' Vertonghen offered Betis deal, plus more.]]></description>
-            <link>https://www.bbc.co.uk/sport/52732024</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/52732024</guid>
-            <pubDate>Tue, 19 May 2020 21:20:39 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Quiz: How well do you know the cricket world rankings?]]></title>
-            <description><![CDATA[Can you name the best Test, ODI and T20 teams in the world? And what about the leading players in each format?]]></description>
-            <link>https://www.bbc.co.uk/sport/cricket/52489074</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/52489074</guid>
-            <pubDate>Tue, 19 May 2020 09:53:44 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Does chloroquine work against coronavirus?]]></title>
-            <description><![CDATA[President Trump says he takes the drug as a preventative measure. But what do we know about its effectiveness?]]></description>
-            <link>https://www.bbc.co.uk/news/51980731</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/51980731</guid>
-            <pubDate>Tue, 19 May 2020 14:54:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: What are President Trump's charges against the WHO?]]></title>
-            <description><![CDATA[The World Health Organization rejects US criticism it mishandled the early days of the coronavirus outbreak.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-52294623</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52294623</guid>
-            <pubDate>Tue, 19 May 2020 15:16:11 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: What's the risk on public transport?]]></title>
-            <description><![CDATA[Bus and train operators are reducing services and increasing cleaning.]]></description>
-            <link>https://www.bbc.co.uk/news/health-51736185</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-51736185</guid>
-            <pubDate>Mon, 18 May 2020 14:29:52 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tracking the outbreak in maps and charts]]></title>
-            <description><![CDATA[Key maps and charts explaining how the respiratory virus has spread around the world and how it is being dealt with.]]></description>
-            <link>https://www.bbc.co.uk/news/world-51235105</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-51235105</guid>
-            <pubDate>Tue, 19 May 2020 17:02:05 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: How long does it take to recover?]]></title>
-            <description><![CDATA[Recovery from Covid-19 can be a lengthy process, depending on how seriously people get the virus.]]></description>
-            <link>https://www.bbc.co.uk/news/health-52301633</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-52301633</guid>
-            <pubDate>Fri, 01 May 2020 11:14:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[New York Governor Andrew Cuomo takes coronavirus test live on TV]]></title>
-            <description><![CDATA[Andrew Cuomo says "there is nothing about the test that should intimidate people" into not taking it.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-52700344</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52700344</guid>
-            <pubDate>Sun, 17 May 2020 17:24:30 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: South Africa's alcohol and cigarette lockdown]]></title>
-            <description><![CDATA[In South Africa, illegal sellers are defying the prohibition on buying alcohol and cigarettes.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-52684781</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-52684781</guid>
-            <pubDate>Sat, 16 May 2020 23:07:43 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: Can China test all of Wuhan in only 10 days?]]></title>
-            <description><![CDATA[Officials vowed to test all 11 million Wuhan residents in 10 days, but it appears they need longer.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-china-52651651</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-52651651</guid>
-            <pubDate>Fri, 15 May 2020 09:27:14 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Aarogya Setu: Why India's Covid-19 contact tracing app is controversial]]></title>
-            <description><![CDATA[Aarogya Setu, India's contact tracing app, has crossed 100 million downloads, but has raised concerns.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-india-52659520</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-52659520</guid>
-            <pubDate>Thu, 14 May 2020 23:56:48 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Coronavirus: Why 'shark attacks' won’t go down as Covid deaths]]></title>
-            <description><![CDATA[Infowars claims about testing, the viral body bag video in Brazil and other claims fact-checked.]]></description>
-            <link>https://www.bbc.co.uk/news/52665099</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/52665099</guid>
-            <pubDate>Fri, 15 May 2020 23:39:39 GMT</pubDate>
+            <title><![CDATA['Welcome, erm, Jaap Stam?' - FC Cincinnati use wrong photo in new manager tweet]]></title>
+            <description><![CDATA[Jaap Stam is the new FC Cincinnati manager, but the MLS club used a photo of someone else on social media to announce his arrival.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/52767875</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/52767875</guid>
+            <pubDate>Fri, 22 May 2020 09:23:17 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Plinofficial: Russian rapper who loved dollars arrested by FBI]]></title>
@@ -427,13 +294,6 @@
             <link>https://www.bbc.co.uk/news/world-us-canada-52671381</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-52671381</guid>
             <pubDate>Sat, 16 May 2020 23:42:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The Uber driver evicted from home and left to die of coronavirus]]></title>
-            <description><![CDATA[Rajesh Jayaseelan found himself homeless and sick in London with Covid-19. His widow tells his story.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-52413431</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-52413431</guid>
-            <pubDate>Mon, 27 Apr 2020 23:14:51 GMT</pubDate>
         </item>
     </channel>
 </rss>

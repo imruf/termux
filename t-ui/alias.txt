@@ -1,61 +1,65 @@
 #tui
-cc=clear
 2=restart
 5=refresh
-nc=su -c "service call notification 1"
-pn=ping -c 3 google.com
+cc=clear
 myip=ifconfig
-rssu=rss -l %
 note=notes -add %
 notedl=notes -rm %
+pn=ping -c 3 google.com
+rssu=rss -l %
 
 #apps
-k=Keep Notes
+0=Calc+
+1=1.1.1.1
 b=Browser NBPro
+cam=Camera
+def=ColorDict
 e=Moon+ Reader
 eb=EBookDroid
+fd=F-Droid
+g=Gallery
+gs=Open Sudoku
+k=Keep Notes
+m=Vinyl
+ps=Play Store
+pt=Periodic Table
+s=Settings
 t=Termux
+v=mpv
+vt=VpnTether
 x=X-plore
 y=YouTube Vanced
-m=Vinyl
-v=mpv
-s=Settings
-g=Gallery
-cam=Camera
-ps=Play Store
-0=Calc+
-vt=VpnTether
-1=1.1.1.1
 
 #Call
 aaa=call aaa
 
 #network
-dy=su -c "svc data enable"
-dn=su -c "svc data disable"
-wy=su -c "svc wifi enable"
-wn=su -c "svc wifi disable"
-by=su -c "service call bluetooth_manager 6"
-bn=su -c "service call bluetooth_manager 8"
-ay=su -c "settings put global airplane_mode_on 1 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
 an=su -c "settings put global airplane_mode_on 0 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
+ay=su -c "settings put global airplane_mode_on 1 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
+bn=su -c "service call bluetooth_manager 8"
+by=su -c "service call bluetooth_manager 6"
+dn=su -c "svc data disable"
+dy=su -c "svc data enable"
+wn=su -c "svc wifi disable"
+wy=su -c "svc wifi enable"
 
 #device
-ry=su -c "settings put system accelerometer_rotation 1"
-rn=su -c "settings put system accelerometer_rotation 0"
-bsy=su -c "settings put global low_power 1"
 bsn=su -c "settings put global low_power 0"
+bsy=su -c "settings put global low_power 1"
 poff=su -c "svc power shutdown"
-rsys=su -c "svc power reboot"
+rn=su -c "settings put system accelerometer_rotation 0"
+ry=su -c "settings put system accelerometer_rotation 1"
 rrec=su -c "svc power reboot recovery"
+rsys=su -c "svc power reboot"
 
 #Status
+nc=su -c "service call notification 1"
 sb=su -c "service call statusbar 1"
 #im=su -c settings put global policy_control immersive.status=*
 #imo=su -c settings put global policy_control null*
 
 #media
-mn=su -c "input keyevent KEYCODE_MEDIA_NEXT"
 mb=su -c "input keyevent KEYCODE_MEDIA_PREVIOUS"
+mn=su -c "input keyevent KEYCODE_MEDIA_NEXT"
 mp=su -c "input keyevent KEYCODE_MEDIA_PAUSE"
 ms=su -c "input keyevent KEYCODE_MEDIA_STOP"
