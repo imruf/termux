@@ -3,4 +3,5 @@ image/jpeg; curl -o 1.jpeg '%s' && xdg-open 1.jpeg; needsterminal;
 image/png; curl -o 1.png '%s' && xdg-open 1.png; needsterminal;
 image/gif; curl -o 1.gif '%s' && xdg-open 1.gif; needsterminal;
 video/mp4; xdg-open '%s'; needsterminal;
-video/*; rm -rf 1.mp4 && youtube-dl '%s' && xdg-open 1.mp4; needsterminal; 
+video/*; rm -rf 1*; youtube-dl '%s'; xdg-open 1*; needsterminal; 
+#video/*; rm -rf 1.mp4 && youtube-dl '%s' && xdg-open 1.mp4; needsterminal; 

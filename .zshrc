@@ -33,6 +33,7 @@ alias cdetc="cd $PREFIX/etc/"
 alias cdbin="cd $PREFIX/bin/"
 alias cdshare="cd $PREFIX/share/"
 alias cdd="cd ~/storage/downloads/"
+alias cdtui="cd ~/storage/shared/t-ui"
 
 #termux-api
 alias tb="termux-brightness"
@@ -81,6 +82,14 @@ alias gitca='git commit -a'
 alias gita='git add'
 alias gits='git status'
 
+#Game
+#alias doku='nudoku'
+alias tet='tetris'
+alias mine='cd ~/games/mines; ./mines 16x30x99; cd'
+alias frcl='cd ~/games/sol; ./freecell; cd'
+alias sol='cd ~/games/sol; ./sol; cd'
+alias spider='cd ~/games/sol; ./spider; cd'
+
 #SSH
 alias fst='sshd'
 alias fsts='pkill sshd'
@@ -119,6 +128,10 @@ tsmdel() { transmission-remote -t"$1" --remove ;}		# leaves data alone
 tsminfo() { transmission-remote -t"$1" --info ;} #info
 tsmspeed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
 
+#tfx-pfx
+alias pfx='peerflix -k -f /home/masud/Videos/ptfx'
+alias tfx='torrentflix'
+
 #MIS
 alias wget="wget -c"
 alias weather='curl wttr.in/khagrachari'
@@ -128,6 +141,8 @@ alias math="mathomatic"
 alias rit="rtv"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
 alias nnn='nnn -d'
+alias el='elinks'
+alias def='sdcv'
 alias covid='curl https://corona-stats.online?source=2'
 
 #radio
