@@ -143,6 +143,7 @@ alias calc='python -ic "from __future__ import division; from math import *; fro
 alias nnn='nnn -d'
 alias el='elinks'
 alias def='sdcv'
+alias keep='keepcli'
 alias covid='curl https://corona-stats.online?source=2'
 
 #radio
