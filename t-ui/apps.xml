@@ -6,4 +6,5 @@
 <default_app_n4 value="most_used"/>
 <default_app_n5 value="com.android.vending"/>
 <app_groups_sorting value="2"/>
+<stericson.busybox-stericson.busybox.activity.MainActivity show="false"/>
 </APPS>

@@ -10,7 +10,6 @@ rssu=rss -l %
 
 #apps
 0=Calc+
-1=1.1.1.1
 b=Browser NBPro
 cam=Camera
 d=ColorDict
@@ -18,15 +17,14 @@ e=Moon+ Reader
 eb=EBookDroid
 fd=F-Droid
 g=Gallery
-gs=Open Sudoku
-k=Keep Notes
 m=Vinyl
-ps=Play Store
+o=Orbot
+p=Phone
+ps=Aurora Store
 pt=Periodic Table
 s=Settings
 t=Termux
 v=mpv
-vt=VpnTether
 x=X-plore
 y=YouTube Vanced
 

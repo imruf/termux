@@ -9,9 +9,6 @@
 <rss_download_format value="RSS: %id --- Downloaded %sb bytes"/>
 <rss_download_message_color value="maroon"/>
 <click_rss value="true"/>
-<rss id="1" updateTimeSec="86400" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1590408678000" lastChecked="1590495337904"/>
-<rss id="2" updateTimeSec="86400" show="true" url="http://rss.cnn.com/rss/editon_world.rss" lastShownItem="1589632844000" lastChecked="1590495337889"/>
-<rss id="3" updateTimeSec="86400" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1589684911000" lastChecked="1590495390004"/>
-<rss id="4" updateTimeSec="86400" show="true" url="https://www.archlinux.org/feeds/news/" lastShownItem="1586881830000" lastChecked="1590495338712"/>
+
 
 </RSS>
