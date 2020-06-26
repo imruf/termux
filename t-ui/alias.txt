@@ -3,34 +3,41 @@
 5=refresh
 cc=clear
 myip=ifconfig
-note=notes -add %
-notedl=notes -rm %
+at=notes -add %
+dt=notes -rm %
 pn=ping -c 3 google.com
-rssu=rss -l %
 
 #apps
 0=Calc+
+as=Aurora Store
 b=Browser NBPro
-cam=Camera
-d=ColorDict
+c=Camera
 e=Moon+ Reader
 eb=EBookDroid
 fd=F-Droid
 g=Gallery
 m=Vinyl
 o=Orbot
-p=Phone
-ps=Aurora Store
 pt=Periodic Table
 s=Settings
 t=Termux
 v=mpv
+w=ColorDict
 x=X-plore
 y=YouTube Vanced
 
 #Call
 aaa=call aaa
 c=Contacts
+d=call %
+p=Phone
+
+#Search
+ddg=search -dd %
+gg=search %
+gt=search -u %
+sp=search -u https://startpage.com/do/search?query=%
+yt=search -yt %
 
 #network
 an=su -c "settings put global airplane_mode_on 0 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"

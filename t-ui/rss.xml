@@ -10,5 +10,5 @@
 <rss_download_message_color value="maroon"/>
 <click_rss value="true"/>
 
-
+<rss id="1" updateTimeSec="3600" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1593176975000" lastChecked="1593177403995"/>
 </RSS>

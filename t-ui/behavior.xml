@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BEHAVIOR>
-<double_tap_lock value="true"/>
+<double_tap_lock value="false"/>
 <double_tap_cmd value=""/>
 <random_play value="true"/>
 <songs_folder value="/sdcard/Music"/>
@@ -11,7 +11,7 @@
 <show_hints value="false"/>
 <show_alias_content value="false"/>
 <show_launch_history value="false"/>
-<clear_after_cmds value="-1"/>
+<clear_after_cmds value="5"/>
 <clear_after_seconds value="-1"/>
 <max_lines value="-1"/>
 <time_format value=" HH:mm  EEE,d MMM"/>
@@ -22,7 +22,7 @@
 <ram_format value=" %avgb/%totgb "/>
 <battery_format value="%( / )%v% "/>
 <storage_format value=" %iavgb/%itotgb"/>
-<network_info_format value="%( %wn/%[ %dt/ 📡])"/>
+<network_info_format value="%( %wn/%[ lte %d2/ 📡])"/>
 <input_format value="%p %i"/>
 <output_format value="%o"/>
 <session_info_format value="[%u@%d]:%p"/>
@@ -53,7 +53,7 @@
 <long_click_commands value="true"/>
 <append_quote_before_file value="false"/>
 <optional_values_separator value="/"/>
-<notes_sorting value="0"/>
+<notes_sorting value="1"/>
 <notes_allow_link value="true"/>
 <orientation value="1"/>
 <htmlextractor_default_format value="%t -&gt; %v%n%a(%an = %av)(%n)"/>

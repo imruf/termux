@@ -12,4 +12,6 @@
 <android enabled="false"/>
 <filter id="-1" value="%app: Termux%n0 sessions"/>
 <ch.protonvpn.android enabled="false"/>
+<filter id="-1" value="%app: Orbot%n0kbps ↓ / 1kbps ↑"/>
+<org.torproject.android enabled="false"/>
 </NOTIFICATIONS>
