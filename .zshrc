@@ -1,3 +1,7 @@
+#autoload -U colors && colors    # Load colors
+
+#PS1="%F{#8e388e}% ~ %F{#586e75}$%b "
+
 #EXPORT
 export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
 # export LANG=en_US.UTF-8
@@ -85,7 +89,6 @@ alias gits='git status'
 #Game
 #alias doku='nudoku'
 alias tet='tetris'
-alias mine='cd ~/games/mines; ./mines 16x30x99; cd'
 alias frcl='cd ~/games/sol; ./freecell; cd'
 alias sol='cd ~/games/sol; ./sol; cd'
 alias spider='cd ~/games/sol; ./spider; cd'
@@ -136,15 +139,16 @@ alias tfx='torrentflix'
 alias wget="wget -c"
 alias weather='curl wttr.in/khagrachari'
 alias updb="updatedb"
-alias q="exit"
 alias math="mathomatic"
-alias rit="rtv"
 alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
+alias c2='units'
+alias rit="rtv"
 alias nnn='nnn -d'
 alias el='elinks'
 alias def='sdcv'
 alias keep='keepcli'
 alias covid='curl https://corona-stats.online?source=2'
+alias q="exit"
 
 #radio
 alias bbcb='mpv http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-benga_backup'
