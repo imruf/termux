@@ -2,21 +2,21 @@
 2=restart
 5=refresh
 cc=clear
+at=echo "%" >> notes.md
 myip=ifconfig
-at=notes -add %
-dt=notes -rm %
-wt=echo "%" >> notes.md
-ct=echo "%" > notes.md
+na=notes -add %
+nd=notes -rm %
+nt=echo "%" > notes.md
 pn=ping -c 3 google.com
 rssu=rss -l %
 
 #apps
 0=Calc+
 b=Browser NBPro
+be=Moon+ Reader
+bp=EBookDroid
 c=Camera
 d=ColorDict
-e=Moon+ Reader
-eb=EBookDroid
 fd=F-Droid
 g=Gallery
 k=Keep Notes
@@ -38,8 +38,9 @@ h=call %
 p=Phone
 
 #Search
+ss=search %
 ddg=search -dd %
-gg=search %
+gg=search -gg %
 gt=search -u %
 sp=search -u https://startpage.com/do/search?query=%
 sps=search -ps %
