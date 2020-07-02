@@ -10,5 +10,7 @@
 <rss_download_message_color value="maroon"/>
 <click_rss value="true"/>
 
-<rss id="1" updateTimeSec="3600" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1593176975000" lastChecked="1593177403995"/>
+<rss id="1" updateTimeSec="3600" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1593668478000" lastChecked="1593669535983"/>
+<rss id="2" updateTimeSec="86400" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1593383805000" lastChecked="1593585953932"/>
+<rss id="3" updateTimeSec="86400" show="true" url="https://feeds.feedburner.com/amarboi" lastChecked="1593586057078" entryTag="entry"/>
 </RSS>

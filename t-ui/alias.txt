@@ -5,31 +5,36 @@ cc=clear
 myip=ifconfig
 at=notes -add %
 dt=notes -rm %
+wt=echo "%" >> notes.md
+ct=echo "%" > notes.md
 pn=ping -c 3 google.com
+rssu=rss -l %
 
 #apps
 0=Calc+
-as=Aurora Store
 b=Browser NBPro
 c=Camera
+d=ColorDict
 e=Moon+ Reader
 eb=EBookDroid
 fd=F-Droid
 g=Gallery
+k=Keep Notes
 m=Vinyl
 o=Orbot
+ps=Play Store
 pt=Periodic Table
 s=Settings
 t=Termux
 v=mpv
-w=ColorDict
 x=X-plore
 y=YouTube Vanced
 
 #Call
+10gb=call *111*97#
 aaa=call aaa
 c=Contacts
-d=call %
+h=call %
 p=Phone
 
 #Search
@@ -37,6 +42,7 @@ ddg=search -dd %
 gg=search %
 gt=search -u %
 sp=search -u https://startpage.com/do/search?query=%
+sps=search -ps %
 yt=search -yt %
 
 #network

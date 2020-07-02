@@ -3,13 +3,13 @@
            <alias_bg_color value="#000000"/>
            <alias_text_color value="#bbbbbb"/>
            <apps_bg_color value="#000000"/>
-           <apps_text_color value="#bf616a"/>
+           <apps_text_color value="cyan"/>
            <cmd_bg_color value="#000000"/>
            <cmd_text_color value="#bbbbbb"/>
            <contact_bg_color value="#000000"/>
            <contact_text_color value="#bbbbbb"/>
            <default_bg_color value="#000000"/>
-           <default_text_color value="#bf616a"/>
+           <default_text_color value="cyan"/>
            <enabled value="true"/>
            <file_bg_color value="#000000"/>
            <file_text_color value="#bbbbbb"/>

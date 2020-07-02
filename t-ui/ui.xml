@@ -39,7 +39,7 @@
 <show_app_installed value="true"/>
 <show_app_uninstalled value="true"/>
 <show_session_info value="true"/>
-<notes_header value="%(-- 📰 -- # %c%n/)"/>
+<notes_header value="%(-- &#55357;&#56560; -- # %c%n/)"/>
 <notes_footer value="%(%n -- -- --/)"/>
 <notes_divider value="%n"/>
 <show_restart_message value="true"/>

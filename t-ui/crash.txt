@@ -1,10 +1,13 @@
 
 
 java.net.SocketTimeoutException: timeout
-	at okhttp3.internal.e.i$c.a(Unknown Source:4)
-	at okhttp3.internal.e.i$c.b(Unknown Source:8)
-	at okhttp3.internal.e.i.d(Unknown Source:26)
-	at okhttp3.internal.e.f.a(Unknown Source:2)
+	at c.l$4.a(Unknown Source:4)
+	at c.a.b(Unknown Source:7)
+	at c.a$2.a(Unknown Source:23)
+	at c.n.a(Unknown Source:48)
+	at c.n.e(Unknown Source:27)
+	at okhttp3.internal.d.a.f(Unknown Source:4)
+	at okhttp3.internal.d.a.a(Unknown Source:34)
 	at okhttp3.internal.c.b.a(Unknown Source:183)
 	at okhttp3.internal.c.g.a(Unknown Source:157)
 	at okhttp3.internal.b.a.a(Unknown Source:33)
@@ -21,5 +24,11 @@ java.net.SocketTimeoutException: timeout
 	at okhttp3.x.f(Unknown Source:115)
 	at okhttp3.x.a(Unknown Source:26)
 	at ohi.andre.consolelauncher.managers.j$3.run(Unknown Source:59)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:144)
+	at c.l$2.a(Unknown Source:37)
+	at c.a$2.a(Unknown Source:7)
+	... 20 more
 
 ----------------------------

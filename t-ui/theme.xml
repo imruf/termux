@@ -24,8 +24,8 @@
 <hint_color value="#8bc34a"/>
 <mark_color value="#CDDC39"/>
 <notes_color value="#4caf50"/>
-<notes_locked_color value="#3D5AFE"/>
-<link_color value="#0000EE"/>
+<notes_locked_color value="cyan"/>
+<link_color value="cyan"/>
 <restart_message_color value="#ffffffff"/>
 <weather_color value="#87ceff"/>
 <unlock_counter_color value="#ffff9800"/>
