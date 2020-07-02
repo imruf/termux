@@ -2,13 +2,24 @@
 2=restart
 5=refresh
 cc=clear
-at=echo "%" >> notes.md
 myip=ifconfig
+pn=ping -c 3 google.com
+rssu=rss -l %
+
+#notes
+at=echo "%" >> notes.md
 na=notes -add %
 nd=notes -rm %
 nt=echo "%" > notes.md
-pn=ping -c 3 google.com
-rssu=rss -l %
+
+#Search
+ddg=search -dd %
+gg=search -gg %
+sp=search -u https://startpage.com/do/search?query=%
+sps=search -ps %
+ss=search %
+u=search -u %
+yt=search -yt %
 
 #apps
 0=Calc+
@@ -36,15 +47,6 @@ aaa=call aaa
 c=Contacts
 h=call %
 p=Phone
-
-#Search
-ss=search %
-ddg=search -dd %
-gg=search -gg %
-gt=search -u %
-sp=search -u https://startpage.com/do/search?query=%
-sps=search -ps %
-yt=search -yt %
 
 #network
 an=su -c "settings put global airplane_mode_on 0 && su -c am broadcast -a android.intent.action.AIRPLANE_MODE"
