@@ -13,15 +13,15 @@ rssu=rss -l %
 #apps
 0=Calc+
 b=Browser NBPro
-be=Moon+ Reader
-bp=EBookDroid
 c=Camera
 d=ColorDict
+eb=Moon+ Reader
 fd=F-Droid
 g=Gallery
 k=Keep Notes
 m=Vinyl
 o=Orbot
+pb=EBookDroid
 ps=Play Store
 pt=Periodic Table
 s=Settings
