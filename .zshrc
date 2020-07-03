@@ -70,6 +70,7 @@ alias ytd-best="youtube-dl -f bestvideo+bestaudio "
 alias ytd='youtube-dl'
 alias ytdF='youtube-dl -F'
 alias ytdf='youtube-dl -f'
+alias ytdic='youtube-dl --ignore-config'
 alias ytv='youtube-viewer -C'
 
 #MUTT

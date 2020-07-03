@@ -7,10 +7,11 @@ pn=ping -c 3 google.com
 rssu=rss -l %
 
 #notes
-at=echo "%" >> notes.md
-na=notes -add %
-nd=notes -rm %
-nt=echo "%" > notes.md
+at=notes -add %
+ct=echo "%" > notes.md
+dt=notes -rm %
+sn=cat notes.md
+wt=echo "%" >> notes.md
 
 #Search
 ddg=search -dd %

@@ -12,7 +12,7 @@
 	<atom:link href="https://blog.mukto-mona.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://blog.mukto-mona.com</link>
 	<description>বিজ্ঞান, যুক্তি, মুক্তচিন্তা</description>
-	<lastBuildDate>Sun, 28 Jun 2020 22:36:45 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 01 Jul 2020 21:33:42 +0000</lastBuildDate>
 	<language>bn-BD</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,25 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>বলা হয়নি যে সত্য: মৌরিতানিয়ার দাসত্ব</title>
+		<link>https://blog.mukto-mona.com/2020/07/02/56213/</link>
+					<comments>https://blog.mukto-mona.com/2020/07/02/56213/#respond</comments>
+		
+		<dc:creator><![CDATA[সুব্রত শুভ]]></dc:creator>
+		<pubDate>Wed, 01 Jul 2020 18:47:40 +0000</pubDate>
+				<category><![CDATA[অনুবাদ]]></category>
+		<category><![CDATA[ইতিহাস]]></category>
+		<category><![CDATA[অনুবাদ প্রচেষ্টা]]></category>
+		<guid isPermaLink="false">https://blog.mukto-mona.com/?p=56213</guid>
+
+					<description><![CDATA[বর্তমান পৃথিবীতে দাসপ্রথা অবৈধ হলেও পৃথিবীর বিভিন্ন দেশে এখনো দাস প্রথা চালু আছে। কোথাও ভিন্ন চরিত্র, কোথাও ভিন্ন আঙ্গিকে, কোথাও অতীতের মতন একই পদ্ধতিতে। ‘গ্লোবাল স্লেভারি ইনডেক্স’এ দাসপ্রথার ওপর বিশদ অনুসন্ধান চালিয়েছে । তাদের মতে, বিশ্বে অন্তত সাড়ে চার কোটি (৪৫ মিলিয়ন) মানুষ দাসত্ব শৃঙ্খলের আবর্তে আবদ্ধ। এরা হলো দাস শ্রমিক, শিশু শ্রমিক, শিশু বিবাহের [...]]]></description>
+		
+					<wfw:commentRss>https://blog.mukto-mona.com/2020/07/02/56213/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>দাসত্বের সংক্ষিপ্ত ইতিহাস: প্রথম পর্ব</title>
 		<link>https://blog.mukto-mona.com/2020/06/29/56202/</link>
 					<comments>https://blog.mukto-mona.com/2020/06/29/56202/#respond</comments>
@@ -206,7 +225,7 @@
 					<description><![CDATA[লিখেছেন: খান ওয়াহিদুজ্জামান অনন্ত বিজয় দাশ ও "যুক্তি" ছোট কাগজের প্রথম সংখ্যার সাথে আমার কিছু স্মৃতি জড়িয়ে আছে - বছর ছয়েক আগে একটা ও বছর দুয়েক আগে একটা - মোট দুইটা স্মৃতিচারণ লিখেছিলাম সেই স্মৃতি নিয়া - কিন্তু সেই লেখাগুলো এখন কোথায় আছে কে জানে !! তাই আজ আবার নতুন করে লিখতে বসলাম - যাইহোক [...]]]></description>
 		
 					<wfw:commentRss>https://blog.mukto-mona.com/2020/05/13/56082/feed/</wfw:commentRss>
-			<slash:comments>16</slash:comments>
+			<slash:comments>17</slash:comments>
 		
 		
 			</item>
@@ -372,29 +391,6 @@
 		
 					<wfw:commentRss>https://blog.mukto-mona.com/2020/05/01/56006/feed/</wfw:commentRss>
 			<slash:comments>4</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>সবচাইতে বড় সংকট ভাইরাসটি নয় &#8211; কভিড-১৯ প্রসঙ্গে ইয়ুভাল নোয়াহ হারারি</title>
-		<link>https://blog.mukto-mona.com/2020/04/29/55979/</link>
-					<comments>https://blog.mukto-mona.com/2020/04/29/55979/#comments</comments>
-		
-		<dc:creator><![CDATA[ম্যাক্স ইথার]]></dc:creator>
-		<pubDate>Wed, 29 Apr 2020 16:53:29 +0000</pubDate>
-				<category><![CDATA[অনুবাদ]]></category>
-		<category><![CDATA[জীববিজ্ঞান]]></category>
-		<category><![CDATA[প্রযুক্তি]]></category>
-		<category><![CDATA[বিজ্ঞান]]></category>
-		<category><![CDATA[Corona]]></category>
-		<category><![CDATA[Covid]]></category>
-		<category><![CDATA[Virus]]></category>
-		<guid isPermaLink="false">https://blog.mukto-mona.com/?p=55979</guid>
-
-					<description><![CDATA[সংকট অনেক সময় একটা সমাজের জন্য একটা টার্নিং পয়েন্ট হতে পারে। আমরা এখন কোনদিকে টার্ন নেবো? প্রফেসর ইয়ুভাল নোয়াহ হারারি, ব্যাখ্যা করছেন কিভাবে করোনা ভাইরাস নিয়ে আজকের সিদ্ধান্তগুলো আমাদের ভবিষ্যৎ বদলে দেবে। প্রসঙ্গত হারারি’র কোম্পানি বিশ্ব স্বাস্থ্য সংস্থাকে ১ মিলিয়ন ডলার অর্থ সহায়তা প্রদান করেছে। সম্প্রতি তিনি জার্মান সংবাদমাধ্যম ডয়চে ভেলেকে একটি সাক্ষাতকার দিয়েছেন। সাক্ষাত্কারটি [...]]]></description>
-		
-					<wfw:commentRss>https://blog.mukto-mona.com/2020/04/29/55979/feed/</wfw:commentRss>
-			<slash:comments>6</slash:comments>
 		
 		
 			</item>
