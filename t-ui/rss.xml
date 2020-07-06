@@ -10,7 +10,7 @@
 <rss_download_message_color value="maroon"/>
 <click_rss value="true"/>
 
-<rss id="1" updateTimeSec="3600" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1593799070000" lastChecked="1593800201061"/>
-<rss id="2" updateTimeSec="86400" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1593629260000" lastChecked="1593759800279"/>
-<rss id="3" updateTimeSec="86400" show="true" url="https://feeds.feedburner.com/amarboi" lastChecked="1593759797080" entryTag="entry" timeFormat="YYYY-MMM-dd HH:mm:ssZZZZZ"/>
+<rss id="1" updateTimeSec="3600" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1594042649000" lastChecked="1594042948766"/>
+<rss id="2" updateTimeSec="86400" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1593784823000" lastChecked="1594019025880"/>
+<rss id="3" updateTimeSec="86400" show="true" url="https://feeds.feedburner.com/amarboi" lastChecked="1594019023992" entryTag="entry" timeFormat="YYYY-MMM-dd HH:mm:ssZZZZZ"/>
 </RSS>

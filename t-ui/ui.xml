@@ -29,8 +29,8 @@
 <time_index value="2"/>
 <ram_index value="3"/>
 <storage_index value="3"/>
-<weather_index value=""/>
-<notes_index value="4"/>
+<weather_index value="4"/>
+<notes_index value="5"/>
 <status_lines_alignment value="0,-1,-1,-1,-1,-1,-1,-1,-1"/>
 <input_prefix value="$"/>
 <input_root_prefix value="#"/>
@@ -45,7 +45,7 @@
 <show_restart_message value="true"/>
 <notes_max_lines value="5"/>
 <show_scroll_notes_message value="false"/>
-<show_weather value="false"/>
+<show_weather value="true"/>
 <weather_size value="13"/>
 <show_unlock_counter value="false"/>
 <unlock_index value=""/>
