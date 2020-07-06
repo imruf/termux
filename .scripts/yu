@@ -1,0 +1,4 @@
+#!/bin/sh
+
+url="$*"
+youtube-dl "$url"; termux-open 1.mp4
