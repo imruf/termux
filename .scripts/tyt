@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+url="$*"
+
+echo "Fetching..."
+youtube-dl -F "$url"
+read -p "Enter Code: " FORMAT
+
+echo "Streaming..."
+xdg-open $(youtube-dl -f $FORMAT -g "$url")
