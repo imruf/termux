@@ -22,7 +22,7 @@
 <ram_format value=" %avgb/%totgb "/>
 <battery_format value="%( / )%v% "/>
 <storage_format value=" %iavgb/%itotgb"/>
-<network_info_format value="%( %wn/%[ lte %d2/ 📡])"/>
+<network_info_format value="%( %w2/%[ lte %d2/ 📡])"/>
 <input_format value="%p %i"/>
 <output_format value="%o"/>
 <session_info_format value="[%u@%d]:%p"/>
@@ -48,7 +48,7 @@
 <tui_notification_lastcmds_updown value="true"/>
 <tui_notification_priority value="0"/>
 <long_click_vibration_duration value="100"/>
-<long_click_duration value="350"/>
+<long_click_duration value="450"/>
 <click_commands value="true"/>
 <long_click_commands value="true"/>
 <append_quote_before_file value="false"/>
@@ -71,8 +71,8 @@
 <unlock_counter_cycle_start value="6.00"/>
 <not_available_text value="n/a"/>
 <back_button_enabled value="true"/>
-<weather_update_time value="3600"/>
-<location_update_mintime value="20"/>
-<location_update_mindistance value="500"/>
+<weather_update_time value="10800"/>
+<location_update_mintime value="43200"/>
+<location_update_mindistance value="5000000000"/>
 <show_weather_updates value="false"/>
 </BEHAVIOR>

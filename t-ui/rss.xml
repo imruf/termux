@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RSS>
-<rss_default_color value="#ff9912"/>
-<rss_default_format value="%[50][#cd950c]title ### %[100][#bd93f9]description (%pubDate)"/>
+<rss_default_color value="olive"/>
+<rss_default_format value="%[50][silver]title ### %[100][teal]description (%pubDate)"/>
 <include_rss_default value="true"/>
 <rss_hidden_tags value="img"/>
 <rss_time_format value="%t0"/>
-<show_rss_download value="false"/>
+<show_rss_download value="true"/>
 <rss_download_format value="RSS: %id --- Downloaded %sb bytes"/>
-<rss_download_message_color value="maroon"/>
+<rss_download_message_color value="aqua"/>
 <click_rss value="true"/>
+<rss id="1" updateTimeSec="7200" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1595054463000" lastChecked="1595057239561"/>
 
-<rss id="1" updateTimeSec="3600" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1594042649000" lastChecked="1594042948766"/>
-<rss id="2" updateTimeSec="86400" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1593784823000" lastChecked="1594019025880"/>
-<rss id="3" updateTimeSec="86400" show="true" url="https://feeds.feedburner.com/amarboi" lastChecked="1594019023992" entryTag="entry" timeFormat="YYYY-MMM-dd HH:mm:ssZZZZZ"/>
 </RSS>

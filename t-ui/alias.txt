@@ -4,7 +4,12 @@
 cc=clear
 myip=ifconfig
 pn=ping -c 3 google.com
+
+#rss
 rssu=rss -l %
+rsspub=rss -date_tag % updated
+rssen=rss -entry_tag % entry
+rsstime=rss -time_format % YYYY-MMM-dd'T'HH:mm:ssZZZZZ
 
 #notes
 at=notes -add %
@@ -14,16 +19,24 @@ sn=cat notes.md
 wt=echo "%" >> notes.md
 
 #Search
+bing=search -u https://www.bing.com/search?q=%
 ddg=search -dd %
 gg=search -gg %
+gi=search -u https://www.google.com/search?tbm=isch&q=%
+imdb=search -u https://www.imdb.com/find?q=%
+rt=search -u https://www.rottentomatoes.com/search/?search=%
 sp=search -u https://startpage.com/do/search?query=%
 sps=search -ps %
 ss=search %
 u=search -u %
+ud=search -u https://www.urbandictionary.com/define.php?term=%
+wiki=search -u https://en.wikipedia.org/wiki/Special:Search/%
+yy=search -u https://search.yahoo.com/search?p=%
 yt=search -yt %
 
 #apps
 0=Calc+
+as=Aurora Store
 b=Browser NBPro
 c=Camera
 d=ColorDict
