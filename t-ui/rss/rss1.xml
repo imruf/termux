@@ -11,23 +11,16 @@
             <link>https://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 18 Jul 2020 07:01:53 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jul 2020 15:20:43 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[Coronavirus: Donald Trump vows not to order Americans to wear masks]]></title>
-            <description><![CDATA[His remarks come as infectious disease expert Dr Anthony Fauci urged people to wear face coverings.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-53453468</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53453468</guid>
-            <pubDate>Sat, 18 Jul 2020 03:43:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Portland protests: Federal agents 'abuse power' in arrests]]></title>
-            <description><![CDATA[Men wearing camouflage and driving unmarked cars grabbed demonstrators without explanation.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-53453077</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53453077</guid>
-            <pubDate>Sat, 18 Jul 2020 06:41:03 GMT</pubDate>
+            <title><![CDATA[Nantes: Arson suspected in fire at Saint-Pierre-et-Saint-Paul cathedral]]></title>
+            <description><![CDATA[Prosecutors say three fires were started at the site, and are treating the blaze as a criminal act.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-53455142</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-53455142</guid>
+            <pubDate>Sat, 18 Jul 2020 10:57:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[John Lewis: Civil rights icon and congressman dies aged 80]]></title>
@@ -44,11 +37,39 @@
             <pubDate>Fri, 17 Jul 2020 21:04:20 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Sergei Furgal: Fresh protests in Khabarovsk over governor's arrest]]></title>
+            <description><![CDATA[Demonstrators say they are taking to the streets "because our governor was stolen from us".]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-53455954</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-53455954</guid>
+            <pubDate>Sat, 18 Jul 2020 09:07:30 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iran sends black box of Ukrainian plane to France]]></title>
+            <description><![CDATA[Iran says the plane, which had 176 people on board, was mistaken for a cruise missile.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-53456830</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-53456830</guid>
+            <pubDate>Sat, 18 Jul 2020 11:48:09 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Coronavirus: US v other countries... did it mess up its reopening?]]></title>
             <description><![CDATA[By the time most Americans emerged from lockdown restrictions, a second surge was already under way.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-53423637</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53423637</guid>
             <pubDate>Fri, 17 Jul 2020 21:43:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Twitter says hackers downloaded private account data]]></title>
+            <description><![CDATA[It says attackers copied records from up to eight hacked users, but none were "blue tick" accounts.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-53455092</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-53455092</guid>
+            <pubDate>Sat, 18 Jul 2020 10:08:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Portland protests: Federal agents 'abuse power' in arrests]]></title>
+            <description><![CDATA[Men wearing camouflage and driving unmarked cars grabbed demonstrators without explanation.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-53453077</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53453077</guid>
+            <pubDate>Sat, 18 Jul 2020 06:41:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ruth Bader Ginsburg: Supreme court justice will not retire after cancer diagnosis]]></title>
@@ -58,32 +79,11 @@
             <pubDate>Fri, 17 Jul 2020 22:14:30 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['Rambo' suspect Yves Rausch held in Black Forest after five-day hunt]]></title>
-            <description><![CDATA[Police had been hunting for a man in the Black Forest who seized weapons from officers last Sunday.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-53451478</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-53451478</guid>
-            <pubDate>Fri, 17 Jul 2020 20:57:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Fahim Saleh: Pathao and Gokada CEO's assistant charged with his murder]]></title>
-            <description><![CDATA[The body of Fahim Saleh was found decapitated and dismembered in his Manhattan apartment on Tuesday.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-53452034</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53452034</guid>
-            <pubDate>Fri, 17 Jul 2020 20:55:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[UK officer suspended over 'knee on neck' video]]></title>
-            <description><![CDATA[A deputy commissioner calls footage of the arrest in Islington "extremely disturbing".]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-london-53443641</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-london-53443641</guid>
-            <pubDate>Fri, 17 Jul 2020 20:37:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[World faces staggering jobs challenge, says Microsoft president]]></title>
             <description><![CDATA[A quarter of a billion people are set to lose their job this year, Microsoft's president tells the BBC.]]></description>
             <link>https://www.bbc.co.uk/news/business-53444823</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/business-53444823</guid>
-            <pubDate>Fri, 17 Jul 2020 21:00:26 GMT</pubDate>
+            <pubDate>Sat, 18 Jul 2020 09:32:46 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Amazon soya and beef exports 'linked to deforestation']]></title>
@@ -98,13 +98,6 @@
             <link>https://www.bbc.co.uk/news/uk-politics-53449399</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-53449399</guid>
             <pubDate>Fri, 17 Jul 2020 23:02:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Princess Beatrice marries Edoardo Mapelli Mozzi in private Windsor ceremony]]></title>
-            <description><![CDATA[Her marriage to Edoardo Mapelli Mozzi took place in Windsor and was attended by the Queen.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-53445109</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-53445109</guid>
-            <pubDate>Fri, 17 Jul 2020 19:07:58 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Unflustered news anchor loses tooth live on air]]></title>
@@ -170,7 +163,7 @@
             <pubDate>Thu, 16 Jul 2020 23:02:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Obituary: Representative John Lewis]]></title>
+            <title><![CDATA[Obituary: Civil rights champion John Lewis]]></title>
             <description><![CDATA[John Lewis forged his legacy as a champion for civil rights and racial equality in the 1960s.]]></description>
             <link>https://www.bbc.co.uk/news/world-us-canada-45875045</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-45875045</guid>
@@ -233,46 +226,18 @@
             <pubDate>Fri, 17 Jul 2020 01:01:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[England v West Indies: Ben Stokes & Dom Sibley hit centuries in second Test]]></title>
-            <description><![CDATA[Ben Stokes and Dom Sibley complete centuries to move England into a dominant position on day two of the second Test against West Indies.]]></description>
-            <link>https://www.bbc.co.uk/sport/cricket/53448337</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/53448337</guid>
-            <pubDate>Fri, 17 Jul 2020 18:04:31 GMT</pubDate>
+            <title><![CDATA[Lewis Hamilton on Hungarian Grand Prix pole position]]></title>
+            <description><![CDATA[Lewis Hamilton beats team-mate Valtteri Bottas to lead a Mercedes one-two in qualifying for the Hungarian Grand Prix.]]></description>
+            <link>https://www.bbc.co.uk/sport/formula1/53456930</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/53456930</guid>
+            <pubDate>Sat, 18 Jul 2020 15:01:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Championship: Leeds United promoted to Premier League after 16-year absence]]></title>
-            <description><![CDATA[Leeds United are back in the Premier League after 16 years away as West Brom's defeat by Huddersfield seals promotion.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/53449068</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/53449068</guid>
-            <pubDate>Fri, 17 Jul 2020 18:42:35 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[West Ham almost safe after beating struggling Watford]]></title>
-            <description><![CDATA[West Ham's blistering first-half performance ensures a victory that all but secures their Premier League status, leaving Watford in major trouble.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/53358478</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/53358478</guid>
-            <pubDate>Fri, 17 Jul 2020 22:03:31 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Sebastian Vettel fastest in Hungarian Grand Prix second practice]]></title>
-            <description><![CDATA[Ferrari's Sebastian Vettel heads Valtteri Bottas' Mercedes in a wet second practice session at the Hungarian Grand Prix.]]></description>
-            <link>https://www.bbc.co.uk/sport/formula1/53449276</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/53449276</guid>
-            <pubDate>Fri, 17 Jul 2020 14:33:50 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ben Stokes should be Jofra Archer's role model - Carlos Brathwaite]]></title>
-            <description><![CDATA[England pace bowler Jofra Archer should use team-mate Ben Stokes as a role model, says West Indies all-rounder Carlos Brathwaite.]]></description>
-            <link>https://www.bbc.co.uk/sport/cricket/53428273</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/53428273</guid>
-            <pubDate>Fri, 17 Jul 2020 19:36:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Zidane the mastermind & brilliant Benzema - how Real Madrid won back La Liga]]></title>
-            <description><![CDATA[From securing the defence to getting the best out of his fringe players, Zinedine Zidane may have found the way to end Barcelona's dominance in Spain.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/53385358</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/53385358</guid>
-            <pubDate>Thu, 16 Jul 2020 21:38:46 GMT</pubDate>
+            <title><![CDATA[England v West Indies: Rain wipes out day three of second Test]]></title>
+            <description><![CDATA[England face a race against time to level the series against West Indies after the third day of the second Test is washed out.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/53456378</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/53456378</guid>
+            <pubDate>Sat, 18 Jul 2020 15:06:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Woods makes cut as DeChambeau has a quintuple-bogey 10 at Memorial]]></title>
@@ -280,6 +245,13 @@
             <link>https://www.bbc.co.uk/sport/golf/53451414</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/sport/golf/53451414</guid>
             <pubDate>Fri, 17 Jul 2020 18:21:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Man Utd without injured Shaw for FA Cup semi-final against Chelsea]]></title>
+            <description><![CDATA[Preview followed by live coverage of Sunday's FA Cup semi-final between Manchester United and Chelsea.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/53420073</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/53420073</guid>
+            <pubDate>Sat, 18 Jul 2020 10:13:45 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Wounds of Dutch history expose deep racial divide]]></title>

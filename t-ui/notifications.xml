@@ -2,7 +2,7 @@
 <NOTIFICATIONS>
 <show_notifications value="true"/>
 <app_notification_enabled_default value="true"/>
-<default_notification_color value="teal"/>
+<default_notification_color value="#afb426"/>
 <notification_format value="%app: %[100][silver]title%n%text"/>
 <click_notification value="true"/>
 <long_click_notification value="true"/>
