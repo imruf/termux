@@ -4,4 +4,4 @@
 url="$*"
 
 echo "Streaming..."
-mpv --ytdl-format=0 "$url"
+xdg-open $(youtube-dl -f 1 -g "$url")
