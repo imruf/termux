@@ -22,7 +22,7 @@
 <ram_format value=" %avgb/%totgb "/>
 <battery_format value="%( / )%v% "/>
 <storage_format value=" %iavgb/%itotgb"/>
-<network_info_format value="%( %w2/%[ lte %d2/ 📡])"/>
+<network_info_format value="%( %w2/%[ %dt/ 📡])"/>
 <input_format value="%p %i"/>
 <output_format value="%o"/>
 <session_info_format value="[%u@%d]:%p"/>
@@ -63,7 +63,7 @@
 <weather_key value="1f798f99228596c20ccfda51b9771a86"/>
 <weather_temperature_measure value="metric"/>
 <weather_location value="1185252"/>
-<weather_format value="🌞 %main, Temp: %temp"/>
+<weather_format value="🌞 %main ☔ Temp: %temp"/>
 <clear_on_lock value="true"/>
 <unlock_counter_format value=""/>
 <unlock_time_divider value="%n"/>

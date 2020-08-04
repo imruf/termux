@@ -1,16 +1,17 @@
 
 
-java.net.SocketTimeoutException: timeout
-	at c.l$4.a(Unknown Source:4)
-	at c.a.b(Unknown Source:7)
-	at c.a$2.a(Unknown Source:23)
-	at c.n.a(Unknown Source:48)
-	at c.n.e(Unknown Source:27)
-	at okhttp3.internal.d.a.f(Unknown Source:4)
-	at okhttp3.internal.d.a.a(Unknown Source:34)
-	at okhttp3.internal.c.b.a(Unknown Source:183)
-	at okhttp3.internal.c.g.a(Unknown Source:157)
-	at okhttp3.internal.b.a.a(Unknown Source:33)
+java.net.UnknownHostException: Unable to resolve host "feeds.bbci.co.uk": No address associated with hostname
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:157)
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:105)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1154)
+	at okhttp3.o$1.a(Unknown Source:2)
+	at okhttp3.internal.b.f.a(Unknown Source:129)
+	at okhttp3.internal.b.f.d(Unknown Source:20)
+	at okhttp3.internal.b.f.b(Unknown Source:17)
+	at okhttp3.internal.b.g.a(Unknown Source:109)
+	at okhttp3.internal.b.g.a(Unknown Source:0)
+	at okhttp3.internal.b.g.a(Unknown Source:22)
+	at okhttp3.internal.b.a.a(Unknown Source:25)
 	at okhttp3.internal.c.g.a(Unknown Source:157)
 	at okhttp3.internal.c.g.a(Unknown Source:6)
 	at okhttp3.internal.a.a.a(Unknown Source:132)
@@ -24,11 +25,10 @@ java.net.SocketTimeoutException: timeout
 	at okhttp3.x.f(Unknown Source:115)
 	at okhttp3.x.a(Unknown Source:26)
 	at ohi.andre.consolelauncher.managers.j$3.run(Unknown Source:59)
-Caused by: java.net.SocketException: Socket closed
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
-	at java.net.SocketInputStream.read(SocketInputStream.java:144)
-	at c.l$2.a(Unknown Source:37)
-	at c.a$2.a(Unknown Source:7)
-	... 20 more
+Caused by: android.system.GaiException: android_getaddrinfo failed: EAI_NODATA (No address associated with hostname)
+	at libcore.io.Linux.android_getaddrinfo(Native Method)
+	at libcore.io.BlockGuardOs.android_getaddrinfo(BlockGuardOs.java:172)
+	at java.net.Inet6AddressImpl.lookupHostByName(Inet6AddressImpl.java:137)
+	... 23 more
 
 ----------------------------

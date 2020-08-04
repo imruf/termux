@@ -5,11 +5,11 @@
            <app_uninstalled_color value="#cb4b16"/>
            <battery_color_high value="#4ca047"/>
            <battery_color_low value="#b0171f"/>
-           <battery_color_medium value="#872657"/>
+           <battery_color_medium value="#ef9a9a"/>
            <bg_color value="#002b36"/>
            <device_color value="#cb4b16"/>
            <enter_color value="#bf616a"/>
-           <input_color value="#4a148c"/>
+           <input_color value="#FFC107"/>
            <navigationbar_color value="#bbbbbb"/>
            <output_color value="#eceff4"/>
            <overlay_color value="#00000000"/>
@@ -29,7 +29,7 @@
 <restart_message_color value="#ffffffff"/>
 <weather_color value="#87ceff"/>
 <unlock_counter_color value="#ffff9800"/>
-<session_info_color value="#1a2373"/>
+<session_info_color value="#FFC107"/>
 <status_lines_bgrectcolor value="#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000,#00000000"/>
 <input_bgrectcolor value="#00000000"/>
 <output_bgrectcolor value="#00000000"/>

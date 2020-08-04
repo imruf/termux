@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SUGGESTIONS>
            <alias_bg_color value="#000000"/>
-           <alias_text_color value="#bbbbbb"/>
+           <alias_text_color value="#ffd180"/>
            <apps_bg_color value="#000000"/>
-           <apps_text_color value="cyan"/>
+           <apps_text_color value="#29b6f6"/>
            <cmd_bg_color value="#000000"/>
-           <cmd_text_color value="#bbbbbb"/>
+           <cmd_text_color value="#FFC107"/>
            <contact_bg_color value="#000000"/>
            <contact_text_color value="#bbbbbb"/>
            <default_bg_color value="#000000"/>
-           <default_text_color value="cyan"/>
+           <default_text_color value="#29b6f6"/>
            <enabled value="true"/>
            <file_bg_color value="#000000"/>
            <file_text_color value="#bbbbbb"/>
