@@ -11,7 +11,7 @@
             <link>https://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 04 Aug 2020 07:35:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 04 Aug 2020 10:43:58 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
@@ -20,7 +20,7 @@
             <description><![CDATA[The president has given Microsoft 45 days to reach a deal or he will ban the app in the US.]]></description>
             <link>https://www.bbc.co.uk/news/business-53633315</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/business-53633315</guid>
-            <pubDate>Tue, 04 Aug 2020 06:22:46 GMT</pubDate>
+            <pubDate>Tue, 04 Aug 2020 10:20:41 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[What's going on with TikTok?]]></title>
@@ -30,18 +30,18 @@
             <pubDate>Tue, 04 Aug 2020 00:44:24 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Hurricane Isaias makes landfall in North Carolina]]></title>
-            <description><![CDATA[Previously downgraded to a storm, Isaias was upgraded to a hurricane hours before making landfall.]]></description>
-            <link>https://www.bbc.co.uk/news/world-us-canada-53645297</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53645297</guid>
-            <pubDate>Tue, 04 Aug 2020 05:38:52 GMT</pubDate>
+            <title><![CDATA[Coronavirus: Melbourne police 'assaulted and baited' over lockdown rules]]></title>
+            <description><![CDATA[A policewoman's head was repeatedly "smashed" in one incident in shopping centre, authorities say.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-53645759</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-53645759</guid>
+            <pubDate>Tue, 04 Aug 2020 07:51:10 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Spain's embattled ex-King Juan Carlos leaves country]]></title>
-            <description><![CDATA[His departure comes weeks after the former monarch was linked to a probe into alleged corruption.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-53642283</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-53642283</guid>
-            <pubDate>Tue, 04 Aug 2020 05:38:27 GMT</pubDate>
+            <title><![CDATA[Audi drops 'insensitive' girl with banana ad]]></title>
+            <description><![CDATA[The German carmaker apologises for a tweeted car ad that sparked a furore.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-53648638</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-53648638</guid>
+            <pubDate>Tue, 04 Aug 2020 09:50:08 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Beach SOS saves men stranded on tiny Micronesian island]]></title>
@@ -51,11 +51,25 @@
             <pubDate>Tue, 04 Aug 2020 02:49:12 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Hurricane Isaias lashes Carolinas amid warnings of life-threatening surges]]></title>
+            <description><![CDATA[Heavy rains and winds batter coastal areas, as officials warn of "life-threatening storm surges".]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-53645297</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53645297</guid>
+            <pubDate>Tue, 04 Aug 2020 09:58:58 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Coronavirus: Millions return to lockdown in Philippines]]></title>
             <description><![CDATA[A strict curb on movements has been re-imposed in the capital Manila after a surge in Covid infections.]]></description>
             <link>https://www.bbc.co.uk/news/world-asia-53646149</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-53646149</guid>
             <pubDate>Tue, 04 Aug 2020 06:09:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Spain's embattled ex-King Juan Carlos leaves country]]></title>
+            <description><![CDATA[His departure comes weeks after the former monarch was linked to a probe into alleged corruption.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-53642283</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-53642283</guid>
+            <pubDate>Tue, 04 Aug 2020 05:38:27 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[NY attorney expands inquiry into Trump 'criminal conduct']]></title>
@@ -65,11 +79,18 @@
             <pubDate>Tue, 04 Aug 2020 02:19:15 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Boeing's 737 Max moves closer to flying again]]></title>
-            <description><![CDATA[US regulators have put forward a list of changes needed before the ill-fated planes can restart flights.]]></description>
-            <link>https://www.bbc.co.uk/news/business-53646442</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-53646442</guid>
-            <pubDate>Tue, 04 Aug 2020 04:30:52 GMT</pubDate>
+            <title><![CDATA['How I found out Pablo Escobar was my father']]></title>
+            <description><![CDATA[Phillip Witcomb speaks about his infamous father and how he grew up not knowing his true identity.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-53647274</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-53647274</guid>
+            <pubDate>Tue, 04 Aug 2020 09:26:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kylie Moore-Gilbert: Australia says lecturer jailed in Iran 'is well']]></title>
+            <description><![CDATA[Australia's ambassador visits Kylie Moore-Gilbert after she was moved to a notorious desert prison.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-53649419</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-53649419</guid>
+            <pubDate>Tue, 04 Aug 2020 10:22:44 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Article 370: Curfew in Kashmir as protesters plan 'black day']]></title>
@@ -79,32 +100,11 @@
             <pubDate>Tue, 04 Aug 2020 03:55:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Israel strikes Syrian army bases after Golan Heights attack]]></title>
-            <description><![CDATA[The IDF confirmed the strikes were in retaliation against an attempted bombing in Golan Heights.]]></description>
-            <link>https://www.bbc.co.uk/news/world-middle-east-53645688</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-53645688</guid>
-            <pubDate>Tue, 04 Aug 2020 00:30:45 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Melbourne police see violent lockdown resistance]]></title>
-            <description><![CDATA[Authorities in the virus-hit city say more people are resisting lockdown measures, sometimes violently.]]></description>
-            <link>https://www.bbc.co.uk/news/world-australia-53645759</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-53645759</guid>
-            <pubDate>Tue, 04 Aug 2020 05:53:18 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Tanzanite: Tanzanian miner earns millions after second rare find]]></title>
-            <description><![CDATA[Saniniu Laizer sells a Tanzanite stone for $2 million (£1.5m), months after a similar find.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-53642490</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-53642490</guid>
-            <pubDate>Mon, 03 Aug 2020 17:10:32 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Sweden: Death of girl, 12, ignites debate over gang violence]]></title>
-            <description><![CDATA[The girl was killed by a stray bullet in a drive-by shooting that went wrong, media reports say.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-53581473</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-53581473</guid>
-            <pubDate>Mon, 03 Aug 2020 20:35:43 GMT</pubDate>
+            <title><![CDATA[Boeing's 737 Max moves closer to flying again]]></title>
+            <description><![CDATA[US regulators have put forward a list of changes needed before the ill-fated planes can restart flights.]]></description>
+            <link>https://www.bbc.co.uk/news/business-53646442</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-53646442</guid>
+            <pubDate>Tue, 04 Aug 2020 04:30:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[James Lovelock: Gaia theory creator on coronavirus and turning 101]]></title>
@@ -126,6 +126,13 @@
             <link>https://www.bbc.co.uk/news/stories-52459140</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-52459140</guid>
             <pubDate>Mon, 03 Aug 2020 23:26:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tanzanite: Tanzanian miner earns millions after second rare find]]></title>
+            <description><![CDATA[Saniniu Laizer sells a Tanzanite stone for $2 million (£1.5m), months after a similar find.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-53642490</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-53642490</guid>
+            <pubDate>Mon, 03 Aug 2020 17:10:32 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Here are just some of the records Taylor Swift's Folklore has broken]]></title>
@@ -254,6 +261,13 @@
             <pubDate>Mon, 03 Aug 2020 12:04:54 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[Lakers secure top spot in Western Conference for first time since 2010]]></title>
+            <description><![CDATA[The Los Angeles Lakers secure the top spot in the NBA's Western Conference for the first time in 10 years after beating Utah Jazz.]]></description>
+            <link>https://www.bbc.co.uk/sport/basketball/53647031</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/basketball/53647031</guid>
+            <pubDate>Tue, 04 Aug 2020 08:30:01 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Who were the post-lockdown winners and losers across Europe?]]></title>
             <description><![CDATA[Who won the most games post-lockdown? Who scored the most goals? Did anyone fail to pick up even a single point? BBC Sport looks at the statistics from across Europe.]]></description>
             <link>https://www.bbc.co.uk/sport/football/53604028</link>
@@ -268,15 +282,15 @@
             <pubDate>Tue, 04 Aug 2020 05:18:47 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Marc Marquez: MotoGP world champion has second arm surgery]]></title>
-            <description><![CDATA[MotoGP world champion Marc Marquez has surgery on his broken right arm for the second time in 13 days.]]></description>
+            <title><![CDATA[Marc Marquez: MotoGP world champion has second arm surgery and will miss Czech GP]]></title>
+            <description><![CDATA[MotoGP world champion Marc Marquez will miss the Czech Grand Prix after a second operation on a broken arm.]]></description>
             <link>https://www.bbc.co.uk/sport/motorsport/53643763</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/sport/motorsport/53643763</guid>
-            <pubDate>Mon, 03 Aug 2020 20:35:32 GMT</pubDate>
+            <pubDate>Tue, 04 Aug 2020 10:42:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Brentford and Fulham meet in 'the richest game in football']]></title>
-            <description><![CDATA[Brentford and Fulham meet in the Championship play-off final at Wembley on Tuesday evening, a match often dubbed the richest in football.]]></description>
+            <description><![CDATA[Brentford and Fulham meet in the Championship play-off final at Wembley on Tuesday, a match often dubbed the richest in football.]]></description>
             <link>https://www.bbc.co.uk/sport/football/53643480</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/53643480</guid>
             <pubDate>Mon, 03 Aug 2020 18:53:02 GMT</pubDate>
@@ -289,25 +303,11 @@
             <pubDate>Mon, 03 Aug 2020 17:00:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Lewis Hamilton: FIA boss Jean Todt hails world champion's anti-racism stance]]></title>
-            <description><![CDATA[FIA president Jean Todt supports Lewis Hamilton's efforts in promoting anti-racism.]]></description>
-            <link>https://www.bbc.co.uk/sport/formula1/53640425</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/53640425</guid>
-            <pubDate>Mon, 03 Aug 2020 14:10:12 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[NBA: Black Lives Matter and basketball’s role in discussion on racism]]></title>
             <description><![CDATA[Basketball is perhaps the sport best placed to challenge racial inequality. Is the NBA doing it right?]]></description>
             <link>https://www.bbc.co.uk/sport/basketball/53556565</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/sport/basketball/53556565</guid>
             <pubDate>Fri, 31 Jul 2020 02:47:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA['Bay of Piglets': A 'bizarre' plot to capture a president]]></title>
-            <description><![CDATA[How did exiled Venezuelans and former US Special Forces end up joining what looked from the outset like a suicide mission? ]]></description>
-            <link>https://www.bbc.co.uk/news/stories-53557235</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-53557235</guid>
-            <pubDate>Wed, 29 Jul 2020 23:30:39 GMT</pubDate>
         </item>
     </channel>
 </rss>
