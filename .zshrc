@@ -52,7 +52,7 @@ alias tg="termux-open 1.gif"
 alias tv="termux-open 1.mp4"
 
 #APT
-alias up="apt update && apt upgrade -y"
+alias up="apt update && apt upgrade"
 alias inp="apt install"
 alias rmv="apt remove"
 alias armv="apt autoremove"
