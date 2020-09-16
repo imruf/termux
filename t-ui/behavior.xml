@@ -71,7 +71,7 @@
 <unlock_counter_cycle_start value="6.00"/>
 <not_available_text value="n/a"/>
 <back_button_enabled value="true"/>
-<weather_update_time value="10800"/>
+<weather_update_time value="604800"/>
 <location_update_mintime value="43200"/>
 <location_update_mindistance value="5000000000"/>
 <show_weather_updates value="false"/>

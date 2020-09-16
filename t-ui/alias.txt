@@ -41,6 +41,7 @@ b=Browser NBPro
 c=Camera
 d=ColorDict
 eb=Moon+ Reader
+f=Firefox
 fd=F-Droid
 g=Gallery
 k=Keep Notes
@@ -53,6 +54,7 @@ s=Settings
 t=Termux
 v=mpv
 x=X-plore
+xx=Mix
 y=YouTube Vanced
 
 #Call
