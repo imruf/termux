@@ -6,110 +6,25 @@
 export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
 # export LANG=en_US.UTF-8
 
-#Plugins
-plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
-
-#Theme
-#ZSH_THEME="robbyrussell"
-#ZSH_THEME="random"
-#ZSH_THEME="powerlevel9k/powerlevel9k"
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
-
 #SOURCE
 source $ZSH/oh-my-zsh.sh
 source /data/data/com.termux/files/home/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
-#Navigation
+#Plugins
+plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
 
-#files
-alias ls="ls --color=auto --group-directories-first"
-alias lah="exa -la --color=auto --group-directories-first"
-alias ..='cd ..'
-alias cp="cp -v"
-alias mv="mv -v"
-alias rm="rm -v"
-alias rm1="rm -v 1*"
-alias mkd="mkdir -pv"
+#Theme
+#ZSH_THEME="powerlevel9k/powerlevel9k"
 
-#termux-cd
-alias cdusr="cd $PREFIX"
-alias cdetc="cd $PREFIX/etc/"
-alias cdbin="cd $PREFIX/bin/"
-alias cdshare="cd $PREFIX/share/"
-alias cdd="cd ~/storage/downloads/"
-alias cdsd="cd ~/storage/shared/"
-alias cdtui="cd ~/storage/shared/t-ui"
+#Alias
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
 
-#termux-api
-alias tb="termux-brightness"
-alias tba="termux-brightness auto"
-alias tbl="termux-brightness 25"
-alias tbh="termux-brightness 100"
-alias ts="termux-style"
-alias to="termux-open"
-alias tp="termux-open 1.jpg"
-alias tg="termux-open 1.gif"
-alias tv="termux-open 1.mp4"
 
-#APT
-alias up="apt update && apt upgrade"
-alias inp="apt install"
-alias rmv="apt remove"
-alias armv="apt autoremove"
-alias pacs="apt search"
-
-#youtube-dl
-alias ytd-aac="youtube-dl --extract-audio --audio-format aac "
-alias ytd-besta="youtube-dl --extract-audio --audio-format best "
-alias ytd-flac="youtube-dl --extract-audio --audio-format flac "
-alias ytd-m4a="youtube-dl --extract-audio --audio-format m4a "
-alias ytd-mp3="youtube-dl --extract-audio --audio-format mp3 "
-alias ytd-opus="youtube-dl --extract-audio --audio-format opus "
-alias ytd-vorbis="youtube-dl --extract-audio --audio-format vorbis "
-alias ytd-wav="youtube-dl --extract-audio --audio-format wav "
-alias ytd-best="youtube-dl -f bestvideo+bestaudio "
-alias ytd='youtube-dl'
-alias ytdF='youtube-dl -F'
-alias ytdf='youtube-dl -f'
-alias ytdic='youtube-dl --ignore-config'
-alias ytv='youtube-viewer -C'
-
+#Function
+#Ytld
 function yts () {
     youtube-dl -j ytsearch:$1
 }
-
-#MUTT
-alias ibx="mutt"
-alias mp="cp mp .muttrc && ibx"
-alias ib="cp ib .muttrc && ibx"
-alias rr="cp rr .muttrc && ibx"
-alias lic="cp lic .muttrc && ibx"
-
-#GIT
-alias gitc='git clone'
-alias gitu='git push -u origin master'
-alias gitca='git commit -a'
-alias gita='git add'
-alias gits='git status'
-
-#Game
-#alias doku='nudoku'
-alias tet='tetris'
-alias frcl='cd ~/games/sol; ./freecell; cd'
-alias sol='cd ~/games/sol; ./sol; cd'
-alias spider='cd ~/games/sol; ./spider; cd'
-
-#SSH
-alias fst='sshd'
-alias fsts='pkill sshd'
-
-#ip/ping
-alias pnet='ping -c 3 google.com'
-alias myip='ifconfig'
-alias isp='curl ifconfig.co'
-alias ip='ip addr show'
-alias ns='speedtest'
-alias nss='speedtest --simple --single'
 
 #Transmission
 tsmcc() {
@@ -136,35 +51,6 @@ tsmpurge() { transmission-remote -t"$1" --remove-and-delete ;} # delete data als
 tsmdel() { transmission-remote -t"$1" --remove ;}		# leaves data alone
 tsminfo() { transmission-remote -t"$1" --info ;} #info
 tsmspeed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
-
-#tfx-pfx
-alias pfx='peerflix -k -f /home/masud/Videos/ptfx'
-alias tfx='torrentflix'
-
-#MIS
-alias wget="wget -c"
-alias weather='curl wttr.in/khagrachari'
-alias updb="updatedb"
-alias math="mathomatic"
-alias calc='python -ic "from __future__ import division; from math import *; from random import *"'
-alias c2='units'
-alias rt="tuir"
-alias nnn='nnn -d'
-alias el='elinks'
-alias def='sdcv'
-alias keep='keepcli'
-alias covid='curl https://corona-stats.online?source=2'
-alias q="exit"
-
-#radio
-alias bbcb='mpv http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-benga_backup'
-alias bbcw='mpv http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws_backup'
-alias betar='mpv http://as3.digitalsynapsebd.com:8263/;stream.mp3'
-alias bhoomi='mpv http://149.56.195.94:8545/stream'
-alias bongo='mpv http://radio.bongonet.net:8000/stream2'
-alias jago='mpv http://128.199.184.111:12496/stream'
-alias wadio='mpv http://162.254.150.34:8201/stream1'
-alias dhoni='mpv http://182.160.110.180:1020/'
 
 #bindkey -v
 

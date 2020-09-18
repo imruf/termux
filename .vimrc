@@ -14,7 +14,7 @@ Plugin 'chrisbra/Colorizer'
 
 call vundle#end()		" required, all plugins must appear before this line.
 
-execute pathogen#infect()
+" execute pathogen#infect()
 filetype plugin indent on    " required
 
 :imap jj <Esc>

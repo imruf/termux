@@ -1,0 +1,153 @@
+#!/bin/sh
+
+command -v nvim >/dev/null && alias vim="nvim" vimdiff="nvim -d"
+
+# EDITOR
+alias \
+ v="$EDITOR" \
+ q="exit" 
+
+# Files
+alias \
+ ls="ls --color=auto --group-directories-first" \
+ lah="exa -la --color=auto --group-directories-first" \
+ ..='cd ..' \
+ cp="cp -v" \
+ mv="mv -v" \
+ rm="rm -v" \
+ rm1="rm -v 1*" \
+ mkd="mkdir -pv" \
+
+#termux-cd
+alias \
+ cdusr="cd $PREFIX" \
+ cdetc="cd $PREFIX/etc/" \
+ cdbin="cd $PREFIX/bin/" \
+ cdshare="cd $PREFIX/share/" \
+ cdd="cd ~/storage/downloads/" \
+ cdsd="cd ~/storage/shared/" \
+ cdtui="cd ~/storage/shared/t-ui"
+
+#termux-api
+alias \
+ tb="termux-brightness" \
+ tba="termux-brightness auto" \
+ tbl="termux-brightness 25" \
+ tbh="termux-brightness 100" \
+ ts="termux-style" \
+ to="termux-open" \
+ tp="termux-open 1.jpg" \
+ tg="termux-open 1.gif" \
+ tv="termux-open 1.mp4"
+
+#APT
+alias \
+ up="apt update && apt upgrade" \
+ inp="apt install" \
+ rmv="apt remove" \
+ armv="apt autoremove" \
+ pacs="apt search"
+
+#youtube-dl
+alias \
+ ytd-aac="youtube-dl --extract-audio --audio-format aac " \
+ ytd-besta="youtube-dl --extract-audio --audio-format best " \
+ ytd-flac="youtube-dl --extract-audio --audio-format flac " \
+ ytd-m4a="youtube-dl --extract-audio --audio-format m4a " \
+ ytd-mp3="youtube-dl --extract-audio --audio-format mp3 " \
+ ytd-opus="youtube-dl --extract-audio --audio-format opus " \
+ ytd-vorbis="youtube-dl --extract-audio --audio-format vorbis " \
+ ytd-wav="youtube-dl --extract-audio --audio-format wav " \
+ ytd-best="youtube-dl -f bestvideo+bestaudio " \
+ ytd='youtube-dl' \
+ ytdF='youtube-dl -F' \
+ ytdf='youtube-dl -f' \
+ ytdic='youtube-dl --ignore-config' \
+ ytv='youtube-viewer -C'
+
+#MUTT
+alias \
+ ibx="mutt" \
+ mp="cp mp .muttrc && ibx" \
+ ib="cp ib .muttrc && ibx" \
+ rr="cp rr .muttrc && ibx" \
+ lic="cp lic .muttrc && ibx"
+
+#GIT
+alias \
+ gitc='git clone' \
+ gitu='git push -u origin master' \
+ gitca='git commit -a' \
+ gita='git add' \
+ gits='git status'
+
+#Game
+#alias doku='nudoku'
+alias \
+ tet='tetris' \
+ frcl='cd ~/games/sol; ./freecell; cd' \
+ sol='cd ~/games/sol; ./sol; cd' \
+ spider='cd ~/games/sol; ./spider; cd'
+
+#SSH
+alias \
+ fst='sshd' \
+ fsts='pkill sshd'
+
+#FTP
+alias \
+ ftps='sv-enable ftpd' \
+ ftpsd='sv-disable ftpd' \
+ ftpu='sv up ftpd' \
+ ftpd='sv up ftpd' \
+
+#ip/ping
+alias \
+ pnet='ping -c 3 google.com' \
+ myip='ifconfig' \
+ isp='curl ifconfig.co' \
+ ip='ip addr show' \
+ ns='speedtest' \
+ nss='speedtest --simple --single'
+
+#tfx-pfx
+alias \
+ pfx='peerflix -k -f /home/masud/Videos/ptfx' \
+ tfx='torrentflix'
+
+#MIS
+alias \
+ wget="wget -c" \
+ weather='curl wttr.in/khagrachari' \
+ updb="updatedb" \
+ math="mathomatic" \
+ calc='python -ic "from __future__ import division; from math import *; from random import *"' \
+ c2='units' \
+ rt="tuir" \
+ nnn='nnn -d' \
+ el='elinks' \
+ def='sdcv' \
+ keep='keepcli' \
+ covid='curl https://corona-stats.online?source=2'
+ eq="pnglatex -b Transparent -p amssymb:amsmath -d 300 -s 12 -o eq.png" \
+
+#radio
+alias \
+ bbcb='mpv http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-benga_backup' \
+ bbcw='mpv http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws_backup' \
+ betar='mpv http://as3.digitalsynapsebd.com:8263/;stream.mp3' \
+ bhoomi='mpv http://149.56.195.94:8545/stream' \
+ bongo='mpv http://radio.bongonet.net:8000/stream2' \
+ jago='mpv http://128.199.184.111:12496/stream' \
+ wadio='mpv http://162.254.150.34:8201/stream1' \
+ dhoni='mpv http://182.160.110.180:1020/'
+
+#Info
+alias \
+ pdw="pwd" \
+ free="free -mt" \
+ diff="diff --color=auto" \
+ df="df -h"
+ grep="grep --color=auto" \
+ egrep="egrep --color=auto" \
+ fgrep="fgrep --color=auto"
