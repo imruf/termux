@@ -6,15 +6,12 @@
 export ZSH="/data/data/com.termux/files/home/.oh-my-zsh"
 # export LANG=en_US.UTF-8
 
-#SOURCE
-source $ZSH/oh-my-zsh.sh
-source /data/data/com.termux/files/home/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
-
 #Plugins
 plugins=(git extract zsh-autosuggestions zsh-syntax-highlighting zsh-completions vi-mode)
 
-#Theme
-#ZSH_THEME="powerlevel9k/powerlevel9k"
+#SOURCE
+source $ZSH/oh-my-zsh.sh
+source /data/data/com.termux/files/home/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
 
 #Alias
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
