@@ -16,7 +16,7 @@ alias \
  mv="mv -v" \
  rm="rm -v" \
  rm1="rm -v 1*" \
- mkd="mkdir -pv" \
+ mkd="mkdir -pv"
 
 #termux-cd
 alias \
@@ -99,7 +99,7 @@ alias \
  ftps='sv-enable ftpd' \
  ftpsd='sv-disable ftpd' \
  ftpu='sv up ftpd' \
- ftpd='sv up ftpd' \
+ ftpd='sv down ftpd'
 
 #ip/ping
 alias \
@@ -128,8 +128,8 @@ alias \
  el='elinks' \
  def='sdcv' \
  keep='keepcli' \
- covid='curl https://corona-stats.online?source=2'
- eq="pnglatex -b Transparent -p amssymb:amsmath -d 300 -s 12 -o eq.png" \
+ covid='curl https://corona-stats.online?source=2' \
+ eq="pnglatex -b Transparent -p amssymb:amsmath -d 300 -s 12 -o eq.png"
 
 #radio
 alias \
@@ -147,7 +147,7 @@ alias \
  pdw="pwd" \
  free="free -mt" \
  diff="diff --color=auto" \
- df="df -h"
+ df="df -h" \
  grep="grep --color=auto" \
  egrep="egrep --color=auto" \
  fgrep="fgrep --color=auto"
