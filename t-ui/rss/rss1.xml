@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sat, 19 Sep 2020 09:57:14 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Ruth Bader Ginsburg: US Supreme Court judge dies of cancer, aged 87]]></title>
+            <description><![CDATA[The justice, an iconic champion of women's rights, dies at 87 after suffering from pancreatic cancer.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54214729</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54214729</guid>
+            <pubDate>Sat, 19 Sep 2020 03:16:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19: Lockdown in parts of Madrid amid virus spike]]></title>
+            <description><![CDATA[New restrictions in the Spanish capital come as Europe braces itself for a second wave of infections.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54211361</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54211361</guid>
+            <pubDate>Fri, 18 Sep 2020 22:27:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Thailand protests: Thousands gather for mass anti-government rally]]></title>
+            <description><![CDATA[Demonstrators are calling for the prime minister's resignation and reform of the monarchy.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54217284</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54217284</guid>
+            <pubDate>Sat, 19 Sep 2020 09:33:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Syria war: US deploys reinforcements to Syria after Russia clashes]]></title>
+            <description><![CDATA[A US official says the move sends a "signal to Russia" to avoid "provocative actions" in Syria.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-54215915</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-54215915</guid>
+            <pubDate>Sat, 19 Sep 2020 06:44:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Johnson considers new measures as UK cases surge]]></title>
+            <description><![CDATA[Options being looked at in England include a ban on households mixing, and early pub closures.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-54214752</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54214752</guid>
+            <pubDate>Sat, 19 Sep 2020 07:52:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Brazil's Pantanal fires: Animals 'dying of hunger and thirst']]></title>
+            <description><![CDATA[The forest fires have had a devastating impact on the wildlife of the world's largest wetland.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-54212192</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-54212192</guid>
+            <pubDate>Fri, 18 Sep 2020 21:19:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[More Afghan interpreters eligible to settle in UK after rule change]]></title>
+            <description><![CDATA[A rule change means about 100 more of those who served with British forces will be able to live in the UK.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-54208024</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54208024</guid>
+            <pubDate>Fri, 18 Sep 2020 23:04:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: US health chiefs reverse advice on Covid-19 testing]]></title>
+            <description><![CDATA[The CDC caused controversy in August by saying that anyone without symptoms should not be tested.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54214420</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54214420</guid>
+            <pubDate>Fri, 18 Sep 2020 21:20:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Yasukuni Shrine: Japan's ex-PM Abe visits controversial memorial]]></title>
+            <description><![CDATA[Shinzo Abe, who last visited the Yasukuni Shrine in 2013, made the trip days after stepping down.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54216632</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54216632</guid>
+            <pubDate>Sat, 19 Sep 2020 07:45:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[UK ministerial bodyguard 'left gun on plane']]></title>
+            <description><![CDATA[The foreign secretary was returning to London when the incident is reported to have happened.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-54216511</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54216511</guid>
+            <pubDate>Sat, 19 Sep 2020 08:22:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Danny Masterson: That ’70s Show star denies rape charges, his lawyer says]]></title>
+            <description><![CDATA[The actor's lawyer dismisses the charges as politically motivated at a court hearing in Los Angeles.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54214610</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54214610</guid>
+            <pubDate>Fri, 18 Sep 2020 23:17:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Belarus: Jailed protest leader Maxim Znak on hunger strike]]></title>
+            <description><![CDATA[The move by a top dissident comes as UN officials deplore rights abuses in Belarus.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54206525</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54206525</guid>
+            <pubDate>Fri, 18 Sep 2020 16:52:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TikTok and WeChat: US to ban app downloads in 48 hours]]></title>
+            <description><![CDATA[The ban on downloading the apps in the US takes effect on Sunday unless President Trump intervenes.]]></description>
+            <link>https://www.bbc.co.uk/news/technology-54205231</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-54205231</guid>
+            <pubDate>Fri, 18 Sep 2020 19:45:13 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Medicane Storm Ianos lashes western Greece]]></title>
+            <description><![CDATA[Intense wind and rain flood streets and fell trees on islands in western Greece.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54206522</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54206522</guid>
+            <pubDate>Fri, 18 Sep 2020 14:49:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ruth Bader Ginsburg: Obituary of the Supreme Court justice]]></title>
+            <description><![CDATA[US Supreme Court Justice Ruth Bader Ginsburg was a trailblazer to women of all stripes.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-49488374</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-49488374</guid>
+            <pubDate>Fri, 18 Sep 2020 23:50:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Ginsburg was an amazing woman' - Trump]]></title>
+            <description><![CDATA[President Trump said the justice 'lived an amazing life" while rival Joe Biden praised her legal legacy.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54216026</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54216026</guid>
+            <pubDate>Sat, 19 Sep 2020 03:46:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Remembering the trailblazer for women’s rights]]></title>
+            <description><![CDATA[The Supreme Court justice has died at the age of 87 after undergoing treatment for pancreatic cancer.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54215488</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54215488</guid>
+            <pubDate>Sat, 19 Sep 2020 02:07:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Meet the judges on the top US court]]></title>
+            <description><![CDATA[The US Supreme Court can have a huge impact on everyday American life - do you know who the justices are?]]></description>
+            <link>https://www.bbc.co.uk/news/magazine-33103973</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/magazine-33103973</guid>
+            <pubDate>Sat, 19 Sep 2020 01:06:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ruth Bader Ginsburg death: How has Trump's Supreme Court changed America?]]></title>
+            <description><![CDATA[This court has been billed the most conservative in modern history. But does it vote that way?]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-53357590</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-53357590</guid>
+            <pubDate>Sat, 19 Sep 2020 01:31:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rock climbing when you're blind]]></title>
+            <description><![CDATA[Matthew Shifrin took up the sport almost a year ago - with the help of a friend and a childhood toy.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54171777</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54171777</guid>
+            <pubDate>Fri, 18 Sep 2020 23:02:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus: what Israel's second lockdown feels like]]></title>
+            <description><![CDATA[Two Jerusalem residents give their thoughts to the BBC from Israel, the first country to reimpose a nationwise lockdown.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-54213815</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-54213815</guid>
+            <pubDate>Fri, 18 Sep 2020 23:11:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ICYMI: A thirsty armadillo and record-breaking free diver]]></title>
+            <description><![CDATA[Some of the stories you may have missed this week.]]></description>
+            <link>https://www.bbc.co.uk/news/world-54199987</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-54199987</guid>
+            <pubDate>Fri, 18 Sep 2020 23:00:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Week in pictures: 12 - 18 September 2020]]></title>
+            <description><![CDATA[A selection of remarkable images taken around the world this week.]]></description>
+            <link>https://www.bbc.co.uk/news/in-pictures-54203886</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-54203886</guid>
+            <pubDate>Fri, 18 Sep 2020 23:31:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Belarus protests: Women try to unmask those detaining protesters]]></title>
+            <description><![CDATA[Women want to hold to account the masked people picking protesters off the street in Belarus.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54126764</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54126764</guid>
+            <pubDate>Thu, 17 Sep 2020 23:30:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The racist church bombing that shocked the world]]></title>
+            <description><![CDATA[In 1963, four young black girls were killed in a racist bomb attack at a church in Alabama.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-54177354</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-54177354</guid>
+            <pubDate>Sat, 19 Sep 2020 00:12:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Super Mario at 35: 'The little plumber who defined a genre']]></title>
+            <description><![CDATA[Battling Bowser, protecting Peach, what makes Mario magical as he celebrates 35 years?]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-54163659</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-54163659</guid>
+            <pubDate>Fri, 18 Sep 2020 23:32:48 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[What maths is involved in stirring a cup of tea?]]></title>
+            <description><![CDATA[A professor has won £2.3m for applying complex maths to simple situations - like stirring tea.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-london-54195597</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-london-54195597</guid>
+            <pubDate>Thu, 17 Sep 2020 23:05:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How many people does it take to oust a political leader?]]></title>
+            <description><![CDATA[How big does a protest need to be to topple a political leader? One estimate says 3.5% of the population will nearly always succeed.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-54142487</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-54142487</guid>
+            <pubDate>Sat, 19 Sep 2020 00:15:49 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pakistan outcry over police victim-blaming of gang-raped mother]]></title>
+            <description><![CDATA[A police chief's comments spark an unprecedented backlash after a woman was raped in front of her children.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54186609</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54186609</guid>
+            <pubDate>Sat, 19 Sep 2020 00:16:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[IPL 2020: The players who could become new cricket superstars]]></title>
+            <description><![CDATA[The 2020 edition of the Indian Premiere League begins on Saturday.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-54189052</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-54189052</guid>
+            <pubDate>Sat, 19 Sep 2020 00:19:29 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Coronavirus in South Africa: Relief, pride and the 'new normal']]></title>
+            <description><![CDATA[As the "worst phase of the epidemic" is overcome, experts delve into the data to learn more about Covid-19.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54207503</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54207503</guid>
+            <pubDate>Sat, 19 Sep 2020 00:21:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Covid-19 Singapore: A ‘pandemic of inequality’ exposed]]></title>
+            <description><![CDATA[Life has returned to normal for many in Singapore, but one group of people still remain in lockdown.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54082861</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54082861</guid>
+            <pubDate>Thu, 17 Sep 2020 23:02:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mozambique's jihadists and the 'curse' of gas and rubies]]></title>
+            <description><![CDATA[Three years into an escalating insurgency, the president admits the "resource curse" is to blame.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54183948</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54183948</guid>
+            <pubDate>Thu, 17 Sep 2020 23:42:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[On the trail of stolen photographs]]></title>
+            <description><![CDATA[Some call them copyright trolls, but these companies say they defend photographers' rights.]]></description>
+            <link>https://www.bbc.co.uk/news/business-53998711</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-53998711</guid>
+            <pubDate>Thu, 17 Sep 2020 23:12:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Reed leads DeChambeau by one shot in US Open at testing Winged Foot]]></title>
+            <description><![CDATA[Patrick Reed has a slender lead over fellow American Bryson DeChambeau heading into the weekend after a high-scoring second round in New York.]]></description>
+            <link>https://www.bbc.co.uk/sport/golf/54211678</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/golf/54211678</guid>
+            <pubDate>Fri, 18 Sep 2020 23:18:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Liverpool agree £45m deal for Wolves forward Jota]]></title>
+            <description><![CDATA[Liverpool agree a deal to sign Wolverhampton Wanderers forward Diogo Jota - with young Reds defender Ki-Jana Hoever moving to Molineux for up to £13.5m.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54214671</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54214671</guid>
+            <pubDate>Sat, 19 Sep 2020 09:32:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Man City's Aguero could be out for two months, says Guardiola]]></title>
+            <description><![CDATA[Manchester City manager Pep Guardiola fears Sergio Aguero could miss the first two months of the Premier League season.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54211260</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54211260</guid>
+            <pubDate>Fri, 18 Sep 2020 21:30:08 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[‘Liverpool are getting an absolute superstar’ - what Thiago will bring to the champions]]></title>
+            <description><![CDATA[What can Liverpool expect from new signing Thiago Alcantara? How does he compare to their other midfielders?]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54209035</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54209035</guid>
+            <pubDate>Sat, 19 Sep 2020 06:53:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Let's use our voices to grow our game' - Isa Guha column]]></title>
+            <description><![CDATA[Isa Guha, the former England bowler and now BBC cricket commentator, discusses the growth of the women's game and why the England v West Indies series is so important.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/54206904</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/54206904</guid>
+            <pubDate>Sat, 19 Sep 2020 05:10:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bale arrives at Tottenham training ground to complete loan move]]></title>
+            <description><![CDATA[Real Madrid forward Gareth Bale nears a return to Tottenham after visit to the club's training ground.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54192248</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54192248</guid>
+            <pubDate>Fri, 18 Sep 2020 22:39:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Australian family that travels 1,800km to run an outback pub]]></title>
+            <description><![CDATA[The Ellis family in Australia make frequent trips on a small plane, fulfilling what they call "a dream".]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-54173968</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-54173968</guid>
+            <pubDate>Wed, 16 Sep 2020 23:04:33 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nigeria's slave descendants prevented from marrying who they want]]></title>
+            <description><![CDATA[Campaigners fight to overturn customs and a caste system that discriminates against some Igbo people.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54088880</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54088880</guid>
+            <pubDate>Sun, 13 Sep 2020 23:14:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The coal-pots fuelling Antigua's ghost stories and folk tales]]></title>
+            <description><![CDATA[In generations past, Antiguans would gather around a coal-pot not only to cook but also to socialise.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-53985284</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-53985284</guid>
+            <pubDate>Sun, 13 Sep 2020 23:16:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[California and Oregon 2020 wildfires in maps, graphics and images]]></title>
+            <description><![CDATA[A visual guide to the wildfires ravaging California, Oregon and other western states.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54180049</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54180049</guid>
+            <pubDate>Thu, 17 Sep 2020 23:06:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Naomi Osaka: How a shy introvert has found her voice to become tennis' new leader]]></title>
+            <description><![CDATA[The softly spoken Naomi Osaka is finding her voice to become a leader on and off the tennis court, after her second US Open title.]]></description>
+            <link>https://www.bbc.co.uk/sport/tennis/53936569</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/tennis/53936569</guid>
+            <pubDate>Mon, 14 Sep 2020 05:24:20 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

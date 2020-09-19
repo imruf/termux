@@ -29,6 +29,9 @@ sp=search -u https://startpage.com/do/search?query=%
 sps=search -ps %
 ss=search %
 u=search -u %
+b2b=search -u https://www.english-bangla.com/bntobn/index/%
+b2e=search -u https://www.english-bangla.com/bntoen/index/%
+e2b=search -u https://www.english-bangla.com/dictionary/%
 ud=search -u https://www.urbandictionary.com/define.php?term=%
 wiki=search -u https://en.wikipedia.org/wiki/Special:Search/%
 yy=search -u https://search.yahoo.com/search?p=%
