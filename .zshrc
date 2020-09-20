@@ -1,8 +1,8 @@
 autoload -U colors && colors    # Load colors
+# setopt prompt_subst
 
-# PS1="%F{#8e388e}% ~ %F{#586e75}$%b " 
-# mp, r4x are not real user or host
-PS1="%B%F{#b16286}[%F{#d2691e%}mp%F{#b16286}@%F{#cd5555%}r4x %F{#8e388e}%~%F{#b16286}]%F{#586e75}$%b "
+PS1="%B%F{yellow}%~%F{green}/ ➜%b "
+# RPROMPT='$(vcs_super_info)'
 
 # History in cache directory:
 HISTSIZE=10000
@@ -56,6 +56,7 @@ bindkey '^e' edit-command-line
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/zshfnrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/zshfnrc"
 
+# source ${XDG_CONFIG_HOME:-$HOME/.config/zsh}/zsh-vcs-prompt/zshrc.sh 2>/dev/null
 source ${XDG_CONFIG_HOME:-$HOME/.config/zsh}/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source ${XDG_CONFIG_HOME:-$HOME/.config/zsh}/zsh-completions/zsh-completions.plugin.zsh 2>/dev/null
 source ${XDG_CONFIG_HOME:-$HOME/.config/zsh}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null

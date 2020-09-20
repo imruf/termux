@@ -2,7 +2,7 @@
 
 #Function
 #Ytld
-function yts () {
+yts () {
     youtube-dl -j ytsearch:$1
 }
 
@@ -31,3 +31,21 @@ tsmpurge() { transmission-remote -t"$1" --remove-and-delete ;} # delete data als
 tsmdel() { transmission-remote -t"$1" --remove ;}		# leaves data alone
 tsminfo() { transmission-remote -t"$1" --info ;} #info
 tsmspeed() { while true;do clear; transmission-remote -t"$1" -i | grep Speed;sleep 1;done ;}
+
+
+n ()
+{
+    if [ -n $NNNLVL ] && [ "${NNNLVL:-0}" -ge 1 ]; then
+        echo "nnn is already running"
+        return
+    fi
+
+    export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
+
+    nnn "$@"
+
+    if [ -f "$NNN_TMPFILE" ]; then
+            . "$NNN_TMPFILE"
+            rm -f "$NNN_TMPFILE" > /dev/null
+    fi
+}
