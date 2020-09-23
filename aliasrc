@@ -94,12 +94,6 @@ alias \
  fst='sshd' \
  fsts='pkill sshd'
 
-#FTP
-alias \
- ftps='sv-enable ftpd' \
- ftpsd='sv-disable ftpd' \
- ftpu='sv up ftpd' \
- ftpd='sv down ftpd'
 
 #ip/ping
 alias \
