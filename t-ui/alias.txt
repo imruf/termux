@@ -56,8 +56,8 @@ pt=Periodic Table
 s=Settings
 t=Termux
 v=mpv
-x=X-plore
-xx=Mix
+xx=X-plore
+x=Mix
 y=YouTube Vanced
 
 #Call
