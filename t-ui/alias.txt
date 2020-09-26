@@ -13,15 +13,15 @@ rsstime=rss -time_format % YYYY-MMM-dd'T'HH:mm:ssZZZZZ
 
 #notes
 at=notes -add %
+cs=cat notes.md
 ct=echo "%" > notes.md
 dt=notes -rm %
-sn=cat notes.md
 wt=echo "%" >> notes.md
 
 #Search
 bing=search -u https://www.bing.com/search?q=%
 ddg=search -dd %
-gg=search -gg %
+gg=search -u https://www.google.com/search?q=%
 gi=search -u https://www.google.com/search?tbm=isch&q=%
 imdb=search -u https://www.imdb.com/find?q=%
 rt=search -u https://www.rottentomatoes.com/search/?search=%
@@ -37,10 +37,49 @@ wiki=search -u https://en.wikipedia.org/wiki/Special:Search/%
 yy=search -u https://search.yahoo.com/search?p=%
 yt=search -yt %
 
+#Bookmarks
+tor=search -u https://check.torproject.org
+sl=search -u https://suckless.org
+applist=search -u https://wiki.archlinux.org/index.php/list_of_applications
+mydot=search -u https://github.com/imrufbd
+hosts=search -u https://github.com/StevenBlack/hosts
+r4x=search -u https://forum.xda-developers.com/xiaomi-redmi-4x/development
+tui=search -u https://github.com/fAndreuzzi/TUI-ConsoleLauncher/wiki
+pvpn=search -u https://account.protonvpn.com/downloads#openvpn-configuration-files
+aboi=search -u http://www.amarboi.com/?m=1
+fxs=search -u https://www.fxsolver.com
+mathw=search -u https://www.mathway.com
+epb=search -u https://eporashona.blogspot.com/?m=1
+bbc=search -u https://www.bbc.co.uk/news
+bdn=search -u https://m.bdnews24.com/bn
+djk=search -u https://www.dailyjanakantha.com
+bbcb=search -u https://www.bbc.com/bengali
+cric=search -u https://www.espncricinfo.com/scores
+muktom=search -u https://blog.mukto-mona.com
+bigj=search -u https://bigganjatra.org
+natgeo=search -u https://www.nationalgeographic.com
+sochol=search -u http://www.sachalayatan.com
+fb=search -u http://mbasic.facebook.com
+bigp=search -u http://bigganpotrika.com
+xv=search -u https://www.xvideos.com
+xnx=search -u https://www.xnxx.com
+ph=search -u https://www.pornhub.com
+xham=search -u https://xhamster.com
+yp=search -u https://www.youporn.com
+tnfx=search -u https://m.tnaflix.com
+yj=search -u https://www.youjizz.com
+hqp=search -u https://m.hqporner.com
+beeg=search -u https://beeg.com
+ptx=search -u https://www.porntrex.com
+kb=search -u https://kamababa.com
+xz=search -u https://www.xossipz.com/forumdisplay.php?fid=13
+bxf=search -u https://xforum.live/forums/bengali.25
+xfap=search -u https://xossipfap.com/forum/forum-24.html
+dxp=search -u https://www.desixossip.com/forumdisplay.php?st=1023
+
 #apps
 0=Calc+
 as=Aurora Store
-b=Browser NBPro
 c=Camera
 d=ColorDict
 eb=Moon+ Reader
@@ -50,14 +89,14 @@ g=Gallery
 k=Keep Notes
 m=Vinyl
 o=Orbot
+ovc=Openvpn Connect
 pb=EBookDroid
 ps=Play Store
 pt=Periodic Table
 s=Settings
 t=Termux
 v=mpv
-xx=X-plore
-x=Mix
+x=X-plore
 y=YouTube Vanced
 
 #Call
