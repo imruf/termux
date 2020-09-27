@@ -80,16 +80,13 @@ dxp=search -u https://www.desixossip.com/forumdisplay.php?st=1023
 #apps
 0=Calc+
 as=Aurora Store
+b=Browser NBPro
 c=Camera
 d=ColorDict
 eb=Moon+ Reader
-f=Firefox
 fd=F-Droid
 g=Gallery
-k=Keep Notes
 m=Vinyl
-o=Orbot
-ovc=Openvpn Connect
 pb=EBookDroid
 ps=Play Store
 pt=Periodic Table
@@ -97,10 +94,10 @@ s=Settings
 t=Termux
 v=mpv
 x=X-plore
+xx=Mixplore
 y=YouTube Vanced
 
 #Call
-10gb=call *111*97#
 aaa=call aaa
 c=Contacts
 h=call %
