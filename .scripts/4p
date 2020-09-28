@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+
+url="$*"
+
+echo "Streaming..."
+xdg-open $(youtube-dl -f 'bestvideo[height<=480]+bestaudio/best[height<=480]' -g "$url")

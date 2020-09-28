@@ -89,10 +89,11 @@ alias \
  sol='cd ~/games/sol; ./sol; cd' \
  spider='cd ~/games/sol; ./spider; cd'
 
-#SSH
+#SSH #http #ftpu busybox script
 alias \
  sftpu='sshd' \
- sftpd='pkill sshd'
+ sftpd='pkill sshd' \
+ httpu='python3 ~/.scripts/shsu.py'
 
 
 #ip/ping
