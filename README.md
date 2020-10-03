@@ -1,1 +1,1 @@
-# termux--dot
+# Dotfile repo of termux rice
