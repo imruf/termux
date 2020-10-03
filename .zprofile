@@ -1,6 +1,7 @@
 #!/bin/zsh
 # Default programs:
 export EDITOR="/data/data/com.termux/files/usr/bin/nvim"
+export BROWSER="/data/data/com.termux/files/usr/bin/elinks"
 
 #xdg-home
 export XDG_CONFIG_HOME="$HOME/.config"
