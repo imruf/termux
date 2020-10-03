@@ -1,0 +1,3 @@
+#-f worstvideo+worstaudio
+# -f 'bestvideo[height<=360]+bestaudio/best[height<=240]'
+# -o ~/1.mp4
