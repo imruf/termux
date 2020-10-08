@@ -9,6 +9,6 @@
 <rss_download_format value="RSS: %id --- Downloaded %sb bytes"/>
 <rss_download_message_color value="aqua"/>
 <click_rss value="true"/>
-<rss id="1" updateTimeSec="7200" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1601211297000" lastChecked="1601213631178"/>
-<rss id="2" updateTimeSec="7200" show="true" url="https://blog.mukto-mona.com/feed/" lastShownItem="1601119676000" lastChecked="1601213589683"/>
+<rss id="1" updateTimeSec="7200" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1602176060000" lastChecked="1602177702783"/>
+
 </RSS>

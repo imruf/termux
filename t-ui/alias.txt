@@ -86,7 +86,6 @@ d=ColorDict
 eb=Moon+ Reader
 fd=F-Droid
 g=Gallery
-m=Vinyl
 pb=EBookDroid
 ps=Play Store
 pt=Periodic Table
@@ -94,7 +93,7 @@ s=Settings
 t=Termux
 v=mpv
 x=X-plore
-xx=Mixplore
+xx=Mix
 y=YouTube Vanced
 
 #Call
