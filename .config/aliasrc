@@ -28,6 +28,14 @@ alias \
  cdsd="cd ~/storage/shared/" \
  cdtui="cd ~/storage/shared/t-ui"
 
+#db
+alias \
+ updb="updatedb" \
+ e="fzf_file" \
+ f="fzf_cd" \
+ h="fzf_history"
+
+
 #termux-api
 alias \
  tb="termux-brightness" \
@@ -114,13 +122,13 @@ alias \
 alias \
  wget="wget -c" \
  weather='curl wttr.in/khagrachari' \
- updb="updatedb" \
  math="mathomatic" \
  calc='python -ic "from __future__ import division; from math import *; from random import *"' \
  c2='units' \
  rt="tuir" \
  nnn='nnn -d' \
  el='elinks' \
+ m='cmus' \
  def='sdcv' \
  keep='keepcli' \
  covid='curl https://corona-stats.online?source=2' \
