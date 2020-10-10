@@ -118,9 +118,13 @@ alias \
  pfx='peerflix -k -f /home/masud/Videos/ptfx' \
  tfx='torrentflix'
 
-#MIS
+#downloader
 alias \
  wget="wget -c" \
+ a2="aria2c"
+
+#MIS
+alias \
  weather='curl wttr.in/khagrachari' \
  math="mathomatic" \
  calc='python -ic "from __future__ import division; from math import *; from random import *"' \
