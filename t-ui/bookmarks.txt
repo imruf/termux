@@ -1,3 +1,5 @@
+bookmarks	http://nakedbrowser.com/pro/	browser help / how to import bookmarks
+bookmarks	javascript:window.open('').document.write('<html><head><title>page source</title></head><body><pre style="border:1px solid #099;width:80%;white-space:pre-wrap;word-wrap:break-word">'+unescape(document.documentElement.innerHTML).replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</pre></body></html>')	view page source
 help	http://nakedbrowser.com/pro/	help
 help	javascript:window.open('').document.write('<html><head><title>page source</title></head><body><pre style="border:1px solid #099;width:80%;white-space:pre-wrap;word-wrap:break-word">'+unescape(document.documentElement.innerHTML).replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</pre></body></html>')	source
 help	https://check.torproject.org/	ctor
@@ -23,8 +25,6 @@ blog	https://bigganjatra.org/	bigganjatra
 blog	https://www.nationalgeographic.com/	NatGeo
 blog	http://www.sachalayatan.com/	sochol
 blog	http://bigganpotrika.com/	BigganPotrika
-movies	https://yifymovies.tv/	yifi
-movies	http://www.openloadmovies.watch/	openload
 nb	https://www.xvideos.com/	xv
 nb	https://www.xnxx.com/	xnx
 nb	https://www.pornhub.com/	ph
