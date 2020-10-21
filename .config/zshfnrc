@@ -6,6 +6,32 @@ yts () {
     youtube-dl -j ytsearch:$1
 }
 
+fzf_file() 
+        { 
+            zle -I; FILE=$(find ~/ -type f 2> /dev/null | fzf +m) && vim "$FILE" ; 
+        }; 
+    zle -N fzf_file;
+
+fzf_cd() 
+        { 
+            zle -I; DIR=$(find ~/ -type d 2> /dev/null | fzf +m) && cd "$DIR" ; 
+        }; 
+    zle -N fzf_cd;
+
+fzf_history() 
+        { 
+            zle -I; eval $(history | fzf -e +i +s | sed 's/ *[0-9]* *//') ; 
+        }; 
+    zle -N fzf_history;
+
+
+fzf_sr() 
+        { 
+            term="$*"
+            zle -I; elvi=$(sr -elvi | awk -F'-' '{print $1}' | sed '/:/d' | awk '{$1=$1};1' | fzf +m) && sr "$elvi" "$term" ; 
+        }; 
+    zle -N fzf_sr;
+
 #Transmission
 tsmcc() {
         transmission-remote -l | grep 100% | grep Done | \
