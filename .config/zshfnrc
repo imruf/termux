@@ -24,6 +24,11 @@ fzf_history()
         }; 
     zle -N fzf_history;
 
+fzf_kill() 
+        { 
+            zle -I; ps -ef | sed 1d | fzf -m | awk '{print $2}' | xargs kill -${1:-9} ; 
+        }; 
+    zle -N fzf_kill;
 
 fzf_sr() 
         { 

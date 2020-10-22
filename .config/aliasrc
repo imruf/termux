@@ -34,6 +34,7 @@ alias \
  e="fzf_file" \
  f="fzf_cd" \
  h="fzf_history" \
+ k="fzf_kill"
  s="fzf_sr"
 
 
