@@ -84,6 +84,7 @@ b=Browser NBPro
 c=Camera
 d=ColorDict
 eb=Moon+ Reader
+f=Iceraven
 fd=F-Droid
 g=Gallery
 pb=EBookDroid
@@ -124,8 +125,8 @@ rsys=su -c "svc power reboot"
 #Status
 nc=su -c "service call notification 1"
 sb=su -c "service call statusbar 1"
-#im=su -c settings put global policy_control immersive.status=*
-#imo=su -c settings put global policy_control null*
+hsb=su -c "settings put global policy_control immersive.status=*"
+ssb=su -c "settings put global policy_control null*"
 
 #media
 mb=su -c "input keyevent KEYCODE_MEDIA_PREVIOUS"

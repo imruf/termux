@@ -9,6 +9,6 @@
 <rss_download_format value="RSS: %id --- Downloaded %sb bytes"/>
 <rss_download_message_color value="aqua"/>
 <click_rss value="true"/>
-<rss id="1" updateTimeSec="7200" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1603017502000" lastChecked="1603020190321"/>
+<rss id="1" updateTimeSec="7200" show="true" url="http://feeds.bbci.co.uk/news/rss.xml?edition=int" lastShownItem="1603464662000" lastChecked="1603465680947"/>
 
 </RSS>
