@@ -1,6 +1,7 @@
 #tui
 2=restart
 5=refresh
+al=alias -ls
 cc=clear
 myip=ifconfig
 pn=ping -c 3 google.com
@@ -45,6 +46,7 @@ mydot=search -u https://github.com/imrufbd
 hosts=search -u https://github.com/StevenBlack/hosts
 r4x=search -u https://forum.xda-developers.com/xiaomi-redmi-4x/development
 tui=search -u https://github.com/fAndreuzzi/TUI-ConsoleLauncher/wiki
+wg=search -u https://boards.4chan.org/wg/
 pvpn=search -u https://account.protonvpn.com/downloads#openvpn-configuration-files
 aboi=search -u http://www.amarboi.com/?m=1
 fxs=search -u https://www.fxsolver.com
@@ -55,7 +57,7 @@ bdn=search -u https://m.bdnews24.com/bn
 djk=search -u https://www.dailyjanakantha.com
 bbcb=search -u https://www.bbc.com/bengali
 cric=search -u https://www.espncricinfo.com/scores
-muktom=search -u https://blog.mukto-mona.com
+mm=search -u https://blog.mukto-mona.com
 bigj=search -u https://bigganjatra.org
 natgeo=search -u https://www.nationalgeographic.com
 sochol=search -u http://www.sachalayatan.com
@@ -64,7 +66,7 @@ bigp=search -u http://bigganpotrika.com
 xv=search -u https://www.xvideos.com
 xnx=search -u https://www.xnxx.com
 ph=search -u https://www.pornhub.com
-xham=search -u https://xhamster.com
+xh=search -u https://xhamster.com
 yp=search -u https://www.youporn.com
 tnfx=search -u https://m.tnaflix.com
 yj=search -u https://www.youjizz.com

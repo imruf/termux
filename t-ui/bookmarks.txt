@@ -11,6 +11,7 @@ linux	https://wiki.archlinux.org/	ArchWiki
 linux	https://forum.xda-developers.com/xiaomi-redmi-4x/development	R4X
 linux	https://github.com/fAndreuzzi/TUI-ConsoleLauncher/wiki	t-ui
 linux	https://account.protonvpn.com/downloads#openvpn-configuration-files	ProtonVpn
+linux	https://boards.4chan.org/wg/	wallpaper
 ebook	http://www.amarboi.com/?m=1	Amarboi
 edu	https://www.fxsolver.com/	fxSolver
 edu	https://www.mathway.com/	mathWay

@@ -22,7 +22,7 @@
 <username value="mp"/>
 <deviceName value="r4x"/>
 <system_wallpaper value="true"/>
-<fullscreen value="true"/>
+<fullscreen value="false"/>
 <device_index value="0"/>
 <network_index value="1"/>
 <battery_index value="1"/>
