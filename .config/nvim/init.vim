@@ -9,8 +9,8 @@ endif
 
 call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"'))
 
-Plug 'vim-airline/vim-airline'					" Airline
-Plug 'vim-airline/vim-airline-themes'				" Airline Themes
+Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'chrisbra/Colorizer'
 
 call plug#end()
@@ -52,15 +52,10 @@ set tabstop=4
 set splitbelow splitright
 
 let g:rehash256 = 1
-let g:Powerline_symbols='unicode'
-let g:Powerline_theme='long'
 
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_powerline_fonts = 1
-let g:airline_theme='solarized_flood'
-
-
-
+let g:lightline = {
+      \ 'colorscheme': 'OldHope',
+      \ }
 
 " 1 tab == 4 spaces
 
