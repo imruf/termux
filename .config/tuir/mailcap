@@ -1,6 +1,6 @@
 image/jpg; curl -o ~/tmp/1.jpg '%s' && xdg-open ~/tmp/1.jpg; needsterminal;
 image/jpeg; curl -o ~/tmp/1.jpeg '%s' && xdg-open ~/tmp/1.jpeg; needsterminal;
 image/png; curl -o ~/tmp/1.png '%s' && xdg-open ~/tmp/1.png; needsterminal;
-image/gif; ryt '%s'; needsterminal;
-video/mp4; 4p '%s'; needsterminal;
+image/gif; tyt '%s'; needsterminal;
+video/mp4; tyt '%s'; needsterminal;
 video/*; 4p '%s'; needsterminal; 
