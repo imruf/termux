@@ -11,23 +11,30 @@
             <link>https://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Nov 2020 12:37:20 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 02 Nov 2020 14:31:45 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[US Election 2020: Biden and Trump hit swing states]]></title>
-            <description><![CDATA[President Trump visits five states on Sunday while his rival Joe Biden campaigns in Pennsylvania.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54774532</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54774532</guid>
-            <pubDate>Mon, 02 Nov 2020 11:12:13 GMT</pubDate>
+            <title><![CDATA[The Countdown: Lady Gaga gets drawn in as campaign heats up]]></title>
+            <description><![CDATA[The latest US election news in four sentences and how Lady Gaga got involved in an unusual debate.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54776996</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54776996</guid>
+            <pubDate>Mon, 02 Nov 2020 14:16:20 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Johnny Depp loses libel case over Sun 'wife beater' claim]]></title>
             <description><![CDATA[The judge says the Sun's article claiming the actor assaulted Amber Heard was "substantially true".]]></description>
             <link>https://www.bbc.co.uk/news/uk-54779430</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54779430</guid>
-            <pubDate>Mon, 02 Nov 2020 12:24:05 GMT</pubDate>
+            <pubDate>Mon, 02 Nov 2020 13:28:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Turkey earthquake: Girl, three, pulled alive from rubble]]></title>
+            <description><![CDATA[The child survived for 65 hours after her apartment building was destroyed in the town of Izmir.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54778682</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54778682</guid>
+            <pubDate>Mon, 02 Nov 2020 12:47:22 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Whale sculpture catches crashed Dutch metro train]]></title>
@@ -35,13 +42,6 @@
             <link>https://www.bbc.co.uk/news/world-europe-54780430</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54780430</guid>
             <pubDate>Mon, 02 Nov 2020 12:09:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA['Living in America's cancer alley is like death row']]></title>
-            <description><![CDATA[Data from the US Environmental Protection Agency suggests that those living in the area of St. James in Louisiana have the highest risk of getting cancer of anywhere in America.]]></description>
-            <link>https://www.bbc.co.uk/news/newsbeat-54773957</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-54773957</guid>
-            <pubDate>Mon, 02 Nov 2020 06:13:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[UK PM warns of virus deaths twice as bad as spring]]></title>
@@ -55,14 +55,14 @@
             <description><![CDATA[Tighter rules aim to curb Germany's Covid surge, but France's lockdown is tougher.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-54778345</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54778345</guid>
-            <pubDate>Mon, 02 Nov 2020 11:51:38 GMT</pubDate>
+            <pubDate>Mon, 02 Nov 2020 13:38:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Gunmen storm Kabul University ahead of Iranian book fair]]></title>
-            <description><![CDATA[The Taliban denies being behind the attack as security forces battle with gunmen on the campus.]]></description>
+            <title><![CDATA[Kabul University attack: Nineteen dead, more wounded after gunmen storm Afghan campus]]></title>
+            <description><![CDATA[The Taliban deny being behind the attack, which saw an hours-long battle with security forces.]]></description>
             <link>https://www.bbc.co.uk/news/world-asia-54750839</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54750839</guid>
-            <pubDate>Mon, 02 Nov 2020 09:31:09 GMT</pubDate>
+            <pubDate>Mon, 02 Nov 2020 13:46:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Actor Eddie Hassell dies aged 30 after being shot]]></title>
@@ -112,6 +112,13 @@
             <link>https://www.bbc.co.uk/news/world-asia-54754567</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54754567</guid>
             <pubDate>Mon, 02 Nov 2020 00:01:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Living in America's cancer alley is like death row']]></title>
+            <description><![CDATA[Data from the US Environmental Protection Agency suggests that those living in the area of St. James in Louisiana have the highest risk of getting cancer of anywhere in America.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-54773957</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-54773957</guid>
+            <pubDate>Mon, 02 Nov 2020 06:13:59 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ant Group: How it became a financial giant]]></title>
@@ -247,6 +254,13 @@
             <pubDate>Sun, 01 Nov 2020 23:33:17 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[All FA Cup ties to go ahead but amateur golf and tennis to be halted during lockdown]]></title>
+            <description><![CDATA[All FA Cup first-round ties, including those involving non-elite teams, will take place as planned this weekend.]]></description>
+            <link>https://www.bbc.co.uk/sport/54781128</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/54781128</guid>
+            <pubDate>Mon, 02 Nov 2020 14:29:38 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[Man Utd 0-1 Arsenal: Why win could be defining moment for Mikel Arteta - Martin Keown analysis]]></title>
             <description><![CDATA[Ex-Gunners defender Martin Keown explains how Arsenal boss Mikel Arteta's plan worked perfectly to secure a first league win at Manchester United for 14 years.]]></description>
             <link>https://www.bbc.co.uk/sport/football/54773000</link>
@@ -268,11 +282,11 @@
             <pubDate>Mon, 02 Nov 2020 11:43:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['Jones' next team selection will be fascinating as England move on from World Cup curse']]></title>
-            <description><![CDATA[After securing the Six Nations title what changes might Eddie Jones make for England's Nations Cup campaign, asks rugby union correspondent Chris Jones.]]></description>
-            <link>https://www.bbc.co.uk/sport/rugby-union/54780550</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/rugby-union/54780550</guid>
-            <pubDate>Mon, 02 Nov 2020 11:53:29 GMT</pubDate>
+            <title><![CDATA[Top football tweets: Arsenal win proves 2020 can still surprise]]></title>
+            <description><![CDATA[The best reaction to the weekend's football from social media, including Arsenal's win over Manchester United at Old Trafford.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54778421</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54778421</guid>
+            <pubDate>Mon, 02 Nov 2020 12:00:43 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[US election: What's the worst that could happen?]]></title>
