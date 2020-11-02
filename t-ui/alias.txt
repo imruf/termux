@@ -5,6 +5,7 @@ al=alias -ls
 cc=clear
 myip=ifconfig
 pn=ping -c 3 google.com
+st=apps -st %
 
 #rss
 rssu=rss -l %
