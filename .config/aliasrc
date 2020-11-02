@@ -40,7 +40,7 @@ alias \
  e="fzf_file" \
  f="fzf_cd" \
  h="fzf_history" \
- k="fzf_kill"
+ k="fzf_kill" \
  s="fzf_sr"
 
 
@@ -138,7 +138,7 @@ alias \
 alias \
  weather='curl wttr.in/khagrachari' \
  math="mathomatic" \
- pcalc='python -ic "from __future__ import division; from math import *; from random import *"' \
+ pc='python -ic "from __future__ import division; from math import *; from random import *"' \
  c2='units' \
  rt="tuir" \
  nnn='nnn -d' \
