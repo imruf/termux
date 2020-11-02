@@ -7,6 +7,12 @@ alias \
  v="$EDITOR" \
  q="exit" 
 
+#tmux
+alias \
+ t="tmux" \
+ tl="tmux ls" \
+ ta="tmux attach-session -t" \
+
 # Files
 alias \
  ls="ls --color=auto --group-directories-first" \
@@ -80,7 +86,7 @@ alias \
  ibx="mutt" \
  mp="cp mp .muttrc && ibx" \
  ib="cp ib .muttrc && ibx" \
- rr="cp rr .muttrc && ibx" \
+ rry="cp rry .muttrc && ibx" \
  lic="cp lic .muttrc && ibx"
 
 #GIT
@@ -132,7 +138,7 @@ alias \
 alias \
  weather='curl wttr.in/khagrachari' \
  math="mathomatic" \
- calc='python -ic "from __future__ import division; from math import *; from random import *"' \
+ pcalc='python -ic "from __future__ import division; from math import *; from random import *"' \
  c2='units' \
  rt="tuir" \
  nnn='nnn -d' \
