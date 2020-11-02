@@ -1,18 +1,23 @@
-help	http://nakedbrowser.com/pro/	help
-help	javascript:window.open('').document.write('<html><head><title>page source</title></head><body><pre style="border:1px solid #099;width:80%;white-space:pre-wrap;word-wrap:break-word">'+unescape(document.documentElement.innerHTML).replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</pre></body></html>')	source
 help	https://check.torproject.org/	ctor
 linux	https://suckless.org/	suckless
 linux	https://wiki.archlinux.org/index.php/list_of_applications	LinuxApps
+linux	https://wiki.archlinux.org/	ArchWiki
 linux	https://github.com/imrufbd	mydot
 linux	https://github.com/StevenBlack/hosts	hosts
-linux	https://wiki.archlinux.org/	ArchWiki
-linux	https://forum.xda-developers.com/xiaomi-redmi-4x/development	R4X
 linux	https://github.com/fAndreuzzi/TUI-ConsoleLauncher/wiki	t-ui
+linux	https://forum.xda-developers.com/xiaomi-redmi-4x/development	R4X
 linux	https://account.protonvpn.com/downloads#openvpn-configuration-files	ProtonVpn
+linux	https://boards.4chan.org/wg/	wallpaper
+linux	https://localhost:9091/transmission/web/	Transmission
+linux	https://linux.die.net/man/1/elinks	Elinks
+linux	https://raw.githubusercontent.com/qutebrowser/qutebrowser/master/doc/img/cheatsheet-big.png	qtcs
 ebook	http://www.amarboi.com/?m=1	Amarboi
 edu	https://www.fxsolver.com/	fxSolver
 edu	https://www.mathway.com/	mathWay
 edu	https://eporashona.blogspot.com/?m=1	e-porashona
+edu	https://techedu.gov.bd/	techedu
+edu	https://tmed.gov.bd/	tmed
+edu	https://bteb.gov.bd/	bteb
 news	https://www.bbc.co.uk/news	bbc
 news	https://m.bdnews24.com/bn	bdnews24
 news	https://www.dailyjanakantha.com/	janakantha
