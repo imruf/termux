@@ -1,3 +1,5 @@
+help	http://nakedbrowser.com/pro/	help
+help	javascript:window.open('').document.write('<html><head><title>page source</title></head><body><pre style="border:1px solid #099;width:80%;white-space:pre-wrap;word-wrap:break-word">'+unescape(document.documentElement.innerHTML).replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</pre></body></html>')	source
 help	https://check.torproject.org/	ctor
 linux	https://suckless.org/	suckless
 linux	https://wiki.archlinux.org/index.php/list_of_applications	LinuxApps
