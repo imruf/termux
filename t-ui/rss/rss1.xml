@@ -11,107 +11,135 @@
             <link>https://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 02 Nov 2020 14:31:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Nov 2020 05:56:21 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[The Countdown: Lady Gaga gets drawn in as campaign heats up]]></title>
-            <description><![CDATA[The latest US election news in four sentences and how Lady Gaga got involved in an unusual debate.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54776996</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54776996</guid>
-            <pubDate>Mon, 02 Nov 2020 14:16:20 GMT</pubDate>
+            <title><![CDATA[US Election 2020: Biden and Trump make final pitches to voters]]></title>
+            <description><![CDATA[The candidates make last-ditch efforts to persuade voters in key states on the final day of campaigning.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54787441</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54787441</guid>
+            <pubDate>Tue, 03 Nov 2020 02:37:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Johnny Depp loses libel case over Sun 'wife beater' claim]]></title>
-            <description><![CDATA[The judge says the Sun's article claiming the actor assaulted Amber Heard was "substantially true".]]></description>
-            <link>https://www.bbc.co.uk/news/uk-54779430</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54779430</guid>
-            <pubDate>Mon, 02 Nov 2020 13:28:12 GMT</pubDate>
+            <title><![CDATA[US election: A wild three-year campaign in three minutes]]></title>
+            <description><![CDATA[Billions of dollars spent, dozens of candidates, two nominees, one pandemic - we take a look back.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54772656</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54772656</guid>
+            <pubDate>Mon, 02 Nov 2020 22:43:10 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Turkey earthquake: Girl, three, pulled alive from rubble]]></title>
-            <description><![CDATA[The child survived for 65 hours after her apartment building was destroyed in the town of Izmir.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54778682</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54778682</guid>
-            <pubDate>Mon, 02 Nov 2020 12:47:22 GMT</pubDate>
+            <title><![CDATA[Seven decades of Trump and Biden in pictures]]></title>
+            <description><![CDATA[The political and personal lives of the candidates over seven decades.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54267454</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54267454</guid>
+            <pubDate>Tue, 03 Nov 2020 00:14:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Whale sculpture catches crashed Dutch metro train]]></title>
-            <description><![CDATA[A metro train that crashed through a barrier near Rotterdam is left suspended thanks to a sculpture.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54780430</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54780430</guid>
-            <pubDate>Mon, 02 Nov 2020 12:09:29 GMT</pubDate>
+            <title><![CDATA[Vienna shooting: Austria launches manhunt after deadly 'terror' attack]]></title>
+            <description><![CDATA[Police say an armed suspect is on the run after an attack that left three people and a gunman dead.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54788613</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54788613</guid>
+            <pubDate>Tue, 03 Nov 2020 05:48:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[UK PM warns of virus deaths twice as bad as spring]]></title>
-            <description><![CDATA[Boris Johnson is expected to tell MPs there is "no alternative" to the four-week England lockdown.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-54773196</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54773196</guid>
-            <pubDate>Mon, 02 Nov 2020 11:16:34 GMT</pubDate>
+            <title><![CDATA[Sri Lanka: Rescuers rush to save beached pilot whales]]></title>
+            <description><![CDATA[Around 100 pilot whales are stranded near the Sri Lankan capital Colombo.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54790569</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54790569</guid>
+            <pubDate>Tue, 03 Nov 2020 05:23:41 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[US businesses brace for election unrest]]></title>
+            <description><![CDATA[Shopskeepers have been boarding up windows in anticipation of unrest.]]></description>
+            <link>https://www.bbc.co.uk/news/business-54788626</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54788626</guid>
+            <pubDate>Tue, 03 Nov 2020 00:03:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[T-cell response 'lasts six months after Covid infection']]></title>
+            <description><![CDATA[But it is still not clear how much this protects people against being re-infected, experts say.]]></description>
+            <link>https://www.bbc.co.uk/news/health-54781496</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-54781496</guid>
+            <pubDate>Mon, 02 Nov 2020 19:13:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Indians asked to eat more sugar to tackle oversupply]]></title>
+            <description><![CDATA[India is already the world's biggest consumer of the sweetener]]></description>
+            <link>https://www.bbc.co.uk/news/business-54776376</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54776376</guid>
+            <pubDate>Mon, 02 Nov 2020 23:32:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Chinese firm moves from adult diapers to face masks]]></title>
+            <description><![CDATA[Daddybaby has been given approval by British standards agency and EU to provide protective equipment.]]></description>
+            <link>https://www.bbc.co.uk/news/business-54776402</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54776402</guid>
+            <pubDate>Tue, 03 Nov 2020 04:21:36 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Melbourne Cup 2020: Twilight Payment wins but Anthony Van Dyck is fatally injured]]></title>
+            <description><![CDATA[Twilight Payment gives Irish trainer Joseph O'Brien a second Melbourne Cup win but victory is overshadowed by the death of 2019 Derby winner Anthony Van Dyck.]]></description>
+            <link>https://www.bbc.co.uk/sport/horse-racing/54782125</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/horse-racing/54782125</guid>
+            <pubDate>Tue, 03 Nov 2020 05:14:57 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Coronavirus: Germany restricts social life in 'lockdown light']]></title>
             <description><![CDATA[Tighter rules aim to curb Germany's Covid surge, but France's lockdown is tougher.]]></description>
             <link>https://www.bbc.co.uk/news/world-europe-54778345</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54778345</guid>
-            <pubDate>Mon, 02 Nov 2020 13:38:59 GMT</pubDate>
+            <pubDate>Mon, 02 Nov 2020 16:18:29 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Kabul University attack: Nineteen dead, more wounded after gunmen storm Afghan campus]]></title>
-            <description><![CDATA[The Taliban deny being behind the attack, which saw an hours-long battle with security forces.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54750839</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54750839</guid>
-            <pubDate>Mon, 02 Nov 2020 13:46:00 GMT</pubDate>
+            <title><![CDATA[Turkey earthquake: Girl, three, pulled alive from rubble]]></title>
+            <description><![CDATA[A three-year-old girl is pulled alive from rubble in Turkey's port city of Izmir.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54778682</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54778682</guid>
+            <pubDate>Mon, 02 Nov 2020 19:16:28 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Actor Eddie Hassell dies aged 30 after being shot]]></title>
-            <description><![CDATA[The US star was best known for his roles in the film The Kids Are All Right, and the TV show Surface.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-54776876</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-54776876</guid>
-            <pubDate>Mon, 02 Nov 2020 10:10:05 GMT</pubDate>
+            <title><![CDATA[Van Gogh: Artist experienced 'delirium from alcohol withdrawal']]></title>
+            <description><![CDATA[The artist likely suffered with delirium as a result of alcohol withdrawal, Dutch researchers say.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54780434</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54780434</guid>
+            <pubDate>Mon, 02 Nov 2020 16:32:18 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Robert Fisk, veteran UK journalist, dies aged 74]]></title>
-            <description><![CDATA[Known for his decades of reporting on the Middle East, Fisk interviewed Osama Bin Laden three times.]]></description>
-            <link>https://www.bbc.co.uk/news/world-middle-east-54774539</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-54774539</guid>
-            <pubDate>Mon, 02 Nov 2020 11:17:12 GMT</pubDate>
+            <title><![CDATA[Coronavirus: Behind the scenes of developing a Covid-19 vaccine]]></title>
+            <description><![CDATA[Meet the scientists who use social media to show people what they do to develop a coronavirus vaccine in the lab.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-54783782</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-54783782</guid>
+            <pubDate>Tue, 03 Nov 2020 00:06:21 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Typhoon Goni: Fears after Philippine town said to be 90% damaged]]></title>
-            <description><![CDATA[The Red Cross says initial assessments of Philippines municipality suggests widespread destruction.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54775430</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54775430</guid>
-            <pubDate>Mon, 02 Nov 2020 08:00:17 GMT</pubDate>
+            <title><![CDATA[Bushfire koalas going back to the wild]]></title>
+            <description><![CDATA[Thousands of creatures were killed and injured in last summer's blazes on South Australia's Kangaroo Island.]]></description>
+            <link>https://www.bbc.co.uk/news/world-australia-54786796</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-54786796</guid>
+            <pubDate>Tue, 03 Nov 2020 00:01:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Covid-19: Prince William 'tested positive in April']]></title>
-            <description><![CDATA[The Duke of Cambridge is believed to have caught it at a similar time as his father, Prince Charles.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-54774942</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54774942</guid>
-            <pubDate>Mon, 02 Nov 2020 03:38:28 GMT</pubDate>
+            <title><![CDATA[Three elders give advice for Trump and Biden]]></title>
+            <description><![CDATA[From deep in the Maasai lands of Kenya to high in the mountains of Tibet, we found this advice for Donald Trump and Joe Biden.]]></description>
+            <link>https://www.bbc.co.uk/news/world-54787675</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-54787675</guid>
+            <pubDate>Tue, 03 Nov 2020 00:08:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[TikTok failed to ban flagged 'child predator']]></title>
-            <description><![CDATA[App initially did not terminate account of man offering to send naked image to 14-year-old's account.]]></description>
-            <link>https://www.bbc.co.uk/news/technology-54773257</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/technology-54773257</guid>
-            <pubDate>Mon, 02 Nov 2020 00:16:02 GMT</pubDate>
+            <title><![CDATA[The Countdown: Lady Gaga gets drawn in as campaign heats up]]></title>
+            <description><![CDATA[The latest US election news in four sentences and how Lady Gaga got involved in an unusual debate.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54776996</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54776996</guid>
+            <pubDate>Mon, 02 Nov 2020 20:25:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Tanzania elections: Opposition leader Freeman Mbowe arrested]]></title>
-            <description><![CDATA[Police detain the Chadema chairman after his party called for protests against the election results.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-54777226</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54777226</guid>
-            <pubDate>Mon, 02 Nov 2020 11:19:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ethnic Mongolians battle to keep their language and culture alive in China]]></title>
-            <description><![CDATA[A reduction in Mongolian language teaching has prompted rare protests in China’s northern border region.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54754567</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54754567</guid>
-            <pubDate>Mon, 02 Nov 2020 00:01:21 GMT</pubDate>
+            <title><![CDATA[In pictures: Day of the Dead in Covid times]]></title>
+            <description><![CDATA[With public events cancelled amid the pandemic, Mexico's Day of the Dead is low-key but poignant.]]></description>
+            <link>https://www.bbc.co.uk/news/world-latin-america-54778292</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-54778292</guid>
+            <pubDate>Mon, 02 Nov 2020 16:30:38 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA['Living in America's cancer alley is like death row']]></title>
@@ -119,6 +147,20 @@
             <link>https://www.bbc.co.uk/news/newsbeat-54773957</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-54773957</guid>
             <pubDate>Mon, 02 Nov 2020 06:13:59 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Baby Shark becomes YouTube's most-watched video of all time]]></title>
+            <description><![CDATA[The children's song overtakes Latin pop smash Despacito to become the site's most-viewed video ever.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-54783116</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-54783116</guid>
+            <pubDate>Mon, 02 Nov 2020 15:30:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ethnic Mongolians battle to keep their language and culture alive in China]]></title>
+            <description><![CDATA[A reduction in Mongolian language teaching has prompted rare protests in China’s northern border region.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54754567</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54754567</guid>
+            <pubDate>Mon, 02 Nov 2020 00:01:21 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Ant Group: How it became a financial giant]]></title>
@@ -142,53 +184,25 @@
             <pubDate>Mon, 02 Nov 2020 00:01:25 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[IVF treatment: 'Grieving for the child you can't have']]></title>
-            <description><![CDATA[A campaigner for NHS-funded IVF says she "reached crisis point" after discovering she was infertile.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-cambridgeshire-54750504</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-cambridgeshire-54750504</guid>
-            <pubDate>Mon, 02 Nov 2020 00:01:37 GMT</pubDate>
+            <title><![CDATA[We want to live, overworked delivery drivers say]]></title>
+            <description><![CDATA[Families in South Korea are reeling after the deaths of 14 delivery workers this year from what they call overwork.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54775719</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54775719</guid>
+            <pubDate>Tue, 03 Nov 2020 00:01:16 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Machu Picchu reopens after eight-month Covid closure]]></title>
-            <description><![CDATA[The Peruvian authorities put on an ancient Incan ritual to reopen the Unesco World Heritage site.]]></description>
-            <link>https://www.bbc.co.uk/news/world-latin-america-54775061</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-54775061</guid>
-            <pubDate>Mon, 02 Nov 2020 04:34:28 GMT</pubDate>
+            <title><![CDATA[#EndSars protests: How Anthony Unuode gave his life for a better Nigeria]]></title>
+            <description><![CDATA[Nigerians pay tribute to #EndSars protester Anthony Unuode after he was killed in the capital.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54747916</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54747916</guid>
+            <pubDate>Tue, 03 Nov 2020 00:09:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[In pictures: Foreign Muslims return to Mecca for Umrah pilgrimage]]></title>
-            <description><![CDATA[Muslim pilgrims from abroad can enter the Grand Mosque for the first time since the pandemic began.]]></description>
-            <link>https://www.bbc.co.uk/news/world-middle-east-54768040</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-54768040</guid>
-            <pubDate>Sun, 01 Nov 2020 12:00:12 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[The Miraculous Love Kids: Street kids changing their lives with guitars]]></title>
-            <description><![CDATA[The Beach Boys' Brian Wilson is just one star who's recorded with a group of girls from Afghanistan.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54734067</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54734067</guid>
-            <pubDate>Sun, 01 Nov 2020 00:02:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Salvaged Victorian signal box to become museum]]></title>
-            <description><![CDATA[It became redundant in 2016 along with others in the East Midlands.]]></description>
-            <link>https://www.bbc.co.uk/news/uk-england-nottinghamshire-54731548</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-nottinghamshire-54731548</guid>
-            <pubDate>Sun, 01 Nov 2020 00:02:02 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Your pictures on the theme of 'urban living']]></title>
-            <description><![CDATA[A selection of pictures from our readers on the theme of "urban living".]]></description>
-            <link>https://www.bbc.co.uk/news/in-pictures-54739292</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/in-pictures-54739292</guid>
-            <pubDate>Fri, 30 Oct 2020 09:57:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Belarus protests: The turtle 'anthem' protesters sing in Belarus]]></title>
-            <description><![CDATA[How music has featured prominently in the protests calling for President Lukashenko to step down.]]></description>
-            <link>https://www.bbc.co.uk/news/world-54754566</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-54754566</guid>
-            <pubDate>Sun, 01 Nov 2020 00:01:54 GMT</pubDate>
+            <title><![CDATA[Be a 'secret agent' and other new ways to exercise]]></title>
+            <description><![CDATA[Turning a run into an adventure is just one of the innovations in the exercise industry.]]></description>
+            <link>https://www.bbc.co.uk/news/business-54429713</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54429713</guid>
+            <pubDate>Tue, 03 Nov 2020 00:04:06 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Geneva: Why the world's highest minimum wage was needed]]></title>
@@ -212,13 +226,6 @@
             <pubDate>Mon, 02 Nov 2020 00:08:14 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Nagorno-Karabakh conflict: Human cost of two nations fighting for 'Motherland']]></title>
-            <description><![CDATA[The stories of families who have lost sons in the latest territorial war over Nagorno-Karabakh.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54723662</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54723662</guid>
-            <pubDate>Sun, 01 Nov 2020 00:50:47 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Covid: What will the England lockdown achieve?]]></title>
             <description><![CDATA[Lockdown is the measure nobody wanted but now many European countries have decided they need.]]></description>
             <link>https://www.bbc.co.uk/news/health-54766526</link>
@@ -226,67 +233,74 @@
             <pubDate>Sun, 01 Nov 2020 00:22:02 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How the controversial Nile dam might fix Sudan's floods]]></title>
-            <description><![CDATA[Egypt and Ethiopia are at loggerheads over the mega dam, with Sudan literally stuck in the middle.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-54748204</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54748204</guid>
-            <pubDate>Sun, 01 Nov 2020 01:03:12 GMT</pubDate>
+            <title><![CDATA[Vardy produces another 'masterclass' - but can Leicester fight for the title?]]></title>
+            <description><![CDATA[BBC Sport looks at why Leicester could be considered title challengers this season after another 'masterclass' performance from Jamie Vardy.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54788786</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54788786</guid>
+            <pubDate>Tue, 03 Nov 2020 00:02:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[India couple bullied for intimate wedding photoshoot]]></title>
-            <description><![CDATA[Indian couple trolled for intimate post-wedding photoshoot refuses to give in to bullies.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-india-54721990</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-54721990</guid>
-            <pubDate>Sun, 01 Nov 2020 00:53:29 GMT</pubDate>
+            <title><![CDATA[IPL: Delhi Capitals beat Royal Challengers Bangalore]]></title>
+            <description><![CDATA[Delhi Capitals ensure they will have two opportunities to reach the final of the Indian Premier League with a six-wicket defeat of Royal Challengers Bangalore, who also make the last four.]]></description>
+            <link>https://www.bbc.co.uk/sport/cricket/54755115</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/54755115</guid>
+            <pubDate>Mon, 02 Nov 2020 18:15:43 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How I talk to the victims of conspiracy theories]]></title>
-            <description><![CDATA[The BBC's specialist disinformation reporter explains how to help people who've fallen down the rabbit hole.]]></description>
-            <link>https://www.bbc.co.uk/news/blogs-trending-54738471</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-trending-54738471</guid>
-            <pubDate>Sun, 01 Nov 2020 00:45:01 GMT</pubDate>
+            <title><![CDATA[Lukaku ruled out of Inter's Champions League tie with Real]]></title>
+            <description><![CDATA[Inter Milan's top-scorer Romelu Lukaku will miss the Champions League tie against Real Madrid through injury.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54784152</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54784152</guid>
+            <pubDate>Mon, 02 Nov 2020 23:53:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['I'm off to check the Real Madrid website' - Mourinho on Bale winner]]></title>
-            <description><![CDATA[Jose Mourinho jokes that he'll check what Real Madrid's reaction will be to Gareth Bale's first goal back in the Premier League.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54772128</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54772128</guid>
-            <pubDate>Sun, 01 Nov 2020 23:33:17 GMT</pubDate>
+            <title><![CDATA[Who kept his mum and dad happy - and made Garth Crooks' team of the week?]]></title>
+            <description><![CDATA[Who kept his parents happy? Who is in fantastic form? Will history repeat itself? Garth Crooks names his team of the week.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54783480</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54783480</guid>
+            <pubDate>Tue, 03 Nov 2020 00:20:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[All FA Cup ties to go ahead but amateur golf and tennis to be halted during lockdown]]></title>
-            <description><![CDATA[All FA Cup first-round ties, including those involving non-elite teams, will take place as planned this weekend.]]></description>
-            <link>https://www.bbc.co.uk/sport/54781128</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/54781128</guid>
-            <pubDate>Mon, 02 Nov 2020 14:29:38 GMT</pubDate>
+            <title><![CDATA['We have to work hard - if not, we have no chance': Is trouble ahead for West Brom boss Bilic?]]></title>
+            <description><![CDATA[West Brom boss Slaven Bilic was very critical of his side's display in their defeat at Fulham, but is there more trouble ahead?]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54786157</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54786157</guid>
+            <pubDate>Mon, 02 Nov 2020 21:17:41 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Man Utd 0-1 Arsenal: Why win could be defining moment for Mikel Arteta - Martin Keown analysis]]></title>
-            <description><![CDATA[Ex-Gunners defender Martin Keown explains how Arsenal boss Mikel Arteta's plan worked perfectly to secure a first league win at Manchester United for 14 years.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54773000</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54773000</guid>
-            <pubDate>Sun, 01 Nov 2020 23:51:03 GMT</pubDate>
+            <title><![CDATA[US election 2020: What to look out for on election night]]></title>
+            <description><![CDATA[Americans will pick their next president on 3 November. Here's what to look for as results roll in.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54723228</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54723228</guid>
+            <pubDate>Mon, 02 Nov 2020 20:32:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Beckham, Zola or Ward-Prowse? Vote for the Premier League's free-kick king]]></title>
-            <description><![CDATA[The Southampton midfielder scored two free-kicks on Sunday but how does he stack up against the division's best?]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54773207</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54773207</guid>
-            <pubDate>Sun, 01 Nov 2020 18:47:36 GMT</pubDate>
+            <title><![CDATA[How to follow the election on the BBC]]></title>
+            <description><![CDATA[Find out how to stay in touch with live election results on TV, radio, online, and on social media.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54731823</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54731823</guid>
+            <pubDate>Fri, 30 Oct 2020 14:00:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Rangers suspend two players for Covid-19 breach]]></title>
-            <description><![CDATA[Rangers have suspended Jordan Jones and George Edmundson for "breaching Covid regulations", the club has confirmed.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54777272</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54777272</guid>
-            <pubDate>Mon, 02 Nov 2020 11:43:21 GMT</pubDate>
+            <title><![CDATA[Why we might have to wait for the result]]></title>
+            <description><![CDATA[A surge in postal ballots, legal disputes and stubborn candidates could delay the results.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54096399</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54096399</guid>
+            <pubDate>Mon, 02 Nov 2020 17:45:46 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Top football tweets: Arsenal win proves 2020 can still surprise]]></title>
-            <description><![CDATA[The best reaction to the weekend's football from social media, including Arsenal's win over Manchester United at Old Trafford.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54778421</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54778421</guid>
-            <pubDate>Mon, 02 Nov 2020 12:00:43 GMT</pubDate>
+            <title><![CDATA[A really simple guide to the election]]></title>
+            <description><![CDATA[If you’re looking for a refresher or trying to understand it for the first time, this guide will help.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-53785985</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-53785985</guid>
+            <pubDate>Wed, 28 Oct 2020 23:48:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[US election 2020: The people behind the political memes you share]]></title>
+            <description><![CDATA[A handful of people are behind most of the politics shared on Facebook - none of them politicians.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54748453</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54748453</guid>
+            <pubDate>Mon, 02 Nov 2020 19:13:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[US election: What's the worst that could happen?]]></title>
@@ -328,35 +342,7 @@
             <description><![CDATA[An in-depth look at the polls and what they can and can’t tell us about who will win the White House.]]></description>
             <link>https://www.bbc.co.uk/news/election-us-2020-53657174</link>
             <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-53657174</guid>
-            <pubDate>Mon, 02 Nov 2020 08:41:54 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election 2020: What to look out for on election night]]></title>
-            <description><![CDATA[Americans will pick their next president on 3 November. Here's what to look for as results roll in.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54723228</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54723228</guid>
-            <pubDate>Thu, 29 Oct 2020 22:23:36 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election 2020: A really simple guide]]></title>
-            <description><![CDATA[If you’re looking for a refresher or trying to understand it for the first time, this guide will help.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-53785985</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-53785985</guid>
-            <pubDate>Wed, 28 Oct 2020 23:48:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election 2020: What does it cost and who pays for it?]]></title>
-            <description><![CDATA[With presidential candidates spending billions of dollars to win, the world's most powerful job doesn't come cheap.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54696386</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54696386</guid>
-            <pubDate>Mon, 26 Oct 2020 23:07:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Why we might have to wait for a result]]></title>
-            <description><![CDATA[A surge in postal ballots, legal disputes and stubborn candidates could delay the results.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54096399</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54096399</guid>
-            <pubDate>Tue, 29 Sep 2020 15:39:14 GMT</pubDate>
+            <pubDate>Mon, 02 Nov 2020 22:06:01 GMT</pubDate>
         </item>
     </channel>
 </rss>
