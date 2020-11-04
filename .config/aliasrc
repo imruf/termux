@@ -11,6 +11,7 @@ alias \
 alias \
  t="tmux" \
  tl="tmux ls" \
+ ta0="tmux attach-session -t 0" \
  ta="tmux attach-session -t" \
 
 # Files
