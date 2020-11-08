@@ -1,7 +1,9 @@
 autoload -U colors && colors    # Load colors
-# setopt prompt_subst
+
+setopt prompt_subst
 
 PS1="%B%F{blue}$(print -P '\ue70e';) %F{yellow}%C%F{green} »%b "
+RPS1='$(vcs_super_info)'
 # PS1="%B%F{yellow}%~%F{green}/ ➜%b "
 # RPROMPT='$(vcs_super_info)'
 
@@ -62,6 +64,7 @@ bindkey '^e' edit-command-line
 [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/zshfnrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/zshfnrc"
 
 # source ${XDG_CONFIG_HOME:-$HOME/.config/zsh}/zsh-vcs-prompt/zshrc.sh 2>/dev/null
+source ${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zsh-vcs-prompt/zshrc.sh 2>/dev/null
 source ${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source ${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zsh-completions/zsh-completions.plugin.zsh 2>/dev/null
 source ${XDG_CONFIG_HOME:-$HOME/.config}/zsh/history-substring-search/history-substring-search.zsh 2>/dev/null

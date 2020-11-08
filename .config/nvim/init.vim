@@ -38,6 +38,13 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+map <leader>te :tabe
+map <leader>tn :tabnew<cr>
+map <leader>tx :tabnext
+map <leader>tm :tabmove
+map <leader>tc :tabclose<cr>
+map <leader>to :tabonly<cr>
+
 syntax on   
 set relativenumber
 set laststatus=2
