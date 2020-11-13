@@ -9,7 +9,7 @@
 <auto_show_keyboard value="true"/>
 <auto_scroll value="true"/>
 <show_hints value="false"/>
-<show_alias_content value="false"/>
+<show_alias_content value="true"/>
 <show_launch_history value="false"/>
 <clear_after_cmds value="5"/>
 <clear_after_seconds value="-1"/>

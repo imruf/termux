@@ -11,338 +11,275 @@
             <link>https://www.bbc.co.uk/news/</link>
         </image>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 03 Nov 2020 05:56:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 13 Nov 2020 19:10:15 GMT</lastBuildDate>
         <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
         <language><![CDATA[en-gb]]></language>
         <ttl>15</ttl>
         <item>
-            <title><![CDATA[US Election 2020: Biden and Trump make final pitches to voters]]></title>
-            <description><![CDATA[The candidates make last-ditch efforts to persuade voters in key states on the final day of campaigning.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54787441</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54787441</guid>
-            <pubDate>Tue, 03 Nov 2020 02:37:44 GMT</pubDate>
+            <title><![CDATA[US election: China congratulates Biden after long silence]]></title>
+            <description><![CDATA[China says it "respects the choice of the American people" as Russia continues to withhold well wishes.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54871890</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54871890</guid>
+            <pubDate>Fri, 13 Nov 2020 10:15:44 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[US election: A wild three-year campaign in three minutes]]></title>
-            <description><![CDATA[Billions of dollars spent, dozens of candidates, two nominees, one pandemic - we take a look back.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54772656</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54772656</guid>
-            <pubDate>Mon, 02 Nov 2020 22:43:10 GMT</pubDate>
+            <title><![CDATA[Nagorno-Karabakh: The families burning down their own homes]]></title>
+            <description><![CDATA[Fleeing ethnic Armenians are destroying their own homes so no Azerbaijanis can move in.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54935196</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54935196</guid>
+            <pubDate>Fri, 13 Nov 2020 16:19:10 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Seven decades of Trump and Biden in pictures]]></title>
-            <description><![CDATA[The political and personal lives of the candidates over seven decades.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54267454</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54267454</guid>
-            <pubDate>Tue, 03 Nov 2020 00:14:37 GMT</pubDate>
+            <title><![CDATA[Ethiopia Tigray crisis: UN warns 'war crimes' may have happened]]></title>
+            <description><![CDATA[UN human rights chief Michelle Bachelet calls for an inquiry over the killings in the Tigray region.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54929100</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54929100</guid>
+            <pubDate>Fri, 13 Nov 2020 15:55:30 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Vienna shooting: Austria launches manhunt after deadly 'terror' attack]]></title>
-            <description><![CDATA[Police say an armed suspect is on the run after an attack that left three people and a gunman dead.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54788613</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54788613</guid>
-            <pubDate>Tue, 03 Nov 2020 05:48:57 GMT</pubDate>
+            <title><![CDATA[Dutch police give 'stop paedophile hunts' warning after Arnhem death]]></title>
+            <description><![CDATA[A police chief warns against vigilantism after a retired teacher is beaten to death by teenagers.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54930488</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54930488</guid>
+            <pubDate>Fri, 13 Nov 2020 11:41:27 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Sri Lanka: Rescuers rush to save beached pilot whales]]></title>
-            <description><![CDATA[Around 100 pilot whales are stranded near the Sri Lankan capital Colombo.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54790569</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54790569</guid>
-            <pubDate>Tue, 03 Nov 2020 05:23:41 GMT</pubDate>
+            <title><![CDATA[Footballer Salah tests positive for coronavirus]]></title>
+            <description><![CDATA[Liverpool forward Mohamed Salah tests positive for coronavirus while on international duty with Egypt.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54935734</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54935734</guid>
+            <pubDate>Fri, 13 Nov 2020 15:37:42 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[US businesses brace for election unrest]]></title>
-            <description><![CDATA[Shopskeepers have been boarding up windows in anticipation of unrest.]]></description>
-            <link>https://www.bbc.co.uk/news/business-54788626</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54788626</guid>
-            <pubDate>Tue, 03 Nov 2020 00:03:19 GMT</pubDate>
+            <title><![CDATA[Police sorry for description of Ripper's victims]]></title>
+            <description><![CDATA[West Yorkshire Police apologises for the "tone and terminology" used by officers in the 1970s.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-leeds-54934458</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-leeds-54934458</guid>
+            <pubDate>Fri, 13 Nov 2020 18:58:04 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[T-cell response 'lasts six months after Covid infection']]></title>
-            <description><![CDATA[But it is still not clear how much this protects people against being re-infected, experts say.]]></description>
-            <link>https://www.bbc.co.uk/news/health-54781496</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-54781496</guid>
-            <pubDate>Mon, 02 Nov 2020 19:13:24 GMT</pubDate>
+            <title><![CDATA[Mutated strain of coronavirus may 'jump back and forth']]></title>
+            <description><![CDATA[A new coronavirus strain could potentially leap to other animals, such as mice and voles, says expert.]]></description>
+            <link>https://www.bbc.co.uk/news/science-environment-54918267</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-54918267</guid>
+            <pubDate>Fri, 13 Nov 2020 13:59:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Indians asked to eat more sugar to tackle oversupply]]></title>
-            <description><![CDATA[India is already the world's biggest consumer of the sweetener]]></description>
-            <link>https://www.bbc.co.uk/news/business-54776376</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54776376</guid>
-            <pubDate>Mon, 02 Nov 2020 23:32:37 GMT</pubDate>
+            <title><![CDATA[Friends reunion 'put back to March', says Matthew Perry]]></title>
+            <description><![CDATA["Looks like we have a busy year coming up," tweets cast member Matthew Perry.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-54928857</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-54928857</guid>
+            <pubDate>Fri, 13 Nov 2020 08:29:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Chinese firm moves from adult diapers to face masks]]></title>
-            <description><![CDATA[Daddybaby has been given approval by British standards agency and EU to provide protective equipment.]]></description>
-            <link>https://www.bbc.co.uk/news/business-54776402</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54776402</guid>
-            <pubDate>Tue, 03 Nov 2020 04:21:36 GMT</pubDate>
+            <title><![CDATA[British Museum to help dig for Nigerian treasures]]></title>
+            <description><![CDATA[The plan for a new museum and archaeology mission follows calls for it to return its Benin Bronzes.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-54933273</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-54933273</guid>
+            <pubDate>Fri, 13 Nov 2020 18:21:40 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Melbourne Cup 2020: Twilight Payment wins but Anthony Van Dyck is fatally injured]]></title>
-            <description><![CDATA[Twilight Payment gives Irish trainer Joseph O'Brien a second Melbourne Cup win but victory is overshadowed by the death of 2019 Derby winner Anthony Van Dyck.]]></description>
-            <link>https://www.bbc.co.uk/sport/horse-racing/54782125</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/horse-racing/54782125</guid>
-            <pubDate>Tue, 03 Nov 2020 05:14:57 GMT</pubDate>
+            <title><![CDATA[Black Friday vehicle emissions boom predicted]]></title>
+            <description><![CDATA[Climate change: why Black Friday needs patience]]></description>
+            <link>https://www.bbc.co.uk/news/business-54924993</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54924993</guid>
+            <pubDate>Fri, 13 Nov 2020 12:41:53 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Germany restricts social life in 'lockdown light']]></title>
-            <description><![CDATA[Tighter rules aim to curb Germany's Covid surge, but France's lockdown is tougher.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54778345</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54778345</guid>
-            <pubDate>Mon, 02 Nov 2020 16:18:29 GMT</pubDate>
+            <title><![CDATA[Major Indian circus goes online to beat Covid]]></title>
+            <description><![CDATA[Rambo Circus was forced to cancel shows when Covid-19 struck - so they turned to the internet.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-54887231</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-54887231</guid>
+            <pubDate>Fri, 13 Nov 2020 00:14:57 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Turkey earthquake: Girl, three, pulled alive from rubble]]></title>
-            <description><![CDATA[A three-year-old girl is pulled alive from rubble in Turkey's port city of Izmir.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54778682</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54778682</guid>
-            <pubDate>Mon, 02 Nov 2020 19:16:28 GMT</pubDate>
+            <title><![CDATA[First female general manager hired in US baseball]]></title>
+            <description><![CDATA[Kim Ng becomes the first female general manager in Major League Baseball history after being hired by the Miami Marlins.]]></description>
+            <link>https://www.bbc.co.uk/sport/baseball/54935737</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/baseball/54935737</guid>
+            <pubDate>Fri, 13 Nov 2020 18:23:45 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Van Gogh: Artist experienced 'delirium from alcohol withdrawal']]></title>
-            <description><![CDATA[The artist likely suffered with delirium as a result of alcohol withdrawal, Dutch researchers say.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54780434</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54780434</guid>
-            <pubDate>Mon, 02 Nov 2020 16:32:18 GMT</pubDate>
+            <title><![CDATA[Bangladeshi teen wins award for anti-cyberbullying app]]></title>
+            <description><![CDATA[Sadat Rahman, 17, created an app to help young people learn about and report cyberbullying.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54934377</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54934377</guid>
+            <pubDate>Fri, 13 Nov 2020 18:28:05 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Coronavirus: Behind the scenes of developing a Covid-19 vaccine]]></title>
-            <description><![CDATA[Meet the scientists who use social media to show people what they do to develop a coronavirus vaccine in the lab.]]></description>
-            <link>https://www.bbc.co.uk/news/science-environment-54783782</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/science-environment-54783782</guid>
-            <pubDate>Tue, 03 Nov 2020 00:06:21 GMT</pubDate>
+            <title><![CDATA[Six-year-olds sketch rogue driver for German police]]></title>
+            <description><![CDATA[Children saw a driver smash through a barrier - and drew it for police in west Germany.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-54933193</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54933193</guid>
+            <pubDate>Fri, 13 Nov 2020 13:42:26 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Bushfire koalas going back to the wild]]></title>
-            <description><![CDATA[Thousands of creatures were killed and injured in last summer's blazes on South Australia's Kangaroo Island.]]></description>
-            <link>https://www.bbc.co.uk/news/world-australia-54786796</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-australia-54786796</guid>
-            <pubDate>Tue, 03 Nov 2020 00:01:31 GMT</pubDate>
+            <title><![CDATA[US Election 2020: Is American democracy in crisis?]]></title>
+            <description><![CDATA[The BBC's Ros Atkins looks at Donald Trump's refusal to concede and what this means for US politics.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-54910628</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-54910628</guid>
+            <pubDate>Fri, 13 Nov 2020 00:00:42 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Three elders give advice for Trump and Biden]]></title>
-            <description><![CDATA[From deep in the Maasai lands of Kenya to high in the mountains of Tibet, we found this advice for Donald Trump and Joe Biden.]]></description>
-            <link>https://www.bbc.co.uk/news/world-54787675</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-54787675</guid>
-            <pubDate>Tue, 03 Nov 2020 00:08:14 GMT</pubDate>
+            <title><![CDATA[Call of Duty: A balancing act between old and new]]></title>
+            <description><![CDATA[The boss of Call of Duty speaks to Newsbeat about the new game and its Warzone integration.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-54917942</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-54917942</guid>
+            <pubDate>Fri, 13 Nov 2020 07:11:19 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[The Countdown: Lady Gaga gets drawn in as campaign heats up]]></title>
-            <description><![CDATA[The latest US election news in four sentences and how Lady Gaga got involved in an unusual debate.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54776996</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54776996</guid>
-            <pubDate>Mon, 02 Nov 2020 20:25:37 GMT</pubDate>
+            <title><![CDATA[Diwali under lockdown: How two sisters will celebrate]]></title>
+            <description><![CDATA[Millions of Hindus, Sikhs, and Jains will be celebrating Diwali on Saturday, but this year is different.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-54910622</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-54910622</guid>
+            <pubDate>Fri, 13 Nov 2020 00:09:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[In pictures: Day of the Dead in Covid times]]></title>
-            <description><![CDATA[With public events cancelled amid the pandemic, Mexico's Day of the Dead is low-key but poignant.]]></description>
-            <link>https://www.bbc.co.uk/news/world-latin-america-54778292</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-latin-america-54778292</guid>
-            <pubDate>Mon, 02 Nov 2020 16:30:38 GMT</pubDate>
+            <title><![CDATA[Yes Sir, I Can Boogie: Why disco hit is now Scotland's unofficial anthem]]></title>
+            <description><![CDATA[Dressing room footage of jubilant players boogie-woogieing to a 70s classic has gone viral.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-54930718</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-54930718</guid>
+            <pubDate>Fri, 13 Nov 2020 12:02:54 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['Living in America's cancer alley is like death row']]></title>
-            <description><![CDATA[Data from the US Environmental Protection Agency suggests that those living in the area of St. James in Louisiana have the highest risk of getting cancer of anywhere in America.]]></description>
-            <link>https://www.bbc.co.uk/news/newsbeat-54773957</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-54773957</guid>
-            <pubDate>Mon, 02 Nov 2020 06:13:59 GMT</pubDate>
+            <title><![CDATA[Quiz of the week: Who wore a balaclava at MTV's Europe awards?]]></title>
+            <description><![CDATA[How closely have you been paying attention to what's been going on during the past seven days?]]></description>
+            <link>https://www.bbc.co.uk/news/world-54890603</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-54890603</guid>
+            <pubDate>Fri, 13 Nov 2020 00:21:55 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Baby Shark becomes YouTube's most-watched video of all time]]></title>
-            <description><![CDATA[The children's song overtakes Latin pop smash Despacito to become the site's most-viewed video ever.]]></description>
-            <link>https://www.bbc.co.uk/news/entertainment-arts-54783116</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-54783116</guid>
-            <pubDate>Mon, 02 Nov 2020 15:30:22 GMT</pubDate>
+            <title><![CDATA[Covid-19: Birmingham care home reunites couple separated by pandemic]]></title>
+            <description><![CDATA[Betty Meredith misses her husband of 71 years so much she moves into the care home to join him.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-birmingham-54934933</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-birmingham-54934933</guid>
+            <pubDate>Fri, 13 Nov 2020 15:01:35 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ethnic Mongolians battle to keep their language and culture alive in China]]></title>
-            <description><![CDATA[A reduction in Mongolian language teaching has prompted rare protests in China’s northern border region.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54754567</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54754567</guid>
-            <pubDate>Mon, 02 Nov 2020 00:01:21 GMT</pubDate>
+            <title><![CDATA[The UK is streaming Christmas songs earlier than ever]]></title>
+            <description><![CDATA[Mariah Carey's All I Want For Christmas Is You is already in Spotify's Top 40.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-54929909</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-54929909</guid>
+            <pubDate>Fri, 13 Nov 2020 12:23:50 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Ant Group: How it became a financial giant]]></title>
-            <description><![CDATA[As China's Ant Group prepares for its stock market debut, we look at how it established its empire.]]></description>
-            <link>https://www.bbc.co.uk/news/business-54746206</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54746206</guid>
-            <pubDate>Mon, 02 Nov 2020 00:22:25 GMT</pubDate>
+            <title><![CDATA[US election 2020: Does this compare to 2000 Florida recount?]]></title>
+            <description><![CDATA[Donald Trump's vow to go to the Supreme Court raises comparisons with the Florida recount of 2000.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54903188</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54903188</guid>
+            <pubDate>Thu, 12 Nov 2020 17:46:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[What if your pet could 'talk'?]]></title>
-            <description><![CDATA[It's hard enough training your dog to respond to "sit" but now there may be a new way for your pets to communicate.]]></description>
-            <link>https://www.bbc.co.uk/news/world-54753398</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-54753398</guid>
-            <pubDate>Mon, 02 Nov 2020 00:01:30 GMT</pubDate>
+            <title><![CDATA[Africa's week in pictures: 6 - 12 November 2020]]></title>
+            <description><![CDATA[A selection of the week's best photos from across the continent.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54916330</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54916330</guid>
+            <pubDate>Fri, 13 Nov 2020 00:22:37 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Unmasking the Pyramid Kings - Crowd1 scam targets Africa]]></title>
-            <description><![CDATA[Behind the promises and the hype, Crowd1 hides some ugly truths, some wealthy scammers, and a whole pyramid of lies.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-54750044</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54750044</guid>
-            <pubDate>Mon, 02 Nov 2020 00:01:25 GMT</pubDate>
+            <title><![CDATA[The Weeknd to perform Super Bowl 2021 half-time show]]></title>
+            <description><![CDATA[The Blinding Lights singer will follow in the footsteps of Lady Gaga, Prince and the Rolling Stones.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-54921206</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-54921206</guid>
+            <pubDate>Thu, 12 Nov 2020 17:50:48 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[We want to live, overworked delivery drivers say]]></title>
-            <description><![CDATA[Families in South Korea are reeling after the deaths of 14 delivery workers this year from what they call overwork.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54775719</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54775719</guid>
-            <pubDate>Tue, 03 Nov 2020 00:01:16 GMT</pubDate>
+            <title><![CDATA[Dominic Cummings, the campaigner leaving Downing St]]></title>
+            <description><![CDATA[The controversial former Vote Leave campaign director has quit as the PM's top adviser.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-49101464</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-49101464</guid>
+            <pubDate>Fri, 13 Nov 2020 17:53:59 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[#EndSars protests: How Anthony Unuode gave his life for a better Nigeria]]></title>
-            <description><![CDATA[Nigerians pay tribute to #EndSars protester Anthony Unuode after he was killed in the capital.]]></description>
-            <link>https://www.bbc.co.uk/news/world-africa-54747916</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54747916</guid>
-            <pubDate>Tue, 03 Nov 2020 00:09:19 GMT</pubDate>
+            <title><![CDATA[Do these Republican voters accept election result?]]></title>
+            <description><![CDATA[Some 70% of Trump supporters say the election "free and fair" and are struggling to come to terms with the result.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54922924</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54922924</guid>
+            <pubDate>Fri, 13 Nov 2020 00:37:20 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Be a 'secret agent' and other new ways to exercise]]></title>
-            <description><![CDATA[Turning a run into an adventure is just one of the innovations in the exercise industry.]]></description>
-            <link>https://www.bbc.co.uk/news/business-54429713</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54429713</guid>
-            <pubDate>Tue, 03 Nov 2020 00:04:06 GMT</pubDate>
+            <title><![CDATA[Obama: Election fraud claims 'delegitimising' democracy]]></title>
+            <description><![CDATA[Former US President Barack Obama addresses Donald Trump's unsubstantiated election fraud claims.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54923862</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54923862</guid>
+            <pubDate>Fri, 13 Nov 2020 01:09:56 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Geneva: Why the world's highest minimum wage was needed]]></title>
-            <description><![CDATA[Geneva is very wealthy, but not everyone is rich and now it has the world's highest minimum salary.]]></description>
-            <link>https://www.bbc.co.uk/news/world-europe-54745033</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-54745033</guid>
-            <pubDate>Mon, 02 Nov 2020 00:03:18 GMT</pubDate>
+            <title><![CDATA[Jerry Rawlings: Remembering Ghana's 'man of the people']]></title>
+            <description><![CDATA[Ghana's longest-serving leader led by example but later fell foul of his own standards, says Akwasi Sarpong.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54929779</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54929779</guid>
+            <pubDate>Fri, 13 Nov 2020 11:50:34 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Could Israeli-Arab peace deals spark an arms race?]]></title>
-            <description><![CDATA[Potential US weapons sales are prompting warnings of a new cycle of proliferation, says Tom Bateman.]]></description>
-            <link>https://www.bbc.co.uk/news/world-middle-east-54737029</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-54737029</guid>
-            <pubDate>Mon, 02 Nov 2020 00:14:39 GMT</pubDate>
+            <title><![CDATA[Fears grow for British man detained in Pakistan-administered Kashmir]]></title>
+            <description><![CDATA[Tanveer Ahmed Rafique returned to Pakistan-administered Kashmir where he has campaigned for independence.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-54921606</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54921606</guid>
+            <pubDate>Fri, 13 Nov 2020 00:08:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Churails: Why a feminist detective show was banned in Pakistan]]></title>
-            <description><![CDATA[A web series faces backlash in Pakistan for its bold subject matter and stereotype-smashing female leads.]]></description>
-            <link>https://www.bbc.co.uk/news/world-asia-54629439</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-54629439</guid>
-            <pubDate>Mon, 02 Nov 2020 00:08:14 GMT</pubDate>
+            <title><![CDATA[Fact-checking the US and China on climate and environment]]></title>
+            <description><![CDATA[We fact-check US and Chinese claims about CO2 emissions, plastic waste and illegal timber.]]></description>
+            <link>https://www.bbc.co.uk/news/election-us-2020-54719577</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54719577</guid>
+            <pubDate>Fri, 13 Nov 2020 00:20:08 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Covid: What will the England lockdown achieve?]]></title>
-            <description><![CDATA[Lockdown is the measure nobody wanted but now many European countries have decided they need.]]></description>
-            <link>https://www.bbc.co.uk/news/health-54766526</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-54766526</guid>
-            <pubDate>Sun, 01 Nov 2020 00:22:02 GMT</pubDate>
+            <title><![CDATA[Robots to take on more supermarket tasks]]></title>
+            <description><![CDATA[Grocery and technology firm Ocado Group is buying two robotics firms, to boost the automation of online grocery orders.]]></description>
+            <link>https://www.bbc.co.uk/news/business-54902518</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-54902518</guid>
+            <pubDate>Fri, 13 Nov 2020 00:11:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Vardy produces another 'masterclass' - but can Leicester fight for the title?]]></title>
-            <description><![CDATA[BBC Sport looks at why Leicester could be considered title challengers this season after another 'masterclass' performance from Jamie Vardy.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54788786</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54788786</guid>
-            <pubDate>Tue, 03 Nov 2020 00:02:57 GMT</pubDate>
+            <title><![CDATA[Ethiopia's Tigray crisis: 'My little brother needs medicine']]></title>
+            <description><![CDATA[A BBC journalist on the fears for her family in Ethiopia's Tigray region following an outbreak of fighting.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-54890675</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-54890675</guid>
+            <pubDate>Fri, 13 Nov 2020 00:18:39 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[IPL: Delhi Capitals beat Royal Challengers Bangalore]]></title>
-            <description><![CDATA[Delhi Capitals ensure they will have two opportunities to reach the final of the Indian Premier League with a six-wicket defeat of Royal Challengers Bangalore, who also make the last four.]]></description>
-            <link>https://www.bbc.co.uk/sport/cricket/54755115</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/cricket/54755115</guid>
-            <pubDate>Mon, 02 Nov 2020 18:15:43 GMT</pubDate>
+            <title><![CDATA[China Muslims: Volkswagen says 'no forced labour' at Xinjiang plant]]></title>
+            <description><![CDATA[The car maker defends continued production in a Chinese region mired in allegations of rights abuses.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-54918309</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-china-54918309</guid>
+            <pubDate>Thu, 12 Nov 2020 18:01:33 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Lukaku ruled out of Inter's Champions League tie with Real]]></title>
-            <description><![CDATA[Inter Milan's top-scorer Romelu Lukaku will miss the Champions League tie against Real Madrid through injury.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54784152</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54784152</guid>
-            <pubDate>Mon, 02 Nov 2020 23:53:19 GMT</pubDate>
+            <title><![CDATA[Two coups, two elections: Why Rawlings split Ghanaians]]></title>
+            <description><![CDATA[The former air force officer who first seized power in 1979 leaves a divided legacy.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-27193658</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-27193658</guid>
+            <pubDate>Thu, 12 Nov 2020 14:35:31 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Who kept his mum and dad happy - and made Garth Crooks' team of the week?]]></title>
-            <description><![CDATA[Who kept his parents happy? Who is in fantastic form? Will history repeat itself? Garth Crooks names his team of the week.]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54783480</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54783480</guid>
-            <pubDate>Tue, 03 Nov 2020 00:20:53 GMT</pubDate>
+            <title><![CDATA[Verstappen leads Leclerc as Mercedes struggle in second practice in Turkey]]></title>
+            <description><![CDATA[Red Bull's Max Verstappen leads Ferrari's Charles Leclerc as Mercedes struggle in second practice at the Turkish Grand Prix.]]></description>
+            <link>https://www.bbc.co.uk/sport/formula1/54930372</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/formula1/54930372</guid>
+            <pubDate>Fri, 13 Nov 2020 13:41:13 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA['We have to work hard - if not, we have no chance': Is trouble ahead for West Brom boss Bilic?]]></title>
-            <description><![CDATA[West Brom boss Slaven Bilic was very critical of his side's display in their defeat at Fulham, but is there more trouble ahead?]]></description>
-            <link>https://www.bbc.co.uk/sport/football/54786157</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54786157</guid>
-            <pubDate>Mon, 02 Nov 2020 21:17:41 GMT</pubDate>
+            <title><![CDATA[France v Fiji: Autumn Nations Cup match cancelled after Covid-19 cases]]></title>
+            <description><![CDATA[France's opening Autumn Nations Cup match on Sunday is called off after a spate of coronavirus cases among opponents Fiji.]]></description>
+            <link>https://www.bbc.co.uk/sport/rugby-union/54933133</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/rugby-union/54933133</guid>
+            <pubDate>Fri, 13 Nov 2020 16:02:32 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[US election 2020: What to look out for on election night]]></title>
-            <description><![CDATA[Americans will pick their next president on 3 November. Here's what to look for as results roll in.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54723228</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54723228</guid>
-            <pubDate>Mon, 02 Nov 2020 20:32:05 GMT</pubDate>
+            <title><![CDATA[Johnson joins Casey and Frittelli in Masters lead]]></title>
+            <description><![CDATA[Dustin Johnson and Dylan Frittelli join England's Paul Casey in a share of the Masters lead at seven under par.]]></description>
+            <link>https://www.bbc.co.uk/sport/golf/54934247</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/golf/54934247</guid>
+            <pubDate>Fri, 13 Nov 2020 15:32:36 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[How to follow the election on the BBC]]></title>
-            <description><![CDATA[Find out how to stay in touch with live election results on TV, radio, online, and on social media.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54731823</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54731823</guid>
-            <pubDate>Fri, 30 Oct 2020 14:00:13 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Why we might have to wait for the result]]></title>
-            <description><![CDATA[A surge in postal ballots, legal disputes and stubborn candidates could delay the results.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54096399</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54096399</guid>
-            <pubDate>Mon, 02 Nov 2020 17:45:46 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[A really simple guide to the election]]></title>
-            <description><![CDATA[If you’re looking for a refresher or trying to understand it for the first time, this guide will help.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-53785985</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-53785985</guid>
-            <pubDate>Wed, 28 Oct 2020 23:48:26 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election 2020: The people behind the political memes you share]]></title>
-            <description><![CDATA[A handful of people are behind most of the politics shared on Facebook - none of them politicians.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54748453</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54748453</guid>
-            <pubDate>Mon, 02 Nov 2020 19:13:03 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election: What's the worst that could happen?]]></title>
-            <description><![CDATA[Trump and Biden voters tell us their greatest fears about their candidate losing the election.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54754799</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54754799</guid>
-            <pubDate>Mon, 02 Nov 2020 00:58:40 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election 2020: Does climate change impact the vote?]]></title>
-            <description><![CDATA[Two Republicans, one Democrat and one independent voter talk about climate change.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54727388</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54727388</guid>
-            <pubDate>Sun, 01 Nov 2020 18:43:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Predict the president 2020: Will Trump or Biden win the US election? You decide]]></title>
-            <description><![CDATA[Play our game to predict whether Donald Trump or Joe Biden will win the key states in the election.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54286528</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54286528</guid>
-            <pubDate>Fri, 25 Sep 2020 16:35:15 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election 2020: Why does the vote matter to people in UK?]]></title>
-            <description><![CDATA[How could a Trump or a Biden win have an impact on the lives of people in the UK?]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54707562</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54707562</guid>
-            <pubDate>Mon, 02 Nov 2020 00:25:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[US election 2020: What are Trump's and Biden's policies?]]></title>
-            <description><![CDATA[Some of President Trump's and Joe Biden's key policies explained and compared.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-54507550</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-54507550</guid>
-            <pubDate>Sun, 18 Oct 2020 15:14:28 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Who is ahead - Biden or Trump?]]></title>
-            <description><![CDATA[An in-depth look at the polls and what they can and can’t tell us about who will win the White House.]]></description>
-            <link>https://www.bbc.co.uk/news/election-us-2020-53657174</link>
-            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-us-2020-53657174</guid>
-            <pubDate>Mon, 02 Nov 2020 22:06:01 GMT</pubDate>
+            <title><![CDATA[England v Norway friendly cancelled over Covid-19 restrictions]]></title>
+            <description><![CDATA[England's friendly against Norway, set for 1 December in Sheffield, is cancelled because the visitors are unable to travel.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/54935730</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/54935730</guid>
+            <pubDate>Fri, 13 Nov 2020 15:16:04 GMT</pubDate>
         </item>
     </channel>
 </rss>
