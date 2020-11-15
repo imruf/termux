@@ -3,4 +3,4 @@ image/jpeg; curl -o ~/tmp/1.jpeg '%s' && xdg-open ~/tmp/1.jpeg; needsterminal;
 image/png; curl -o ~/tmp/1.png '%s' && xdg-open ~/tmp/1.png; needsterminal;
 image/gif; tyt '%s'; needsterminal;
 video/mp4; tyt '%s'; needsterminal;
-video/*; 4p '%s'; needsterminal; 
+video/*; tyt '%s'; needsterminal; 
