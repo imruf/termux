@@ -85,10 +85,6 @@ alias \
 #MUTT
 alias \
  ibx="mutt" \
- mp="cp mp .muttrc && ibx" \
- ib="cp ib .muttrc && ibx" \
- rry="cp rry .muttrc && ibx" \
- lic="cp lic .muttrc && ibx"
 
 #GIT
 alias \
