@@ -38,6 +38,10 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+map gz :bdelete<cr>
+map gb :bnext<cr>
+map gB :bprev<cr>
+
 map <leader>te :tabe
 map <leader>tn :tabnew<cr>
 map <leader>tx :tabnext
