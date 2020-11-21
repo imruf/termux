@@ -85,6 +85,11 @@ alias \
 #MUTT
 alias \
  ibx="mutt" \
+ mail="mw -Y; mutt" \
+ mp="mw -y mparvz@gmail.com; mutt" \
+ ib="mw -y imrufbd@gmail.com; mutt" \
+ rry="mw -y riponridwan@yahoo.com; mutt" \
+ lic="mw -y riprid@cock.li; mutt" \
 
 #GIT
 alias \
