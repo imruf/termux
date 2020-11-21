@@ -44,7 +44,6 @@ alias \
  k="fzf_kill" \
  s="fzf_sr"
 
-
 #termux-api
 alias \
  tb="termux-brightness" \
@@ -98,6 +97,11 @@ alias \
  gitca='git commit -a' \
  gita='git add' \
  gits='git status'
+
+#pass
+alias \
+ gpc='pass -c' \
+
 
 #Game
 #alias doku='nudoku'
