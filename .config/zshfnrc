@@ -37,6 +37,12 @@ fzf_sr()
         }; 
     zle -N fzf_sr;
 
+fzf_srbr() 
+       { 
+             zle -I; bms=$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e) && sr "$bms" ;
+       };
+    zle -N fzf_srbr;
+
 #Transmission
 tsmcc() {
         transmission-remote -l | grep 100% | grep Done | \
