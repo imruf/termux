@@ -18,7 +18,7 @@ alias \
 alias \
  ls="ls --color=auto --group-directories-first" \
  lah="exa -la --color=auto --group-directories-first" \
- ..="cd ..” \
+ ..="cd .." \
  cp="cp -v" \
  mv="mv -v" \
  rm="rm -v" \
@@ -107,31 +107,31 @@ alias \
 #Game
 #alias doku="nudoku”
 alias \
- tet="tetris” \
- frcl="cd ~/games/sol; ./freecell; cd” \
- sol="cd ~/games/sol; ./sol; cd” \
- spider="cd ~/games/sol; ./spider; cd” \
+ tet="tetris" \
+ frcl="cd ~/games/sol; ./freecell; cd" \
+ sol="cd ~/games/sol; ./sol; cd" \
+ spider="cd ~/games/sol; ./spider; cd" \
 
 #SSH #http #ftpu busybox script
 alias \
- sftpu="sshd” \
- sftpd="pkill sshd” \
- httpu="python3 ~/.scripts/shsu.py” \
+ sfu="sshd" \
+ sfd="pkill sshd" \
+ httpu="python3 ~/.scripts/shsu.py" \
 
 
 #ip/ping
 alias \
- pnet="ping -c 3 google.com” \
- myip="ifconfig” \
- isp="curl ifconfig.co” \
- ip="ip addr show” \
- ns="speedtest” \
- nss="speedtest --simple --single” \
+ pnet="ping -c 3 google.com" \
+ myip="ifconfig" \
+ isp="curl ifconfig.co" \
+ ip="ip addr show" \
+ ns="speedtest" \
+ nss="speedtest --simple --single" \
 
 #tfx-pfx
 alias \
- pfx="peerflix -k -f /home/masud/Videos/ptfx” \
- tfx="torrentflix” \
+ pfx="peerflix -k -f /home/masud/Videos/ptfx" \
+ tfx="torrentflix" \
 
 #downloader
 alias \
@@ -143,17 +143,17 @@ alias \
 
 #MIS
 alias \
- weather="curl wttr.in/khagrachari” \
+ weather="curl wttr.in/khagrachari" \
  math="mathomatic" \
- pc="python -ic "from __future__ import division; from math import *; from random import *"” \
- c2="units” \
+ pc="python -ic 'from __future__ import division; from math import *; from random import *'" \
+ c2="units" \
  rt="tuir" \
- nnn="nnn -d” \
- el="elinks” \
- m="cmus” \
- def="sdcv” \
- keep="keepcli” \
- covid="curl https://corona-stats.online?source=2” \
+ nnn="nnn -d" \
+ el="elinks" \
+ m="cmus" \
+ def="sdcv" \
+ keep="keepcli" \
+ covid="curl https://corona-stats.online?source=2" \
  eq="pnglatex -b Transparent -p amssymb:amsmath -d 300 -s 12 -o eq.png" \
 
 #Info
