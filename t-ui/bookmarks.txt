@@ -13,6 +13,7 @@ linux	https://boards.4chan.org/wg/	wallpaper
 linux	https://localhost:9091/transmission/web/	Transmission
 linux	https://linux.die.net/man/1/elinks	Elinks
 linux	https://raw.githubusercontent.com/qutebrowser/qutebrowser/master/doc/img/cheatsheet-big.png	qtcs
+linux	https://minhaskamal.github.io/DownGit/	DownGit
 ebook	http://www.amarboi.com/?m=1	Amarboi
 ebook	https://www.alorpathshala.org/	AlorPathshala
 edu	https://www.fxsolver.com/	fxSolver
