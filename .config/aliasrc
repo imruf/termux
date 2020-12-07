@@ -147,8 +147,8 @@ alias \
  math="mathomatic" \
  pc="python -ic 'from __future__ import division; from math import *; from random import *'" \
  c2="units" \
+ sw="termdown" \
  rt="tuir" \
- nnn="nnn -d" \
  el="elinks" \
  m="cmus" \
  def="sdcv" \
