@@ -25,16 +25,6 @@ alias \
  rm1="rm -v 1*" \
  mkd="mkdir -pv" \
 
-#termux-cd
-alias \
- cdusr="cd $PREFIX" \
- cdetc="cd $PREFIX/etc/" \
- cdbin="cd $PREFIX/bin/" \
- cdshare="cd $PREFIX/share/" \
- cdd="cd ~/storage/downloads/" \
- cdsd="cd ~/storage/shared/" \
- cdtui="cd ~/storage/shared/t-ui" \
-
 #db
 alias \
  updb="updatedb" \

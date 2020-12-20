@@ -1,0 +1,24 @@
+# vim: filetype=sh
+
+alias \
+ru="cd $PREFIX" \
+re="cd $PREFIX/etc/" \
+rb="cd $PREFIX/bin/" \
+rs="cd $PREFIX/share/" \
+ddl="cd /data/data/com.termux/files/home/storage/downloads/" \
+ddl="cd /data/data/com.termux/files/home/storage/documents/" \
+dsd="cd /data/data/com.termux/files/home/storage/shared/" \
+dtui="cd/data/data/com.termux/files/home//storage/shared/t-ui" \
+dcc="cd /data/data/com.termux/files/home/.cache" \
+dcf="cd /data/data/com.termux/files/home/.config" \
+dcw="cd /data/data/com.termux/files/home/.config/vimwiki" \
+dck="cd /data/data/com.termux/files/home/.config/vimwiki/keep" \
+dls="cd /data/data/com.termux/files/home/.local/share" \
+dlb="cd /data/data/com.termux/files/home/.local/bin" \
+dh="cd /data/data/com.termux/files/home" \
+ddt="cd /data/data/com.termux/files/home/termux" \
+fv="$EDITOR ~/.config/nvim/init.vim" \
+fz="$EDITOR ~/.config/zsh/.zshrc" \
+fa="$EDITOR ~/.config/shellrc/aliasrc" \
+fzfn="$EDITOR ~/.config/shellrc/zshfnrc" \
+fzp="$EDITOR ~/.profile" \

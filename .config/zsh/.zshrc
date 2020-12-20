@@ -60,8 +60,9 @@ autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line
 
 #Alias
-[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/aliasrc"
-[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/zshfnrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/zshfnrc"
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shellrc/aliasrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shellrc/aliasrc"
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shellrc/zshfnrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shellrc/zshfnrc"
+[ -f "${XDG_CONFIG_HOME:-$HOME/.config}/shellrc/zshfnrc" ] && source "${XDG_CONFIG_HOME:-$HOME/.config}/shellrc/shortcutrc"
 
 # source ${XDG_CONFIG_HOME:-$HOME/.config/zsh}/zsh-vcs-prompt/zshrc.sh 2>/dev/null
 source ${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zsh-vcs-prompt/zshrc.sh 2>/dev/null
