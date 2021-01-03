@@ -6,7 +6,6 @@ cc=clear
 myip=ifconfig
 pn=ping -c 3 google.com
 st=apps -st %
-wr=curl -sf wttr.in/khagrachari | sed -n 2,7p
 
 #rss
 rssu=rss -l %
@@ -105,6 +104,7 @@ pb=EBookDroid
 ps=Play Store
 pt=Periodic Table
 s=Settings
+sa=Stay Alive!
 t=Termux
 v=mpv
 x=X-plore
