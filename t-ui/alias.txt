@@ -106,6 +106,7 @@ pt=Periodic Table
 s=Settings
 sa=Stay Alive!
 t=Termux
+text=Messaging
 v=mpv
 x=X-plore
 xx=Mix

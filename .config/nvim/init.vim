@@ -11,15 +11,14 @@ call plug#begin(system('echo -n "${XDG_CONFIG_HOME:-$HOME/.config}/nvim/plugged"
 
 Plug 'itchyny/lightline.vim'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'vimwiki/vimwiki'
 Plug 'chrisbra/Colorizer'
 Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
 filetype plugin indent on
-
-set nocompatible
-filetype off
+filetype plugin on
 
 :imap jj <Esc>
 
@@ -49,12 +48,17 @@ map <leader>tm :tabmove
 map <leader>tc :tabclose<cr>
 map <leader>to :tabonly<cr>
 
+map <leader>s :setlocal spell! spelllang=en_us<CR>
+
 map <leader>h :ColorHighlight
 
 syntax on   
 
-set relativenumber
+set nocompatible
 set laststatus=2
+set t_Co=256
+set encoding=utf-8
+set relativenumber
 set number
 set showcmd
 set noshowmode
@@ -62,7 +66,9 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
+set hlsearch
 
+set path+=**
 set wildmenu
 set incsearch
 set nobackup
@@ -101,3 +107,8 @@ command! -nargs=? -complete=dir AF
  \ call fzf#run(fzf#wrap(fzf#vim#with_preview({
   \   'source': 'find ~/ -type f 2> /dev/null '.expand(<q-args>)
   \ })))
+
+":vimwiki ext
+let g:vimwiki_list = [{'path': '~/.config/vimwiki',
+                       \ 'syntax': 'markdown', 'ext': '.md'}]
+

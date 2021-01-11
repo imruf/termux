@@ -10,6 +10,8 @@ linux	https://github.com/fAndreuzzi/TUI-ConsoleLauncher/wiki	t-ui
 linux	https://forum.xda-developers.com/xiaomi-redmi-4x/development	R4X
 linux	https://account.protonvpn.com/downloads#openvpn-configuration-files	ProtonVpn
 linux	https://boards.4chan.org/wg/	wallpaper
+linux	https://linux.die.net/man/1/elinks	Elinks
+linux	https://raw.githubusercontent.com/qutebrowser/qutebrowser/master/doc/img/cheatsheet-big.png	qtcs
 linux	https://minhaskamal.github.io/DownGit/	DownGit
 ebook	http://www.amarboi.com/?m=1	Amarboi
 ebook	https://www.alorpathshala.org/	AlorPathshala
@@ -43,3 +45,4 @@ nb	https://kamababa.com/	kb
 nc	https://www.xossipz.com/forumdisplay.php?fid=13	xz
 nc	https://xforum.live/forums/bengali.25/	bxf
 nc	https://xossipfap.com/forum/forum-24.html	xfap
+nc	https://www.desixossip.com/forumdisplay.php?st=1023	dxp
