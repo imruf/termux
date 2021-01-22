@@ -13,6 +13,10 @@ export HISTFILE="${XDG_DATA_HOME:-$HOME/.local/share}/history"
 
 export ELINKS_CONFDIR="$XDG_CONFIG_HOME"/elinks
 export NOTMUCH_CONFIG="$XDG_CONFIG_HOME"/notmuch/notmuchrc
+export MOST_INITFILE="$XDG_CONFIG_HOME"/most/mostrc
+
+# Fzf
+export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
 
 #Path
 export PATH="$PATH:$(du "$HOME/.local/bin" | cut -f2 | paste -sd ':')"
