@@ -2,6 +2,7 @@
 2=restart
 5=refresh
 al=alias -ls
+app=apps -ls
 cc=clear
 myip=ifconfig
 pn=ping -c 3 google.com
