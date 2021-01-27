@@ -15,6 +15,8 @@ linux	https://raw.githubusercontent.com/qutebrowser/qutebrowser/master/doc/img/c
 linux	https://minhaskamal.github.io/DownGit/	DownGit
 ebook	http://www.amarboi.com/?m=1	Amarboi
 ebook	https://www.alorpathshala.org/	AlorPathshala
+ebook	https://www.ebanglalibrary.com/	ebanglalibrary
+ebook	https://b-ok.asia/	b-ok
 edu	https://www.fxsolver.com/	fxSolver
 edu	https://www.mathway.com/	mathWay
 edu	https://eporashona.blogspot.com/?m=1	e-porashona
