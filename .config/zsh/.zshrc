@@ -2,7 +2,7 @@ autoload -U colors && colors    # Load colors
 
 setopt prompt_subst
 
-PS1="%B%F{blue}$(print -P '\ue70e';) %F{yellow}%~%F{green} »%b "
+PS1="%B%F{blue}$(print -P '\ue70e';) %F{yellow}%C%F{green} »%b "
 RPS1='$(vcs_super_info)'
 # PS1="%B%F{yellow}%~%F{green}/ ➜%b "
 # RPROMPT='$(vcs_super_info)'
