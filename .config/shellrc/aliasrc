@@ -82,6 +82,12 @@ alias \
  armv="apt autoremove" \
  pacs="apt search" \
 
+#pip
+alias \
+ pipup="pip-review -i" \
+ pipinp="pip install -U" \
+ piprmv="pip uninstall" \
+
 #youtube-dl
 alias \
  ytd-aac="youtube-dl --extract-audio --audio-format aac" \
