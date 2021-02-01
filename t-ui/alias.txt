@@ -55,6 +55,8 @@ DownGit=search -u https://minhaskamal.github.io/DownGit
 #ebook
 aboi=search -u http://www.amarboi.com/?m=1
 alp=search -u https://www.alorpathshala.org/
+eblib=search -u https://www.ebanglalibrary.com/
+b-ok=search -u https://b-ok.asia/
 #edu
 fxs=search -u https://www.fxsolver.com
 mathw=search -u https://www.mathway.com
@@ -90,6 +92,8 @@ kb=search -u https://kamababa.com
 xz=search -u https://www.xossipz.com/forumdisplay.php?fid=13
 bxf=search -u https://xforum.live/forums/bengali.25
 xfap=search -u https://xossipfap.com/forum/forum-24.html
+#med
+jhb=search -u https://www.umassmed.edu/vitiligo/blog/
 
 #apps
 0=Calc+

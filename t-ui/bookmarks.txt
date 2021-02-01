@@ -47,3 +47,4 @@ nb	https://kamababa.com/	kb
 nc	https://www.xossipz.com/forumdisplay.php?fid=13	xz
 nc	https://xforum.live/forums/bengali.25/	bxf
 nc	https://xossipfap.com/forum/forum-24.html	xfap
+med	https://www.umassmed.edu/vitiligo/blog/	Vitiligo!
