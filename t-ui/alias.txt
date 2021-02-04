@@ -105,6 +105,7 @@ eb=Moon+ Reader
 f=Firefox
 fd=F-Droid
 g=Gallery
+m=Messaging
 pb=EBookDroid
 ps=Play Store
 pt=Periodic Table
