@@ -44,6 +44,7 @@ alias \
  dcfk="cd /data/data/com.termux/files/home/.config/vimwiki/keep" \
  dls="cd /data/data/com.termux/files/home/.local/share" \
  dlb="cd /data/data/com.termux/files/home/.local/bin" \
+ dlbs="cd /data/data/com.termux/files/home/.local/bin/scripts" \
  dh="cd /data/data/com.termux/files/home" \
  ddt="cd /data/data/com.termux/files/home/termux" \
  fv="$EDITOR ~/.config/nvim/init.vim" \
