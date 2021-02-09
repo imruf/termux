@@ -50,7 +50,7 @@ alias \
  fv="$EDITOR ~/.config/nvim/init.vim" \
  fz="$EDITOR ~/.config/zsh/.zshrc" \
  fa="$EDITOR ~/.config/shellrc/aliasrc" \
- fzfn="$EDITOR ~/.config/shellrc/zshfnrc" \
+ fzz="$EDITOR ~/.config/shellrc/zshfnrc" \
  fzp="$EDITOR ~/.profile" \
 
 #db
