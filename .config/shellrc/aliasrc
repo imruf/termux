@@ -87,6 +87,7 @@ alias \
 alias \
  pipup="pip-review -i" \
  pipinp="pip install -U" \
+ pip3inp="pip3 install" \
  piprmv="pip uninstall" \
 
 #youtube-dl
