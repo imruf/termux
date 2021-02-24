@@ -7,7 +7,7 @@ alias \
  v="$EDITOR" \
  q="exit" \
 
-#tmux
+# tmux
 alias \
  t="tmux" \
  tl="tmux ls" \
@@ -26,7 +26,7 @@ alias \
  rm1="rm -v 1*" \
  mkd="mkdir -pv" \
 
-#Navigation
+# Navigation
 alias \
  ru="cd $PREFIX" \
  re="cd $PREFIX/etc/" \
@@ -53,7 +53,7 @@ alias \
  fzz="$EDITOR ~/.config/shellrc/zshfnrc" \
  fzp="$EDITOR ~/.profile" \
 
-#db
+# db
 alias \
  updb="updatedb" \
  e="fzf_file" \
@@ -63,7 +63,7 @@ alias \
  s="fzf_sr" \
  bm="fzf_srbr" \
 
-#termux-api
+# termux-api
 alias \
  tb="termux-brightness" \
  tba="termux-brightness auto" \
@@ -75,7 +75,9 @@ alias \
  tg="termux-open 1.gif" \
  tv="termux-open 1.mp4" \
 
-#APT
+# Package
+
+# APT
 alias \
  up="apt update && apt upgrade" \
  inp="apt install" \
@@ -83,14 +85,71 @@ alias \
  armv="apt autoremove" \
  pacs="apt search" \
 
-#pip
+# c source
+alias \
+    cinp="sudo make install" \
+    crmv="sudo make uninstall" \
+
+# Python/pip
 alias \
  pipup="pip-review -i" \
  pipinp="pip install -U" \
  pip3inp="pip3 install" \
  piprmv="pip uninstall" \
 
-#youtube-dl
+# MAIL/mutt-wizard
+alias \
+ ibx="mutt" \
+ mail="mw -Y; mutt" \
+ mp="mw -y mparvz@gmail.com; mutt" \
+ ib="mw -y imrufbd@gmail.com; mutt" \
+ rry="mw -y riponridwan@yahoo.com; mutt" \
+ lic="mw -y riprid@cock.li; mutt" \
+
+# GIT
+alias \
+ gitc="git clone" \
+ gitu="git push -u origin master" \
+ gitca="git commit -a" \
+ gita="git add" \
+ gits="git status" \
+
+# pass
+alias \
+ gpc="pass -c" \
+
+# Game
+# alias doku="nudoku”
+alias \
+ tet="tetris" \
+ frcl="cd ~/games/sol; ./freecell; cd" \
+ sol="cd ~/games/sol; ./sol; cd" \
+ spider="cd ~/games/sol; ./spider; cd" \
+
+# Network
+# IP/PING
+alias \
+ pn="ping -c 3 google.com" \
+ myip="ifconfig" \
+ isp="curl ifconfig.co" \
+
+# SSH #http #ftpu busybox script
+alias \
+ sfu="sshd" \
+ sfd="pkill sshd" \
+ httpu="python3 ~/.scripts/shsu.py" \
+
+# Downloader
+
+# wget/aria2
+alias \
+ wget="wget -c" \
+ a2="aria2c" \
+ a2p="aria2p" \
+ a2s="a2pd start" \
+ a2d="a2pd stop" \
+
+# youtube-dl
 alias \
  ytd-aac="youtube-dl --extract-audio --audio-format aac" \
  ytd-besta="youtube-dl --extract-audio --audio-format best" \
@@ -107,66 +166,12 @@ alias \
  ytdic="youtube-dl --ignore-config" \
  ytv="youtube-viewer -C" \
 
-#MUTT
-alias \
- ibx="mutt" \
- mail="mw -Y; mutt" \
- mp="mw -y mparvz@gmail.com; mutt" \
- ib="mw -y imrufbd@gmail.com; mutt" \
- rry="mw -y riponridwan@yahoo.com; mutt" \
- lic="mw -y riprid@cock.li; mutt" \
-
-#GIT
-alias \
- gitc="git clone" \
- gitu="git push -u origin master" \
- gitca="git commit -a" \
- gita="git add" \
- gits="git status" \
-
-#pass
-alias \
- gpc="pass -c" \
-
-
-#Game
-#alias doku="nudoku”
-alias \
- tet="tetris" \
- frcl="cd ~/games/sol; ./freecell; cd" \
- sol="cd ~/games/sol; ./sol; cd" \
- spider="cd ~/games/sol; ./spider; cd" \
-
-#SSH #http #ftpu busybox script
-alias \
- sfu="sshd" \
- sfd="pkill sshd" \
- httpu="python3 ~/.scripts/shsu.py" \
-
-
-#ip/ping
-alias \
- pnet="ping -c 3 google.com" \
- myip="ifconfig" \
- isp="curl ifconfig.co" \
- ip="ip addr show" \
- ns="speedtest" \
- nss="speedtest --simple --single" \
-
-#tfx-pfx
+# TRANSMISSION
 alias \
  pfx="peerflix -k -f /home/masud/Videos/ptfx" \
  tfx="torrentflix" \
 
-#downloader
-alias \
- wget="wget -c" \
- a2="aria2c" \
- a2p="aria2p" \
- a2s="a2pd start" \
- a2d="a2pd stop" \
-
-#MIS
+# MIS
 alias \
  weather="curl wttr.in/khagrachari" \
  math="mathomatic" \
@@ -178,10 +183,9 @@ alias \
  m="cmus" \
  def="sdcv" \
  keep="keepcli" \
- covid="curl https://corona-stats.online?source=2" \
  eq="pnglatex -b Transparent -p amssymb:amsmath -d 300 -s 12 -o eq.png" \
 
-#Info
+# Info
 alias \
  pdw="pwd" \
  free="free -mt" \
@@ -190,3 +194,13 @@ alias \
  grep="grep --color=auto" \
  egrep="egrep --color=auto" \
  fgrep="fgrep --color=auto" \
+
+# Services/ More at chubin/awesome-console-servies
+alias \
+ ispc="curl ifconfig.co/country" \
+ ispct="curl ifconfig.co/city" \
+ geo="curl ip-api.com" \
+ lsu="ttm_url_shorten" \
+ weather="curl wttr.in/khagrachari" \
+ odic="online_dic" \
+ oman="online_man" \
