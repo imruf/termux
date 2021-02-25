@@ -14,7 +14,19 @@ alias \
  ta0="tmux attach-session -t 0" \
  ta="tmux attach-session -t" \
 
-# Files
+# termux-api
+alias \
+ tb="termux-brightness" \
+ tba="termux-brightness auto" \
+ tbl="termux-brightness 25" \
+ tbh="termux-brightness 100" \
+ ts="termux-style" \
+ to="termux-open" \
+ tp="termux-open 1.jpg" \
+ tg="termux-open 1.gif" \
+ tv="termux-open 1.mp4" \
+
+## Files
 # Operation
 alias \
  ls="ls --color=auto --group-directories-first" \
@@ -56,27 +68,18 @@ alias \
 # db
 alias \
  updb="updatedb" \
- e="fzf_file" \
- f="fzf_cd" \
- h="fzf_history" \
- k="fzf_kill" \
- s="fzf_sr" \
- bm="fzf_srbr" \
 
-# termux-api
+## Info
 alias \
- tb="termux-brightness" \
- tba="termux-brightness auto" \
- tbl="termux-brightness 25" \
- tbh="termux-brightness 100" \
- ts="termux-style" \
- to="termux-open" \
- tp="termux-open 1.jpg" \
- tg="termux-open 1.gif" \
- tv="termux-open 1.mp4" \
+ pdw="pwd" \
+ free="free -mt" \
+ diff="diff --color=auto" \
+ df="df -h" \
+ grep="grep --color=auto" \
+ egrep="egrep --color=auto" \
+ fgrep="fgrep --color=auto" \
 
-# Package
-
+## Package
 # APT
 alias \
  up="apt update && apt upgrade" \
@@ -106,14 +109,6 @@ alias \
  rry="mw -y riponridwan@yahoo.com; mutt" \
  lic="mw -y riprid@cock.li; mutt" \
 
-# GIT
-alias \
- gitc="git clone" \
- gitu="git push -u origin master" \
- gitca="git commit -a" \
- gita="git add" \
- gits="git status" \
-
 # pass
 alias \
  gpc="pass -c" \
@@ -126,7 +121,7 @@ alias \
  sol="cd ~/games/sol; ./sol; cd" \
  spider="cd ~/games/sol; ./spider; cd" \
 
-# Network
+## Network
 # IP/PING
 alias \
  pn="ping -c 3 google.com" \
@@ -139,8 +134,27 @@ alias \
  sfd="pkill sshd" \
  httpu="python3 ~/.scripts/shsu.py" \
 
-# Downloader
+# zsh function
+# fzf/surfraw
+alias \
+ e="fzf_file" \
+ f="fzf_cd" \
+ h="fzf_history" \
+ k="fzf_kill" \
+ s="fzf_sr" \
+ bm="fzf_srbr" \
 
+# Services/ More at chubin/awesome-console-servies
+alias \
+ ispc="curl ifconfig.co/country" \
+ ispct="curl ifconfig.co/city" \
+ geo="curl ip-api.com" \
+ lsu="ttm_url_shorten" \
+ weather="curl wttr.in/khagrachari" \
+ odic="online_dic" \
+ oman="online_man" \
+
+## Downloader
 # wget/aria2
 alias \
  wget="wget -c" \
@@ -184,22 +198,10 @@ alias \
  keep="keepcli" \
  eq="pnglatex -b Transparent -p amssymb:amsmath -d 300 -s 12 -o eq.png" \
 
-# Info
+# GIT
 alias \
- pdw="pwd" \
- free="free -mt" \
- diff="diff --color=auto" \
- df="df -h" \
- grep="grep --color=auto" \
- egrep="egrep --color=auto" \
- fgrep="fgrep --color=auto" \
-
-# Services/ More at chubin/awesome-console-servies
-alias \
- ispc="curl ifconfig.co/country" \
- ispct="curl ifconfig.co/city" \
- geo="curl ip-api.com" \
- lsu="ttm_url_shorten" \
- weather="curl wttr.in/khagrachari" \
- odic="online_dic" \
- oman="online_man" \
+ gitc="git clone" \
+ gitu="git push -u origin master" \
+ gitca="git commit -a" \
+ gita="git add" \
+ gits="git status" \
