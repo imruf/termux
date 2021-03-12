@@ -3,17 +3,12 @@
 <show_notifications value="true"/>
 <app_notification_enabled_default value="true"/>
 <default_notification_color value="#afb426"/>
-<notification_format value="%app: %[100][silver]title%n%text"/>
+<notification_format value="%app: %[500][silver]title%n%text"/>
 <click_notification value="true"/>
 <long_click_notification value="true"/>
 <notification_popup_exclude_app value="true"/>
 <notification_popup_exclude_notification value="true"/>
 <notification_popup_reply value="true"/>
 <android enabled="false"/>
-<filter id="-1" value="%app: Orbot%n1kbps ↓ / 0kbps ↑"/>
-<org.torproject.android enabled="false"/>
 <de.blinkt.openvpn enabled="false"/>
-<filter id="-1" value="%app: OpenVPN - jp-free-01.protonvpn.com.udp%n↓30.2 kbit/s 16.4 kB - ↑4.1 kbit/s 5.3 kB"/>
-<net.openvpn.openvpn enabled="false"/>
-<filter id="-1" value="%app: jp-free-01.protonvpn.com [jp-free-01.protonvpn.com.udp]%nOpenVPN: Connected"/>
 </NOTIFICATIONS>
