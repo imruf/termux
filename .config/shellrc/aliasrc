@@ -113,7 +113,7 @@ alias \
 alias \
  gpc="pass -c" \
 
-# Game
+# Game/SolVitaire
 # alias doku="nudoku”
 alias \
  tet="tetris" \
@@ -132,7 +132,7 @@ alias \
 alias \
  sfu="sshd" \
  sfd="pkill sshd" \
- httpu="python3 ~/.scripts/shsu.py" \
+ httpu="python3 ~/.local/bin/scripts/shsu.py" \
 
 # zsh function
 # fzf/surfraw
@@ -179,6 +179,7 @@ alias \
  ytdf="youtube-dl -f" \
  ytdic="youtube-dl --ignore-config" \
  ytv="youtube-viewer -C" \
+ ytm="ytfzf -m" \
 
 # TRANSMISSION
 alias \
