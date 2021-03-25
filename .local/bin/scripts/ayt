@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-
-url="$*"
-
-echo "Streaming..."
-mpv --ytdl-format='bestaudio/best[height<=360]' "$url"

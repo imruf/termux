@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-
-url="$*"
-
-echo "Streaming..."
-xdg-open $(youtube-dl -f 1 -g "$url")
