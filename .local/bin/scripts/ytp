@@ -7,15 +7,15 @@ YT="${YT-youtube-dl -f}"
 
 if [ $RES -eq 0 ]; then
 MPVYT="${MPVYT-mpv --ytdl-format=}"
-    echo "Fetching Code..."
+    printf "%s\n" "Fetching Code..."
     youtube-dl -F "$URL"
     read -p "Enter Code: " FORMAT
-echo "Streaming..."
+printf "%s\n" "Streaming..."
     eval "$MPVYT"\'$FORMAT\'  "$URL"
 else
 MPVYT="${MPVYT-xdg-open}"
 YTF="bestvideo[height<=$RES]+bestaudio/best[height<=$RES]"
 YTURL=$(eval "$YT" \'$YTF\'  -g "$URL")
-echo "Streaming..."
+printf "%s\n" "Streaming..."
     eval "$MPVYT" "$YTURL"
 fi
