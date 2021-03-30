@@ -129,7 +129,7 @@ alias \
 alias \
  sfu="sshd" \
  sfd="pkill sshd" \
- httpu="python3 ~/.local/bin/scripts/shsu.py" \
+ httpu="python2 ~/.local/bin/scripts/shsu.py" \
 
 # zsh function
 # fzf/surfraw
