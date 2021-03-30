@@ -6,7 +6,7 @@
 #RES="$2"
 
 while getopts "adfhiu:r:" o; do case "${o}" in
-        h)  printf "Options\\n -u: URL\\n -r: Resolution\\n -a: Audio Stream In Termux With mpv\\n -i: Insert Known Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n" && exit 1 ;;
+        h)  printf "Options\\n -u: URL\\n -r: Resolution\\n -a: Audio Stream In Termux With mpv\\n -i: Insert hls Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n" && exit 1 ;;
         u) URL="${OPTARG}" ;;
         r) RES="${OPTARG}" ;;
         a) read -p "URL: " URL
@@ -25,7 +25,8 @@ while getopts "adfhiu:r:" o; do case "${o}" in
            read -p "Stream Code: " RES
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
         i) read -p "URL: " URL
-           read -p "Enter Known Code: " RES
+           read -p "Enter hls Code: " RES
+           RES="$(printf $RES | sed 's/a/hls-250p/;s/b/hls-360p/;s/c/hls-480p/;s/d/hls-720p/;s/k/hls-1080p/')"
            printf "%s\n" "Streaming..."
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
 esac done
@@ -34,6 +35,6 @@ esac done
 [ -z $RES ] && read -p "RES: " RES
 RES="$(printf $RES | sed 's/l/240/;s/m/360/;s/s/480/;s/h/720/;s/k/1080/')"
 YTF="bestvideo[height<=$RES]+bestaudio/best[height<=$RES]"
-MPVYT="${MPVYT-xdg-open $(youtube-dl -f $YTF  -g "$URL")}"
+MPVYT="${MPVYT-xdg-open $(youtube-dl -f $YTF -g "$URL")}"
 
 $MPVYT
