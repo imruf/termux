@@ -1,26 +1,39 @@
 #!/bin/sh
 
-URL="$1"
-RES="$2"
+## youtube-dl script to download and stream media url in termux
+
+#URL="$1"
+#RES="$2"
+
+while getopts "adfhiu:r:" o; do case "${o}" in
+        h)  printf "Options\\n -u: URL\\n -r: Resolution\\n -a: Audio Stream In Termux With mpv\\n -i: Insert Known Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n" && exit 1 ;;
+        u) URL="${OPTARG}" ;;
+        r) RES="${OPTARG}" ;;
+        a) read -p "URL: " URL
+           read -p "Audio Only Format: " RES
+           printf "%s\n" "Streaming..."
+           MPVYT="${MPVYT-mpv $(youtube-dl -f $RES -g "$URL")}" ;;
+        d) read -p "URL: " URL
+           printf "%s\n" "Fetching Code..."
+           youtube-dl -F "$URL"
+           read -p "Download Code: " RES
+           printf "%s\n" "Downloading..."
+           MPVYT="${MPVYT-youtube-dl -f $RES "$URL"}" ;;
+        f) read -p "URL: " URL
+           printf "%s\n" "Fetching Code..."
+           youtube-dl -F "$URL"
+           read -p "Stream Code: " RES
+           MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
+        i) read -p "URL: " URL
+           read -p "Enter Known Code: " RES
+           printf "%s\n" "Streaming..."
+           MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
+esac done
 
 [ -z $URL ] && read -p "URL: " URL
 [ -z $RES ] && read -p "RES: " RES
-
-RES="$(printf $RES | sed 's/l/240/;s/m/360/;s/s/480/;s/h/720/;s/d/1080/')"
-
-YT="${YT-youtube-dl -f}"
-
-if [ $RES -eq 0 ]; then
-MPVYT="${MPVYT-mpv --ytdl-format=}"
-    printf "%s\n" "Fetching Code..."
-    youtube-dl -F "$URL"
-    read -p "Enter Code: " FORMAT
-printf "%s\n" "Streaming..."
-    eval "$MPVYT"\'$FORMAT\'  "$URL"
-else
-MPVYT="${MPVYT-xdg-open}"
+RES="$(printf $RES | sed 's/l/240/;s/m/360/;s/s/480/;s/h/720/;s/k/1080/')"
 YTF="bestvideo[height<=$RES]+bestaudio/best[height<=$RES]"
-YTURL=$(eval "$YT" \'$YTF\'  -g "$URL")
-printf "%s\n" "Streaming..."
-    eval "$MPVYT" "$YTURL"
-fi
+MPVYT="${MPVYT-xdg-open $(youtube-dl -f $YTF  -g "$URL")}"
+
+$MPVYT
