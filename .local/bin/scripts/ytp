@@ -26,7 +26,7 @@ while getopts "adfhiu:r:" o; do case "${o}" in
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
         i) read -p "URL: " URL
            read -p "Enter hls Code: " RES
-           RES="$(printf $RES | sed 's/a/hls-250p/;s/b/hls-360p/;s/c/hls-480p/;s/d/hls-720p/;s/k/hls-1080p/')"
+           RES="$(printf $RES | sed -e '1s/l/hls-250p/;t' -e '1,/l/s//hls-250p/;1s/m/hls-360p/;t' -e '1,/m/s//hls-360p/;1s/s/hls-480p/;t' -e '1,/m/s//hls-480p/;1s/h/hls-720p/;t' -e '1,/h/s//hls-720p/;1s/k/hls-1080p/;t' -e '1,/h/s//hls-1080p/;')"
            printf "%s\n" "Streaming..."
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
 esac done
