@@ -20,11 +20,7 @@ alias \
  tba="termux-brightness auto" \
  tbl="termux-brightness 25" \
  tbh="termux-brightness 100" \
- ts="termux-style" \
  to="termux-open" \
- tp="termux-open 1.jpg" \
- tg="termux-open 1.gif" \
- tv="termux-open 1.mp4" \
 
 ## Files
 # Operation
@@ -48,6 +44,7 @@ alias \
  dn="cd /data/data/com.termux/files/home/storage/documents/" \
  dsd="cd /data/data/com.termux/files/home/storage/shared/" \
  dtui="cd /data/data/com.termux/files/home/storage/shared/t-ui" \
+ dtmp="cd /data/data/com.termux/files/home/tmp" \
  dcc="cd /data/data/com.termux/files/home/.cache" \
  dcf="cd /data/data/com.termux/files/home/.config" \
  dcfz="cd /data/data/com.termux/files/home/.config/zsh" \
