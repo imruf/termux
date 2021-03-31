@@ -62,6 +62,12 @@ online_man() {
        };
      zle -N online_man;
 
+ftp_server() {
+        ip="$*"
+        zle -I; busybox tcpsvd -vE "$ip" 1024 busybox ftpd -w
+       };
+     zle -N ftp_server;
+
 #Transmission
 tsmcc() {
         transmission-remote -l | grep 100% | grep Done | \

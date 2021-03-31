@@ -125,10 +125,11 @@ alias \
  myip="ifconfig" \
  isp="curl ifconfig.co" \
 
-# SSH #http #ftpu busybox script
+# SSH #http #ftpu ftp_server zsh function
 alias \
  sfu="sshd" \
  sfd="pkill sshd" \
+ ftpu="ftp_server" \
  httpu="python ~/.local/bin/scripts/shsu.py" \
  httpmu="python ~/.local/bin/scripts/shsumu.py" \
 
