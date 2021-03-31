@@ -13,12 +13,10 @@ while getopts "adfhiu:r:" o; do case "${o}" in
            read -p "Audio Only Format: " RES
            MPVYT="${MPVYT-mpv $(youtube-dl -f $RES -g "$URL")}" ;;
         d) read -p "URL: " URL
-           printf "%s\n" "Fetching Code..."
            youtube-dl -F "$URL"
            read -p "Download Code: " RES
            MPVYT="${MPVYT-youtube-dl -f $RES "$URL"}" ;;
         f) read -p "URL: " URL
-           printf "%s\n" "Fetching Code..."
            youtube-dl -F "$URL"
            read -p "Stream Code: " RES
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
