@@ -11,13 +11,11 @@ while getopts "adfhiu:r:" o; do case "${o}" in
         r) RES="${OPTARG}" ;;
         a) read -p "URL: " URL
            read -p "Audio Only Format: " RES
-           printf "%s\n" "Streaming..."
            MPVYT="${MPVYT-mpv $(youtube-dl -f $RES -g "$URL")}" ;;
         d) read -p "URL: " URL
            printf "%s\n" "Fetching Code..."
            youtube-dl -F "$URL"
            read -p "Download Code: " RES
-           printf "%s\n" "Downloading..."
            MPVYT="${MPVYT-youtube-dl -f $RES "$URL"}" ;;
         f) read -p "URL: " URL
            printf "%s\n" "Fetching Code..."
@@ -27,7 +25,6 @@ while getopts "adfhiu:r:" o; do case "${o}" in
         i) read -p "URL: " URL
            read -p "Enter hls Code: " RES
            RES="$(printf $RES | sed -e '1s/l/hls-250p/;t' -e '1,/l/s//hls-250p/;1s/m/hls-360p/;t' -e '1,/m/s//hls-360p/;1s/s/hls-480p/;t' -e '1,/m/s//hls-480p/;1s/h/hls-720p/;t' -e '1,/h/s//hls-720p/;1s/k/hls-1080p/;t' -e '1,/h/s//hls-1080p/;')"
-           printf "%s\n" "Streaming..."
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
 esac done
 
