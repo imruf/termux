@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-
-ip="$*"
-busybox tcpsvd -vE "$ip" 1024 busybox ftpd -w
-
