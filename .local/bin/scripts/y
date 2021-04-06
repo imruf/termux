@@ -1,0 +1,33 @@
+#!/bin/sh
+
+## youtube-dl script to download and stream media url in termux
+
+while getopts "adfhiu:r:" o; do case "${o}" in
+        h)  printf "Options\\n -u: URL\\n -r: Resolution\\n -a: Audio Stream In Termux With mpv\\n -i: Insert hls Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n" && exit 1 ;;
+        u) URL="${OPTARG}" ;;
+        r) RES="${OPTARG}" ;;
+        a) [ -z $URL ] && read -p "URL: " URL
+           read -p "Audio Only Format: " RES
+           RES="$(printf $RES | sed 's/a/249/')"
+           MPVYT="${MPVYT-mpv $(youtube-dl -f $RES -g "$URL")}" ;;
+        d) [ -z $URL ] && read -p "URL: " URL
+           youtube-dl -F "$URL"
+           read -p "Download Code: " RES
+           MPVYT="${MPVYT-youtube-dl -f $RES "$URL"}" ;;
+        f) [ -z $URL ] && read -p "URL: " URL
+           youtube-dl -F "$URL"
+           read -p "Stream Code: " RES
+           MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
+        i) [ -z $URL ] && read -p "URL: " URL
+           read -p "Enter hls Code: " RES
+           RES="$(printf $RES | sed -e '1s/l/hls-250p/;t' -e '1,/l/s//hls-250p/;1s/m/hls-360p/;t' -e '1,/m/s//hls-360p/;1s/s/hls-480p/;t' -e '1,/m/s//hls-480p/;1s/h/hls-720p/;t' -e '1,/h/s//hls-720p/;1s/k/hls-1080p/;t' -e '1,/h/s//hls-1080p/;')"
+           MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
+esac done
+
+[ -z $URL ] && read -p "URL: " URL
+[ -z $RES ] && read -p "RES: " RES
+RES="$(printf $RES | sed 's/l/240/;s/m/360/;s/s/480/;s/h/720/;s/k/1080/')"
+YTF="bestvideo[height<=$RES]+bestaudio/best[height<=$RES]"
+MPVYT="${MPVYT-xdg-open $(youtube-dl -f $YTF -g "$URL")}"
+
+$MPVYT
