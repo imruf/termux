@@ -1,6 +1,4 @@
-image/jpg; curl -o ~/tmp/1.jpg '%s' && xdg-open ~/tmp/1.jpg; needsterminal;
-image/jpeg; curl -o ~/tmp/1.jpeg '%s' && xdg-open ~/tmp/1.jpeg; needsterminal;
-image/png; curl -o ~/tmp/1.png '%s' && xdg-open ~/tmp/1.png; needsterminal;
-image/gif; tyt '%s'; needsterminal;
-video/mp4; tyt '%s'; needsterminal;
+image/*; curl -o ~/tmp/1.jpg '%s' && xdg-open ~/tmp/1.jpg; needsterminal;
+image/gif; xdg-open '%s'; needsterminal;
+audio/*; mpv %s ;
 video/*; tyt '%s'; needsterminal; 
