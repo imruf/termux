@@ -9,7 +9,7 @@ export BROWSER="/data/data/com.termux/files/usr/bin/elinks"
 
 # ManPage
 # export MANPAGER='nvim +Man!'
-# export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # export MANPAGER='/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
 
 # xdg-dir
@@ -27,10 +27,9 @@ export MOST_INITFILE="$XDG_CONFIG_HOME"/most/mostrc
 # Fzf
 # export FZF_DEFAULT_OPTS="--layout=reverse --height 40%"
 
-
 # nnn environment
 export NNN_USE_EDITOR=1
-export NNN_OPTS="adr"
+export NNN_OPTS="ad"
 export NNN_FIFO='/tmp/nnn.fifo'
 export NNN_OPENER=mimeopen
 export NNN_COLORS="3427"
