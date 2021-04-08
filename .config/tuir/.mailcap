@@ -1,6 +1,0 @@
-image/jpg; curl -o 1.jpg '%s' && xdg-open 1.jpg; needsterminal;
-image/jpeg; curl -o 1.jpeg '%s' && xdg-open 1.jpeg; needsterminal;
-image/png; curl -o 1.png '%s' && xdg-open 1.png; needsterminal;
-image/gif; curl -o 1.gif '%s' && xdg-open 1.gif; needsterminal;
-video/mp4; xdg-open '%s'; needsterminal;
-video/*; rm -rf 1*; youtube-dl '%s'; xdg-open 1*; needsterminal; 
