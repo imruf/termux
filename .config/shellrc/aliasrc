@@ -87,8 +87,8 @@ alias \
 
 # c source
 alias \
-    cinp="sudo make install" \
-    crmv="sudo make uninstall" \
+    cinp="make install" \
+    crmv="make uninstall" \
 
 # Python/pip
 alias \

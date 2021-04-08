@@ -23,6 +23,8 @@ filetype off
 
 :imap jj <Esc>
 
+map <Space> <PageDown>
+
 no <Up> <Nop>
 no <Down> <Nop>
 no <Left> <Nop>

@@ -8,8 +8,8 @@ export EDITOR="/data/data/com.termux/files/usr/bin/nvim"
 export BROWSER="/data/data/com.termux/files/usr/bin/elinks"
 
 # ManPage
-# export MANPAGER='nvim +Man!'
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export MANPAGER='nvim +Man!'
+# export MANPAGER="bat -l man -p"
 # export MANPAGER='/bin/bash -c "vim -MRn -c \"set buftype=nofile showtabline=0 ft=man ts=8 nomod nolist norelativenumber nonu noma\" -c \"normal L\" -c \"nmap q :qa<CR>\"</dev/tty <(col -b)"'
 
 # xdg-dir
@@ -37,3 +37,7 @@ export NNN_FCOLORS='00e2272ec16033f7c6d6abc4'
 # export NNN_FCOLORS='c1e2272e006033f7c6d6abc4'
 export NNN_BMS='h:~/;d:~/storage/downloads;n:~/storage/documents;p:~/storage/pictures'
 export NNN_PLUG='d:drop;f:fzfcd;p:preview-tui-ext;w:setbg;x:dups'
+
+
+# tuir environment
+export TUIR_BROWSER="elinks"
