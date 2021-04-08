@@ -3,7 +3,7 @@
 ## youtube-dl script to download and stream media url in termux
 
 while getopts "adfhiu:r:" o; do case "${o}" in
-        h)  printf "Options\\n -u: URL\\n -r: Format Code\\n -a: Audio Stream\\n -a: Input Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n   Format:\\n     l/a:240p,m4a\\n     m/b:340p,m4a\\n     s/c:480p,webm\\n     h/d:720p,webm\\n     k/g/e/0:1080,mp4,gif\\n" && exit 1 ;;
+    h)  printf "ytp\\n -u: URL\\n -r: Format Code\\n -a: Audio Stream\\n -a: Input Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n   Format(u/i,a):\\n     l/a:240p,m4a\\n     m/b:340p,m4a\\n     s/c:480p,webm\\n     h/d:720p,webm\\n     k/g/e/0:1080,mp4,gif\\n" && exit 1 ;;
         u) URL="${OPTARG}" ;;
         r) RES="${OPTARG}" ;;
         a) [ -z $URL ] && read -p "URL: " URL
