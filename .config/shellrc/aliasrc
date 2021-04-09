@@ -9,10 +9,9 @@ alias \
 
 # tmux
 alias \
- t="tmux" \
+ t="tmux a || tmux" \
+ ta="tmux a -t" \
  tl="tmux ls" \
- ta0="tmux attach-session -t 0" \
- ta="tmux attach-session -t" \
 
 # termux-api
 alias \
