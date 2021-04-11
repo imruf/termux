@@ -3,29 +3,29 @@
 ## youtube-dl script to download and stream media url in termux
 
 while getopts "adfhiu:r:" o; do case "${o}" in
-    h)  printf "ytp\\n -u: URL\\n -r: Format Code\\n -a: Audio Stream\\n -a: Input Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n   Format(u/i,a):\\n     l/a:240p,m4a\\n     m/b:340p,m4a\\n     s/c:480p,webm\\n     h/d:720p,webm\\n     k/g/e/0:1080,mp4,gif\\n" && exit 1 ;;
+    h)  printf "ytp\\n -u: URL\\n -r: Format Code\\n -a: Audio Stream\\n -a: Input Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n" && exit 1 ;;
         u) URL="${OPTARG}" ;;
         r) RES="${OPTARG}" ;;
         a) [ -z $URL ] && read -p "URL: " URL
-           read -p "C?: " RES
+           read -p "a/b/c/d/e/?: " RES
            RES="$(printf $RES | sed 's/a/139/;s/b/140/;s/c/249/;s/d/250/;s/e/251/')"
            MPVYT="${MPVYT-mpv $(youtube-dl -f $RES -g "$URL")}" ;;
         i) [ -z $URL ] && read -p "URL: " URL
-           read -p "C?: " RES
+           read -p "a/b/c/d/e/g/?: " RES
            RES="$(printf $RES | sed 's/a/hls-250p/;s/b/hls-360p/;s/c/hls-480p/;s/d/hls-720p/;s/e/gif/;s/g/mp4/')"
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
         d) [ -z $URL ] && read -p "URL: " URL
            youtube-dl -F "$URL"
-           read -p "C?: " RES
+           read -p "Code: " RES
            MPVYT="${MPVYT-youtube-dl -f $RES "$URL"}" ;;
         f) [ -z $URL ] && read -p "URL: " URL
            youtube-dl -F "$URL"
-           read -p "C?: " RES
+           read -p "Code: " RES
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
 esac done
 
 [ -z $URL ] && read -p "URL: " URL
-[ -z $RES ] && read -p "C?: " RES
+[ -z $RES ] && read -p "l/m/s/h/k/?: " RES
 RES="$(printf $RES | sed 's/l/240/;s/m/360/;s/s/480/;s/h/720/;s/k/1080/')"
 YTF="bestvideo[height<=$RES]+bestaudio/best[height<=$RES]"
 MPVYT="${MPVYT-xdg-open $(youtube-dl -f $YTF -g "$URL")}"
