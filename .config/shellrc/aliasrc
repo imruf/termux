@@ -35,10 +35,11 @@ alias \
 
 # Navigation
 alias \
- ru="cd $PREFIX" \
- re="cd $PREFIX/etc/" \
- rb="cd $PREFIX/bin/" \
- rs="cd $PREFIX/share/" \
+ rp="cd $PREFIX" \
+ rpe="cd $PREFIX/etc/" \
+ rpb="cd $PREFIX/bin/" \
+ rps="cd $PREFIX/share/" \
+ rpt="cd $PREFIX/tmp/" \
  ddl="cd /data/data/com.termux/files/home/storage/downloads/" \
  dn="cd /data/data/com.termux/files/home/storage/documents/" \
  dsd="cd /data/data/com.termux/files/home/storage/shared/" \
@@ -48,8 +49,8 @@ alias \
  dcf="cd /data/data/com.termux/files/home/.config" \
  dcfz="cd /data/data/com.termux/files/home/.config/zsh" \
  dcfs="cd /data/data/com.termux/files/home/.config/shellrc" \
- dcfw="cd /data/data/com.termux/files/home/.config/vimwiki" \
- dcfk="cd /data/data/com.termux/files/home/.config/vimwiki/keep" \
+ dcfv="cd /data/data/com.termux/files/home/.config/vimwiki" \
+ dcfvn="cd /data/data/com.termux/files/home/.config/vimwiki/notes" \
  dls="cd /data/data/com.termux/files/home/.local/share" \
  dlb="cd /data/data/com.termux/files/home/.local/bin" \
  dlbs="cd /data/data/com.termux/files/home/.local/bin/scripts" \
@@ -98,6 +99,7 @@ alias \
 
 # MAIL/mutt-wizard
 alias \
+ pnl="pass nlogin" \
  ibx="mutt" \
  mail="mw -Y; mutt" \
  mp="mw -y mparvz@gmail.com; mutt" \
@@ -201,6 +203,7 @@ alias \
 alias \
  gitc="git clone" \
  gitu="git push -u origin main" \
+ gitd="git pull" \
  gitca="git commit -a" \
  gita="git add" \
  gits="git status" \
