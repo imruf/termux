@@ -1,3 +1,4 @@
-image/*; rm -rf rt.jpg; curl -o ~/tmp/1.jpg '%s' && xdg-open ~/tmp/1.jpg; needsterminal;
-audio/*; mpv %s ;
+image/*; linkhandler '%s'; needsterminal;
+audio/*; y -u %s -a;
 video/*; y -u '%s' -i; needsterminal; 
+
