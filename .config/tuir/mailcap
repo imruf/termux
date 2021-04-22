@@ -1,4 +1,5 @@
 image/*; linkhandler '%s'; needsterminal;
+image/gif; y -u '%s' -f; needsterminal;
 audio/*; y -u %s -a;
 video/*; y -u '%s' -i; needsterminal; 
 
