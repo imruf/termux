@@ -1,5 +1,5 @@
-image/*; linkhandler '%s'; needsterminal;
-image/gif; y -u '%s' -f; needsterminal;
-audio/*; y -u %s -a;
-video/*; y -u '%s' -i; needsterminal; 
-
+image/x-imgur-album; feh -g 640x480  -. %s; test=test -n "$DISPLAY"
+image/*; linkhandler '%s';
+image/gif; y -u '%s' -f; needsterminal
+video/x-youtube; y -u '%s' -f; needsterminal
+video/*; y -u '%s' -f; needsterminal
