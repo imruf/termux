@@ -1,5 +1,3 @@
-image/x-imgur-album; feh -g 640x480  -. %s; test=test -n "$DISPLAY"
+image/gif; y -u '%s' -i; needsterminal
 image/*; linkhandler '%s';
-image/gif; y -u '%s' -f; needsterminal
-video/x-youtube; y -u '%s' -f; needsterminal
-video/*; y -u '%s' -f; needsterminal
+video/*; y -u '%s' -i; needsterminal
