@@ -45,7 +45,7 @@
 <show_restart_message value="true"/>
 <notes_max_lines value="5"/>
 <show_scroll_notes_message value="false"/>
-<show_weather value="false"/>
+<show_weather value="true"/>
 <weather_size value="13"/>
 <show_unlock_counter value="false"/>
 <unlock_index value=""/>
