@@ -1,3 +1,4 @@
 image/gif; y -u '%s' -i; needsterminal
 image/*; linkhandler '%s';
+video/redgif; y -u '%s' -g
 video/*; y -u '%s' -i; needsterminal

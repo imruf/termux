@@ -2,7 +2,7 @@
 
 ## youtube-dl script to download and stream media url in termux
 
-while getopts "adfhiu:r:" o; do case "${o}" in
+while getopts "adfghiu:r:" o; do case "${o}" in
     h)  printf "ytp\\n -u: URL\\n -r: Format Code\\n -a: Audio Stream\\n -a: Input Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n" && exit 1 ;;
         u) URL="${OPTARG}" ;;
         r) RES="${OPTARG}" ;;
@@ -22,6 +22,11 @@ while getopts "adfhiu:r:" o; do case "${o}" in
            youtube-dl -F "$URL"
            read -p "Code: " RES
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
+# This -g is for redgif
+        g) [ -z $URL ] && read -p "URL: " URL
+           youtube-dl -g --no-warnings "$URL" | awk 'NR==2' | termux-clipboard-set
+           RES=$(termux-clipboard-get)
+           MPVYT="${MPVYT-xdg-open $RES}" ;;
 esac done
 
 [ -z $URL ] && read -p "URL: " URL
