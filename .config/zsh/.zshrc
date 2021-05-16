@@ -3,7 +3,7 @@ autoload -U colors && colors    # Load colors
 setopt prompt_subst
 unsetopt nomatch
 
-PS1="%B%F{blue}$(print -P '\ue70e';)%b%f %F{yellow}%C%f
+PS1="%B%F{blue}$(print -P '\ue70e';)%b%f %F{yellow}%~%f
 %B:-%b "
 RPS1='$(vcs_super_info)'
 # PS1="%B%F{yellow}%~%F{green}/ ➜%b "
