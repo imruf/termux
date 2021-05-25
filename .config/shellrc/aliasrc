@@ -40,27 +40,27 @@ alias \
  rpb="cd $PREFIX/bin/" \
  rps="cd $PREFIX/share/" \
  rpt="cd $PREFIX/tmp/" \
- ddl="cd /data/data/com.termux/files/home/storage/downloads/" \
- dn="cd /data/data/com.termux/files/home/storage/documents/" \
- dsd="cd /data/data/com.termux/files/home/storage/shared/" \
- dtui="cd /data/data/com.termux/files/home/storage/shared/t-ui" \
- dtmp="cd /data/data/com.termux/files/home/tmp" \
- dcc="cd /data/data/com.termux/files/home/.cache" \
- dcf="cd /data/data/com.termux/files/home/.config" \
- dcfz="cd /data/data/com.termux/files/home/.config/zsh" \
- dcfs="cd /data/data/com.termux/files/home/.config/shellrc" \
- dcfv="cd /data/data/com.termux/files/home/.config/vimwiki" \
- dcfvn="cd /data/data/com.termux/files/home/.config/vimwiki/notes" \
- dls="cd /data/data/com.termux/files/home/.local/share" \
- dlb="cd /data/data/com.termux/files/home/.local/bin" \
- dlbs="cd /data/data/com.termux/files/home/.local/bin/scripts" \
- dh="cd /data/data/com.termux/files/home" \
- ddt="cd /data/data/com.termux/files/home/termux" \
- fv="$EDITOR ~/.config/nvim/init.vim" \
- fz="$EDITOR ~/.config/zsh/.zshrc" \
- fa="$EDITOR ~/.config/shellrc/aliasrc" \
- fzz="$EDITOR ~/.config/shellrc/zshfnrc" \
- fzp="$EDITOR ~/.profile" \
+ xcc="cd $XDG_CACHE_HOME" \
+ xc="cd $XDG_CONFIG_HOME" \
+ zd="cd $ZDOTDIR" \
+ xcs="cd $XDG_CONFIG_HOME/shellrc" \
+ xcv="cd $XDG_CONFIG_HOME/vimwiki" \
+ xcvn="cd $XDG_CONFIG_HOME/vimwiki/notes" \
+ xd="cd $XDG_DATA_HOME" \
+ dlb="cd $HOME/.local/bin" \
+ dlbs="cd $HOME/.local/bin/scripts" \
+ h="cd $HOME" \
+ hd="cd $HOME/storage/downloads/" \
+ hn="cd $HOME/storage/documents/" \
+ hsd="cd $HOME/storage/shared/" \
+ htui="cd $HOME/storage/shared/t-ui" \
+ htmp="cd $HOME/tmp" \
+ ht="cd $HOME/termux" \
+ fv="$EDITOR $XDG_CONFIG_HOME/nvim/init.vim" \
+ fz="$EDITOR $ZDOTDIR/.zshrc" \
+ fa="$EDITOR $XDG_CONFIG_HOME/shellrc/aliasrc" \
+ fzfn="$EDITOR $XDG_CONFIG_HOME/shellrc/zshfnrc" \
+ fzp="$EDITOR $HOME/.profile" \
 
 # db
 alias \
@@ -137,12 +137,12 @@ alias \
 # zsh function
 # fzf/surfraw
 alias \
- e="fzf_file" \
- f="fzf_cd" \
- h="fzf_history" \
- k="fzf_kill" \
- s="fzf_sr" \
- bm="fzf_srbr" \
+ fe="fzf_file" \
+ ff="fzf_cd" \
+ fh="fzf_history" \
+ fk="fzf_kill" \
+ fs="fzf_sr" \
+ fbm="fzf_srbr" \
 
 # Services/ More at chubin/awesome-console-servies
 alias \
