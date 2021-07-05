@@ -55,7 +55,7 @@
 <optional_values_separator value="/"/>
 <notes_sorting value="1"/>
 <notes_allow_link value="true"/>
-<orientation value="2"/>
+<orientation value="1"/>
 <htmlextractor_default_format value="%t -&gt; %v%n%a(%an = %av)(%n)"/>
 <htmlextractor_notfound_message value="Not found"/>
 <tui_notification_time_color value="#03A9F4"/>
