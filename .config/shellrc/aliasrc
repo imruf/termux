@@ -133,6 +133,7 @@ alias \
  ftpu="ftp_server" \
  httpu="python ~/.local/bin/scripts/shsu.py" \
  httpmu="python ~/.local/bin/scripts/shsumu.py" \
+ lt="ssh masud@192.168.43.194" \
 
 # zsh function
 # fzf/surfraw
