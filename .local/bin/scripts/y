@@ -22,11 +22,6 @@ while getopts "adfghiu:r:" o; do case "${o}" in
            youtube-dl -F "$URL"
            read -p "Code: " RES
            MPVYT="${MPVYT-xdg-open $(youtube-dl -f $RES -g "$URL")}" ;;
-# This -g is for redgif
-        g) [ -z $URL ] && read -p "URL: " URL
-           youtube-dl -g --no-warnings "$URL" | awk 'NR==2' | termux-clipboard-set
-           RES=$(termux-clipboard-get)
-           MPVYT="${MPVYT-xdg-open $RES}" ;;
 esac done
 
 [ -z $URL ] && read -p "URL: " URL

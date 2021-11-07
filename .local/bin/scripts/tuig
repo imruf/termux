@@ -1,0 +1,15 @@
+#!/bin/sh
+
+tmpfile=$PREFIX/tmp/gallery
+linkfile=$PREFIX/tmp/links
+
+url=$1
+# userid=$(basename $url)
+
+json=https://www.reddit.com/comments/$(basename $url).json
+echo $json
+
+# curl $json > $tmpfile
+# https_data=$(tr '"' '\n' < $tmpfile | awk '/https/ && /format/ && !/blur/ {print}' | sed 's/amp;//g' > $linkfile)
+# fzf_menu=$(cat $linkfile | sort -n | fzf -m)
+# xdg-open $fzf_menu

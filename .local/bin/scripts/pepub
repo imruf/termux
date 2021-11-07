@@ -1,0 +1,25 @@
+#!/bin/bash
+
+pwddir="`pwd`"
+tmpdir="`mktemp -d`"
+
+pdftohtml -enc UTF-8 -noframes -p -nomerge -nodrm -q "$1" "$tmpdir"/index
+
+cd "$tmpdir"
+
+sed -e :a -e '$!N;s/\n/ /;ta' \
+    -i index.html 
+
+sed -e 's@&#160;@ @g' \
+    -e 's@<hr>@ @g' \
+    -e 's@<br/>\s*<br/>@</p><p>@g' \
+    -e 's@<br/>@ @g' \
+    -i index.html
+
+tidy -utf8 -i -wrap 9999999 -m index.html
+
+sed -e 's@<a name="[^"]*"></a>@@g' \
+    -i index.html
+
+rm "$pwddir"/"$1".zip
+zip "$pwddir"/"$1".zip *
