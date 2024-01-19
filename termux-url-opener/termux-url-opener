@@ -1,0 +1,172 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# for PACKAGE in wget ffmpeg python 
+# do
+# 	which $PACKAGE > /dev/null
+# 	if [ ! $? -eq 0 ]; then
+# 		echo "Installing $PACKAGE"
+# 		pkg install $PACKAGE
+# 	fi
+# done
+# 
+# which transmission-daemon > /dev/null
+# if [ ! $? -eq 0 ]; then
+# 	pkg install transmission
+# fi
+# 
+# for PYPI_PKG in yt-dlp scdl
+# do
+# 	pip show $PYPI_PKG
+# 	if [ ! $? -eq 0 ]; then
+# 		pip install $PYPI_PKG
+# 	fi
+# done
+# 
+# if [! -w $HOME/Downloads ]; then #create Downloads Link for transmission
+# 	ln -s $HOME/storage/downloads $HOME/Downloads
+# fi
+
+if [ -z "$1" ]; then
+	url="$(xclip -o)"
+else
+	url="$1"
+fi
+
+html_body="
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <style type="text/css">
+      @page {
+        size: a4 portrait;
+        font-family: 'Arial', 'Calibri', 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans', 'Noto Sans Symbols 2', sans-serif;
+        font-size: 12px;
+        width: 100%;
+        color: #000000;
+        text-align: justify;
+      }
+
+      body {
+        font-family: 'Arial', 'Calibri', 'Noto Sans Devanagari', 'Noto Sans Bengali', 'Noto Sans', 'Noto Sans Symbols 2', sans-serif;
+        line-height: 1;
+      }
+    </style>
+  </head>
+"
+
+case "$url" in
+	*mkv|*webm|*mp4)
+		xdg-open "$url" >/dev/null 2>&1 ;;
+	*png|*jpg|*jpe|*jpeg|*gif|*webp)
+		curl -sL "$url" > "$PREFIX/tmp/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && xdg-open "$PREFIX/tmp/$(echo "$url" | sed "s/.*\///;s/%20/ /g")"  >/dev/null 2>&1 & ;;
+	*pdf|*cbz|*cbr)
+		curl -sL "$url" > "$PREFIX/tmp/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && xdg-open "$PREFIX/tmp/$(echo "$url" | sed "s/.*\///;s/%20/ /g")"  >/dev/null 2>&1 & ;;
+	*mp3|*flac|*opus|*mp3?source*)
+		mpv "$url" 'curl -LO'  >/dev/null 2>&1 ;;
+	*imgur.com*)
+        yt-dlp -g "$1" | xargs xdg-open ;;
+	*thedailystar.net*|*banglachotikahinii.com*|*xforum.live*|*xossipy.com*)
+        case "$(printf "html\\npdf" | fzf)" in
+            html) echo "$html_body" > out.html
+                  echo "Scrapping..."
+                  python -m readability.readability -u "$url" >> out.html && xdg-open out.html;;
+        ## && xdg-open out.pdf;;
+        
+            pdf) echo "$html_body" > out.html
+                  echo "Scrapping..."
+                  python -m readability.readability -u "$url" >> out.html && weasyprint out.html out.pdf && xdg-open out.pdf;;
+        esac ;;
+	*reddit.com*)
+        tmpdir=$PREFIX/tmp
+        tmpfile=$tmpdir/gallery
+        linkfile=$tmpdir/links
+        iurl=https://www.reddit.com/comments/$(basename $1).json
+        rm $tmpdir/*.[jp][pn]*
+        curl $iurl > $tmpfile
+        tr '"' '\n' < $tmpfile | awk '/https/ && /format/ && !/blur/ {print}' | sed 's/amp;//g' | sort -n > $linkfile
+        [ -s $linkfile ] && aria2c -i $linkfile -d $tmpdir && ls $tmpdir/*.[jp][pn]g | xargs -n 1 xdg-open || cat $tmpfile; sleep 0.5 ;;
+    *imgchest.com*)
+        tmpdir=$PREFIX/tmp
+        tmpfile=$tmpdir/gallery
+        linkfile=$tmpdir/links
+        rm /tmp/*.[jpg][pni]*
+        curl $url | grep og:image | tr '"' '\n' | awk '/https/ {print}' > $linkfile
+        [ -s $linkfile ] && aria2c -i $linkfile -d $tmpdir && ls $tmpdir/*.[jp][pn]g | xargs -n 1 xdg-open || cat $tmpfile; sleep 0.5 ;;
+	# *reddit.com/gallery/*)
+    #     tmpfile=$PREFIX/tmp/gallery
+    #     linkfile=$PREFIX/tmp/links
+    #     iurl=https://www.reddit.com/comments/$(basename $1).json
+    #     rm $PREFIX/tmp/*.[jpg][pni]*
+    #     curl $iurl > $tmpfile
+    #     tr '"' '\n' < $tmpfile | awk '/https/ && /format/ && !/blur/ {print}' | sed 's/amp;//g' | sort -n > $linkfile
+    #     [ -s $linkfile ] && aria2c -i $linkfile -d $PREFIX/tmp && sxiv -f -a $PREFIX/tmp/. || cat $tmpfile; sleep 0.5 ;;
+	*redgifs.com*)
+		rm $PREFIX/tmp/1.mp4; yt-dlp -o "$PREFIX/tmp/1.mp4" "$1" && xdg-open $PREFIX/tmp/1.mp4 ;;
+        # mpv --loop-file=inf "$1";;
+        # mpv --ytdl --loop-file=inf "$1";;
+        # mpv --profile=yt --loop-file=inf "$1";;
+        # youtube-dl -g "$1" | awk 'NR==2' | xargs mpv --profile=yt --loop-file=inf ;;
+	*youtube.com/watch*|*youtube.com/playlist*|*youtube.com/shorts*|*youtu.be*|*hooktube.com*|*bitchute.com*|*odysee.com*|*eroticmv.com*|*xnxx.com*|*pornhub.com*|*xvideos.com*|*xhamster.com*|*youjizz.com*|*youporn.com*|*sxyprn.com*|*spankbang.com*|*desixx.net*|*fsiblog3.club*|*hqporner.com*|*porntrex.com*)
+        RES="$(yt-dlp -F $url | fzf --print-query | tail -1 | awk '{print $1}')"
+        xdg-open --content-type video $(yt-dlp -f $RES -g "$url") ;;
+	*)
+		[ -f "$url" ] && setsid -f "$TERMINAL" -e "$EDITOR" "$url" >/dev/null 2>&1 || setsid -f "$BROWSER" "$url" >/dev/null 2>&1
+esac
+
+
+# echo "What should I do with $url ?"
+# echo "y) download youtube video to movies-folder"
+# echo "u) download youtube video and convert it to mp3 (music-folder)"
+# echo "s) download with scdl (soundcloud)"
+# echo "t) download torrent"
+# echo "w) wget file to download-folder" 
+# echo "l) feed to linkhandler script" 
+# echo "x) nothing"
+# 
+# read CHOICE
+# case $CHOICE in
+#   y)
+#     yt-dlp -o "/storage/emulated/0/Movies/%(title)s.%(ext)s" $url
+#     ;;
+# 
+#   l)
+#     lopen $url
+#     ;;
+#     
+#   u)
+#     echo "Artist"
+#     read artist
+#     echo "Title"
+#     read title
+#     echo "Album"
+#     read album
+#     yt-dlp --extract-audio --audio-format mp3 --output "/storage/emulated/0/Music/$artist-$title.%(ext)s" $url
+#     mid3v2 -a $artist -t $title -A $album /storage/emulated/0/Music/$artist-$title.mp3
+#     ;;
+#   
+#   s)
+#     scdl -l $url --path /storage/emulated/0/Music
+#     echo "s need some work"
+#     ;;
+#   
+#   w)
+#     cd ~/storage/downloads
+#     wget $url
+#     ;;
+#   
+#   t)
+#     echo "running torrents"
+#     transmission-remote 127.0.0.1 -l
+#     if [ ! $? eq 0 ]; then # start daemon if necessary
+#       transmission-daemon
+#       sleep 3
+#     fi
+#     echo "use transmission-remote to manage your downloads (read the manpage)"
+#     transmission-remote 127.0.0.1 -a $(cat $url) 
+#     ;;
+#     
+#   x)
+#     echo "bye"
+#     ;; 
+#   esac
