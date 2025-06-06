@@ -1,0 +1,33 @@
+#!/bin/sh
+
+## yt-dlp script to download and stream media url in termux
+
+while getopts "adfghiu:r:" o; do case "${o}" in
+    h)  printf "ytp\\n -u: URL\\n -r: Format Code\\n -a: Audio Stream\\n -a: Input Code\\n -f: Get Code\\n -d: Download\\n -h: Help\\n" && exit 1 ;;
+        u) URL="${OPTARG}" ;;
+        r) RES="${OPTARG}" ;;
+        a) [ -z $URL ] && read -p "URL: " URL
+           read -p "a/b/c/d/e/?: " RES
+           RES="$(printf $RES | sed 's/a/139/;s/b/140/;s/c/249/;s/d/250/;s/e/251/')"
+           MPVYT="${MPVYT-mpv $(yt-dlp -f $RES -g "$URL")}" ;;
+        i) [ -z $URL ] && read -p "URL: " URL
+           read -p "a/b/c/d/e/g/?: " RES
+           RES="$(printf $RES | sed 's/a/hls-250p/;s/b/hls-360p/;s/c/hls-480p/;s/d/hls-720p/;s/e/gif/;s/g/mp4/')"
+           MPVYT="${MPVYT-xdg-open $(yt-dlp -f $RES -g "$URL")}" ;;
+        d) [ -z $URL ] && read -p "URL: " URL
+           yt-dlp -F "$URL"
+           read -p "Code: " RES
+           MPVYT="${MPVYT-yt-dlp -f $RES "$URL"}" ;;
+        f) [ -z $URL ] && read -p "URL: " URL
+           yt-dlp -F "$URL"
+           read -p "Code: " RES
+           MPVYT="${MPVYT-xdg-open $(yt-dlp -f $RES -g "$URL")}" ;;
+esac done
+
+[ -z $URL ] && read -p "URL: " URL
+[ -z $RES ] && read -p "l/m/s/h/k/?: " RES
+RES="$(printf $RES | sed 's/l/240/;s/m/360/;s/s/480/;s/h/720/;s/k/1080/')"
+YTF="bestvideo[height<=$RES]+bestaudio/best[height<=$RES]"
+MPVYT="${MPVYT-xdg-open $(yt-dlp -f $YTF -g "$URL")}"
+
+$MPVYT

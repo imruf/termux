@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+html_body="
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <style type="text/css">
+      @page {
+        size: 1120px 2400px;
+        margin: 0.1in;
+      }
+      body {
+        font-family: NotoSansBengali;
+        font-size: 34pt;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+"
+
+url="$*"
+        case "$(printf "epub\nhtml\npdf\nimg" | fzf)" in
+            epub) echo "Scrapping..."
+                  python -m readability.readability -u "$url" > $HOME/storage/shared/dtermux/out.html && pandoc $HOME/storage/shared/dtermux/out.html -o $HOME/storage/shared/dtermux/out.epub && xdg-open $HOME/storage/shared/dtermux/out.epub ;;
+            html) echo "Scrapping..."
+                  python -m readability.readability -u "$url" > $HOME/storage/shared/dtermux/out.html && xdg-open $HOME/storage/shared/dtermux/out.html ;;
+                  # python -m readability.readability -u "$url" >> "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && xdg-open "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" ;;
+        ## && xdg-open out.pdf;;
+            pdf) echo "Scrapping..."
+                 echo "$html_body" > $HOME/storage/shared/dtermux/out.html
+                 python -m readability.readability -u "$url" >> $HOME/storage/shared/dtermux/out.html && weasyprint -e UTF-8 $HOME/storage/shared/dtermux/out.html $HOME/storage/shared/dtermux/out.pdf && xdg-open $HOME/storage/shared/dtermux/out.pdf ;;
+                 # python -m readability.readability -u "$url" >> "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && weasyprint "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")".pdf && xdg-open "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")".pdf ;;
+            img) echo "Scrapping..."
+                tmpdir=$PREFIX/tmp
+                linkfile=$tmpdir/links
+                rm $tmpdir/*.[jp][png][gif]*
+                curl $url | grep i.ibb | tr '"' '\n' | awk '/https/ {print}' > $linkfile
+                [ -s $linkfile ] && while IFS= read -r line
+                    do
+                      aria2c $line -d $tmpdir -o "$(date '+%y%m%d-%H%M-%S'.jpg)"
+                    done < "$linkfile" && \
+                  magick $tmpdir/*.[jp][pn]g $HOME/storage/shared/dtermux/out.pdf && xdg-open $HOME/storage/shared/dtermux/out.pdf ;;
+        esac

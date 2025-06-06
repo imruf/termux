@@ -1,22 +1,71 @@
 #!/bin/sh
 
-#Function
-#Ytld
-yts () {
-    youtube-dl -j ytsearch:$1
+fzf_to() {
+  local files
+  if [[ -z $string ]]
+  then
+    printf "Search File:>_ "
+    read string
+  fi
+  files=$(find . -type f 2> /dev/null | fzf +m)
+  if [[ -n $files ]]
+  then
+     xdg-open -- $files
+     print -l $files[1]
+  fi
+} 
+
+fzf_file() {
+  local files
+  if [[ -z $string ]]
+  then
+    printf "Search File:>_ "
+    read string
+  fi
+  files=(${(f)"$(locate -Ai -0 $string | grep -z -vE '~$' | fzf --read0 -0 -1 -m)"})
+
+  if [[ -n $files ]]
+  then
+     nvim -- $files
+     print -l $files[1]
+  fi
 }
 
-fzf_file() 
-        { 
-            zle -I; FILE=$(find ~/ -type f 2> /dev/null | fzf +m) && vim "$FILE" ; 
-        }; 
-    zle -N fzf_file;
 
-fzf_cd() 
-        { 
-            zle -I; DIR=$(find ~/ -type d 2> /dev/null | fzf +m) && cd "$DIR" ; 
-        }; 
-    zle -N fzf_cd;
+fzf_cd() {
+  local file
+  if [[ -z $string ]]
+  then
+    printf "Search Dir:>_ "
+    read string
+  fi
+
+  file="$(locate -Ai -0 $string | grep -z -vE '~$' | fzf --read0 -0 -1)"
+
+  if [[ -n $file ]]
+  then
+     if [[ -d $file ]]
+     then
+        z -- $file
+     else
+        z -- ${file:h}
+     fi
+  fi
+}
+
+fzf_kill() {
+    local pid 
+    if [ "$UID" != "0" ]; then
+        pid=$(ps -f -u $UID | sed 1d | fzf -m | awk '{print $2}')
+    else
+        pid=$(ps -ef | sed 1d | fzf -m | awk '{print $2}')
+    fi  
+
+    if [ "x$pid" != "x" ]
+    then
+        echo $pid | xargs kill -${1:-9}
+    fi  
+}
 
 fzf_history() 
         { 
@@ -24,24 +73,44 @@ fzf_history()
         }; 
     zle -N fzf_history;
 
-fzf_kill() 
-        { 
-            zle -I; ps -ef | sed 1d | fzf -m | awk '{print $2}' | xargs kill -${1:-9} ; 
-        }; 
-    zle -N fzf_kill;
 
-fzf_sr() 
-        { 
-            term="$*"
-            zle -I; elvi=$(sr -elvi | awk -F'-' '{print $1}' | sed '/:/d' | awk '{$1=$1};1' | fzf +m) && sr "$elvi" "$term" ; 
-        }; 
-    zle -N fzf_sr;
-
-fzf_srbr() 
-       { 
-             zle -I; bms=$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e) && sr "$bms" ;
-       };
-    zle -N fzf_srbr;
+#Function
+#  fzf_file() 
+#          { 
+#              zle -I; FILE=$(find ~/ -type f 2> /dev/null | fzf +m) && vim "$FILE" ; 
+#          }; 
+#      zle -N fzf_file;
+#  
+#  fzf_cd() 
+#          { 
+#              zle -I; DIR=$(find ~/ -type d 2> /dev/null | fzf +m) && cd "$DIR" ; 
+#          }; 
+#      zle -N fzf_cd;
+#  
+#  fzf_history() 
+#          { 
+#              zle -I; eval $(history | fzf -e +i +s | sed 's/ *[0-9]* *//') ; 
+#          }; 
+#      zle -N fzf_history;
+#  
+#  fzf_kill() 
+#          { 
+#              zle -I; ps -ef | sed 1d | fzf -m | awk '{print $2}' | xargs kill -${1:-9} ; 
+#          }; 
+#      zle -N fzf_kill;
+#  
+#  fzf_sr() 
+#          { 
+#              term="$*"
+#              zle -I; elvi=$(sr -elvi | awk -F'-' '{print $1}' | sed '/:/d' | awk '{$1=$1};1' | fzf +m) && sr "$elvi" "$term" ; 
+#          }; 
+#      zle -N fzf_sr;
+#  
+#  fzf_srbr() 
+#         { 
+#               zle -I; bms=$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e) && sr "$bms" ;
+#         };
+#      zle -N fzf_srbr;
 
 # services
 ttm_url_shorten() {
@@ -64,9 +133,16 @@ online_man() {
 
 ftp_server() {
         ip="$*"
-        zle -I; busybox tcpsvd -vE "$ip" 1024 busybox ftpd -w
+        zle -I; busybox tcpsvd -vE "$ip" 8021 busybox ftpd -w $HOME/storage/shared
        };
      zle -N ftp_server;
+
+artix_ssh() {
+            ip="$*"
+            zle -I; ssh masud@192.168.31.13 ;
+       };
+     zle -N artix_ssh;
+
 
 #Transmission
 tsmcc() {

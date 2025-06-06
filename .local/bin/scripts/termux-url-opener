@@ -1,5 +1,4 @@
-#!/usr/bin/env sh
-#!/bin/sh
+#!/data/data/com.termux/files/usr/bin/bash
 
 if [ -z "$1" ]; then
 	url="$(xclip -o)"
@@ -32,7 +31,7 @@ case "$url" in
 	*png|*jpg|*jpe|*jpeg|*gif|*webp)
 		curl -sL "$url" > "$PREFIX/tmp/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && xdg-open "$PREFIX/tmp/$(echo "$url" | sed "s/.*\///;s/%20/ /g")"  >/dev/null 2>&1 & ;;
 	*pdf|*cbz|*cbr)
-		curl -sL "$url" > "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && xdg-open "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" ;;
+		curl -sL "$url" > "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && xdg-open "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")"  >/dev/null 2>&1 & ;;
 	*mp3|*flac|*opus|*mp3?source*)
 		mpv "$url" 'curl -LO'  >/dev/null 2>&1 ;;
 	*imgur.com*)
@@ -43,9 +42,12 @@ case "$url" in
                   python -m readability.readability -u "$url" > $HOME/storage/shared/dtermux/out.html && pandoc $HOME/storage/shared/dtermux/out.html -o $HOME/storage/shared/dtermux/out.epub && xdg-open $HOME/storage/shared/dtermux/out.epub ;;
             html) echo "Scrapping..."
                   python -m readability.readability -u "$url" > $HOME/storage/shared/dtermux/out.html && xdg-open $HOME/storage/shared/dtermux/out.html ;;
+                  # python -m readability.readability -u "$url" >> "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && xdg-open "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" ;;
+        ## && xdg-open out.pdf;;
             pdf) echo "Scrapping..."
                  echo "$html_body" > $HOME/storage/shared/dtermux/out.html
                  python -m readability.readability -u "$url" >> $HOME/storage/shared/dtermux/out.html && weasyprint -e UTF-8 $HOME/storage/shared/dtermux/out.html $HOME/storage/shared/dtermux/out.pdf && xdg-open $HOME/storage/shared/dtermux/out.pdf ;;
+                 # python -m readability.readability -u "$url" >> "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" && weasyprint "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")" "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")".pdf && xdg-open "$HOME/storage/shared/dtermux/$(echo "$url" | sed "s/.*\///;s/%20/ /g")".pdf ;;
             img) echo "Scrapping..."
                 tmpdir=$PREFIX/tmp
                 linkfile=$tmpdir/links
@@ -62,25 +64,37 @@ case "$url" in
         tmpfile=$tmpdir/gallery
         linkfile=$tmpdir/links
         iurl=https://www.reddit.com/comments/$(basename $1).json
-        rm $tmpdir/*.[jp][png][gif]*
+        rm $tmpdir/*.[jp][pn]*
         curl $iurl > $tmpfile
         tr '"' '\n' < $tmpfile | awk '/https/ && /format/ && !/blur/ {print}' | sed 's/amp;//g' | sort -n > $linkfile
         [ -s $linkfile ] && aria2c -i $linkfile -d $tmpdir && ls $tmpdir/*.[jp][pn]g | xargs -n 1 xdg-open || cat $tmpfile; sleep 0.5 ;;
     *imgchest.com*)
         tmpdir=$PREFIX/tmp
+        tmpfile=$tmpdir/gallery
         linkfile=$tmpdir/links
-        rm $tmpdir/*.[jp][png][gif]*
+        rm /tmp/*.[jpg][pni]*
         curl $url | grep og:image | tr '"' '\n' | awk '/https/ {print}' > $linkfile
-        [ -s $linkfile ] && aria2c -i $linkfile -d $tmpdir && ls $tmpdir/*.[jp][pn]g | xargs -n 1 xdg-open; sleep 0.5 ;;
+        [ -s $linkfile ] && aria2c -i $linkfile -d $tmpdir && ls $tmpdir/*.[jp][pn]g | xargs -n 1 xdg-open || cat $tmpfile; sleep 0.5 ;;
+	# *reddit.com/gallery/*)
+    #     tmpfile=$PREFIX/tmp/gallery
+    #     linkfile=$PREFIX/tmp/links
+    #     iurl=https://www.reddit.com/comments/$(basename $1).json
+    #     rm $PREFIX/tmp/*.[jpg][pni]*
+    #     curl $iurl > $tmpfile
+    #     tr '"' '\n' < $tmpfile | awk '/https/ && /format/ && !/blur/ {print}' | sed 's/amp;//g' | sort -n > $linkfile
+    #     [ -s $linkfile ] && aria2c -i $linkfile -d $PREFIX/tmp && sxiv -f -a $PREFIX/tmp/. || cat $tmpfile; sleep 0.5 ;;
 	*redgifs.com*)
-        echo $url | sed 's/#.*//;s/v3/api/;s/www/api/;s/watch/v2\/gifs/;s/$/\/sd.m3u8/' | xargs xdg-open ;;
-	*youtube.com/watch*|*youtube.com/playlist*|*youtube.com/shorts*|*youtu.be*|*hooktube.com*|*bitchute.com*|*odysee.com*|*eroticmv.com*|*xnxx.com*|*pornhub.com*|*xvideos.com*|*xhamster.com*|*youjizz.com*|*youporn.com*|*sxyprn.com*|*spankbang.com*|*desixx.net*|*fsiblog3.club*|*hqporner.com*|*porntrex.com*|*v.redd.it*)
+		rm $PREFIX/tmp/1.mp4; yt-dlp -o "$PREFIX/tmp/1.mp4" "$1" && xdg-open $PREFIX/tmp/1.mp4 ;;
+        # mpv --loop-file=inf "$1";;
+        # mpv --ytdl --loop-file=inf "$1";;
+        # mpv --profile=yt --loop-file=inf "$1";;
+        # youtube-dl -g "$1" | awk 'NR==2' | xargs mpv --profile=yt --loop-file=inf ;;
+	*youtube.com/watch*|*youtube.com/playlist*|*youtube.com/shorts*|*youtu.be*|*hooktube.com*|*bitchute.com*|*odysee.com*|*eroticmv.com*|*xnxx.com*|*pornhub.com*|*xvideos.com*|*xhamster.com*|*youjizz.com*|*youporn.com*|*sxyprn.com*|*spankbang.com*|*desixx.net*|*fsiblog3.club*|*hqporner.com*|*porntrex.com*)
         RES="$(yt-dlp -F $url | fzf --print-query | tail -1 | awk '{print $1}')"
-             yt-dlp -f $RES -g "$url" | xargs xdg-open ;;
-  #       case "$(printf "gui\\ncli" | fzf)" in
-  #           gui) yt-dlp -f $RES -g "$url" | xargs xdg-open ;;
-  #           cli) mpv --ytdl-format=$RES "$url" ;;
-  #       esac ;;
+        case "$(printf "gui\\ncli" | fzf)" in
+            gui) yt-dlp -f $RES -g "$url" | xargs xdg-open ;;
+            cli) mpv --ytdl-format=$RES "$url" ;;
+        esac ;;
 	intent://*)
         artmpv $url ;;  
 

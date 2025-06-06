@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# This script will clean tex junk
+#
+
+
+rm *.log; rm *.out; rm *.aux; rm *.dvi; rm *.fdb_latexmk; rm *.fls

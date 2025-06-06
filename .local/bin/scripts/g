@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# Gives a dmenu prompt to search DuckDuckGo.
+# Without input, will open DuckDuckGo.com.
+# Anything else, it search it.h
+LAUNCHER="fzf --prompt "
+BROWSER="xdg-open "
+ENGINE='https://www.google.com/search?hl=en&q=%s'
+BOOKMARKS="$HOME/.config/surfraw/bookmarks"
+
+gotourl() {
+	$BROWSER "$choice"
+}
+
+searchweb() {
+	#convert search query to percent encoding and insert it into url
+	choice=$(echo "$choice" | hexdump -v -e '/1 " %02x"')
+	choice=$(echo "$engine" | sed "s/%s/${choice% 0a}/;s/[[:space:]]/%/g")
+	gotourl
+}
+
+tmpfile=$(mktemp $PREFIX/tmp/dmenu_websearch.XXXXXX)
+trap 'rm "$tmpfile"' 0 1 15
+printf '%s\n%s\n' "$uricur" "$1" > "$tmpfile"
+cat "$BOOKMARKS" >> "$tmpfile"
+sed -i -E '/^(#|$)/d' "$tmpfile"
+choice=$($LAUNCHER "www:>_ " < "$tmpfile") || exit 1
+
+protocol='^(https?|ftps?|mailto|about|file):///?'
+checkurl() {
+	grep -Fx "$choice" "$tmpfile" &&
+		choice=$(echo "$choice" | awk '{ print $2 }') && return 0
+	[ ${#choice} -lt 4 ] && return 1
+	echo "$choice" | grep -Z ' ' && return 1
+	echo "$choice" | grep -EiZ "$protocol" && return 0
+	echo "$choice" | grep -FZ '..' && return 1
+	prepath=$(echo "$choice" | sed 's/(\/|#|\?).*//')
+	echo "$prepath" |  grep -FvZ '.' && return 1
+	echo "$prepath" |  grep -EZ '^([[:alnum:]~_:-]+\.?){1,3}' && return 0
+}
+
+if checkurl
+then
+	echo "$choice" | grep -EivZ "$protocol" &&
+		choice="http://$choice"
+	gotourl
+else searchweb
+fi

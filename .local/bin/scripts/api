@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 ## check for new or broken services
 ## https://github.com/chubin/awesome-console-services
@@ -13,9 +13,15 @@ case "$(printf "ip\\ndns\\ngeo\\ntxt\\nurl-shorten\\nshare-file\\ncreate-qrcode\
             txt) read -p "TEXT: " TEXT
                  echo "$TEXT" | curl -F 'f:1=<-' ix.io ;;
     url-shorten) read -p "url: " url
-                 curl -F shorten=$url https://ttm.sh ;;
+        curl -s tinyurl.com/api-create.php?url=$url ;;
      share-file) read -p "FILE: " FILE
-                 curl -F file=@$FILE https://ttm.sh ;;
+                 nc oshi.at 7777 < $FILE ;;
+                 # curl -F file=@$FILE https://ttm.sh ;;
+                 # curl -F file=@$FILE https://0x0.st ;;
+                 # nc oshi.at 7777 < <file> or curl https://oshi.at -F f=@<file>
+                 # curl -F file=@<file> https://0x0.st
+                 # curl -F file=@<file> https://api.anonfile.com/upload
+
   create-qrcode) read -p "STRING: " STRING
                  echo $STRING | curl -F-=\<- qrenco.de ;;
            tldr) read -p "progs: " progs

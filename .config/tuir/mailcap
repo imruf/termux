@@ -1,4 +1,11 @@
-image/gif; y -u '%s' -i; needsterminal
 image/*; l '%s'; needsterminal
-video/redgif; l '%s'; needsterminal
-video/*; y -u '%s' -i; needsterminal
+video/*; tmux splitw -fh l '%s'; needsterminal
+
+
+
+# image/*; l '%s'; needsterminal; copiousoutput
+# video/*; tmux splitw -v l '%s'; needsterminal; copiousoutput
+# image/*; feh -g 640x480 -. '%s'; test=test -n "$DISPLAY"
+
+
+

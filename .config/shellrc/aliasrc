@@ -9,7 +9,7 @@ alias \
 
 # tmux
 alias \
- t="tmux a || tmux" \
+ t="tmux a || tmux -2" \
  ta="tmux a -t" \
  tl="tmux ls" \
 
@@ -21,17 +21,24 @@ alias \
  tbh="termux-brightness 100" \
  to="termux-open" \
 
+
+
 ## Files
 # Operation
 alias \
- ls="ls --color=auto --group-directories-first" \
- lah="exa -la --color=auto --group-directories-first" \
+ ls="eza --colour=auto --group-directories-first --icons=auto" \
+ la="eza -l --colour=auto --group-directories-first --icons=auto --no-filesize --no-time --no-permissions --no-user" \
+ lah="eza -la --colour=auto --group-directories-first --icons=auto" \
+ cd="z" \
  ..="cd .." \
  cp="cp -v" \
  mv="mv -v" \
  rm="rm -v" \
  rm1="rm -v 1*" \
  mkd="mkdir -pv" \
+ cat="bat"
+ diff="batdiff"
+
 
 # Navigation
 alias \
@@ -44,14 +51,21 @@ alias \
  xc="cd $XDG_CONFIG_HOME" \
  zd="cd $ZDOTDIR" \
  xcs="cd $XDG_CONFIG_HOME/shellrc" \
- xcv="cd $XDG_CONFIG_HOME/vimwiki" \
- xcvn="cd $XDG_CONFIG_HOME/vimwiki/notes" \
+ xcv="cd $HOME/.config/vimwiki" \
+ xcvn="cd $HOME/.config/vimwiki/notes" \
+ xcvcnf="cd $HOME/.config/vimwiki/cnf" \
+ jamuna="cd $HOME/.config/vimwiki/cnf/jamuna" \
+ saif="cd $HOME/.config/vimwiki/cnf/saif" \
+ ssaf="cd $HOME/.config/vimwiki/cnf/ssaf" \
  xd="cd $XDG_DATA_HOME" \
  dlb="cd $HOME/.local/bin" \
  dlbs="cd $HOME/.local/bin/scripts" \
  h="cd $HOME" \
+ hc="cd $HOME/cnf" \
  hd="cd $HOME/storage/downloads/" \
- hn="cd $HOME/storage/documents/" \
+ hdc="cd $HOME/storage/downloads/cnf" \
+ hdcl="cd $HOME/storage/downloads/cnf/cnflem" \
+ hn="cd $HOME/storage/shared/Documents/" \
  hsd="cd $HOME/storage/shared/" \
  htui="cd $HOME/storage/shared/t-ui" \
  htmp="cd $HOME/tmp" \
@@ -77,9 +91,9 @@ alias \
  fgrep="fgrep --color=auto" \
 
 ## Package
-# APT
+# pkg
 alias \
- up="apt update && apt upgrade" \
+ up="apt update && pkg upgrade" \
  inp="apt install" \
  rmv="apt remove" \
  armv="apt autoremove" \
@@ -118,6 +132,7 @@ alias \
  frcl="cd ~/games/sol; ./freecell; cd" \
  sol="cd ~/games/sol; ./sol; cd" \
  spider="cd ~/games/sol; ./spider; cd" \
+ mine="cd ~/games/mines; ./mines; cd" \
 
 ## Network
 # IP/PING
@@ -133,11 +148,14 @@ alias \
  ftpu="ftp_server" \
  httpu="python ~/.local/bin/scripts/shsu.py" \
  httpmu="python ~/.local/bin/scripts/shsumu.py" \
- lt="ssh masud@192.168.43.194" \
+ at="artix_ssh" \
+ art="sshpass -p jj ssh masud@192.168.31.13" \
+ viv="sshpass -p jj ssh masud@192.168.43.145" \
 
 # zsh function
 # fzf/surfraw
 alias \
+ fo="fzf_to" \
  fe="fzf_file" \
  ff="fzf_cd" \
  fh="fzf_history" \
@@ -164,38 +182,40 @@ alias \
  a2s="a2pd start" \
  a2d="a2pd stop" \
 
-# youtube-dl
+# yt-dlp
 alias \
- ytd-aac="youtube-dl --extract-audio --audio-format aac" \
- ytd-besta="youtube-dl --extract-audio --audio-format best" \
- ytd-flac="youtube-dl --extract-audio --audio-format flac" \
- ytd-m4a="youtube-dl --extract-audio --audio-format m4a" \
- ytd-mp3="youtube-dl --extract-audio --audio-format mp3" \
- ytd-opus="youtube-dl --extract-audio --audio-format opus" \
- ytd-vorbis="youtube-dl --extract-audio --audio-format vorbis" \
- ytd-wav="youtube-dl --extract-audio --audio-format wav" \
- ytd-best="youtube-dl -f bestvideo+bestaudio" \
- ytd="youtube-dl" \
- ytdF="youtube-dl -F" \
- ytdf="youtube-dl -f" \
- ytdic="youtube-dl --ignore-config" \
+ ytd-aac="yt-dlp --extract-audio --audio-format aac" \
+ ytd-besta="yt-dlp --extract-audio --audio-format best" \
+ ytd-flac="yt-dlp --extract-audio --audio-format flac" \
+ ytd-m4a="yt-dlp --extract-audio --audio-format m4a" \
+ ytd-mp3="yt-dlp --extract-audio --audio-format mp3" \
+ ytd-opus="yt-dlp --extract-audio --audio-format opus" \
+ ytd-vorbis="yt-dlp --extract-audio --audio-format vorbis" \
+ ytd-wav="yt-dlp --extract-audio --audio-format wav" \
+ ytd-best="yt-dlp -f bestvideo+bestaudio" \
+ ytd="yt-dlp" \
+ ytdF="yt-dlp -F" \
+ ytdf="yt-dlp -f" \
+ ytdic="yt-dlp --ignore-config" \
  ytv="youtube-viewer -C" \
  ytm="ytfzf -m" \
 
 # TRANSMISSION
 alias \
- pfx="peerflix -k -f /home/masud/Videos/ptfx" \
+ pfx="peerflix -k -f /data/data/com.termux/files/home/Downloads" \
  tfx="torrentflix" \
 
 # MIS
 alias \
  math="mathomatic" \
- pc="python -ic 'from __future__ import division; from math import *; from random import *'" \
+ o="qalc" \
+ pc="python -ic 'from __future__ import division; from math import *; from sympy import symbols, Eq, solve; from random import *'" \
  c2="units" \
  sw="termdown" \
  rt="tuir" \
  el="elinks" \
- m="cmus" \
+ m="ncmpcpp" \
+ r="radio" \
  def="sdcv" \
  keep="keepcli" \
  eq="pnglatex -b Transparent -p amssymb:amsmath -d 300 -s 12 -o eq.png" \
@@ -209,3 +229,10 @@ alias \
  gitcm="git commit -m" \
  gita="git add" \
  gits="git status" \
+
+ 
+# ARCHIVE
+alias \
+ uzp="atool -x" \
+ zp="apack" \
+

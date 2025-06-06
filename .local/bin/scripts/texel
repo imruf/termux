@@ -1,3 +1,9 @@
 #!/bin/sh
 
-xelatex $1 && rm *.log *.out *.aux
+
+
+
+lualatex $1 && echo $1 | sed 's/tex/pdf/g' | xargs xdg-open
+
+rm *.log; rm *.out; rm *.aux 
+
