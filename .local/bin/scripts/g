@@ -6,7 +6,7 @@
 LAUNCHER="fzf --prompt "
 BROWSER="xdg-open "
 ENGINE='https://www.google.com/search?hl=en&q=%s'
-BOOKMARKS="$HOME/.config/surfraw/bookmarks"
+BOOKMARKS="$HOME/.config/elinks/bookmarks"
 
 gotourl() {
 	$BROWSER "$choice"
